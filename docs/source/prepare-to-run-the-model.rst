@@ -138,16 +138,8 @@ Preparation of data
 This section describes the information required to run SUEWS for your
 site. The input data can be summarised as follows:
 
-#. Continuous *meteorological forcing data* for the entire period to be
-   modelled. Note you can not have gaps in the meteorological data. If
-   you need help with preparing the data you may want to use some of the
-   tools in
-   `UMEP`_.
-#. Knowledge of the *surface and soil conditions immediately before the
-   start of the run* (if these initial conditions are not known, it is
-   usually possible to determine suitable values by running the model
-   and using the output at the end of the run to infer the conditions at
-   the start of the run).
+#. Continuous *meteorological forcing data* for the entire period to be modelled. Note you can not have gaps in the meteorological data. If you need help with preparing the data you may want to use some of the tools in `UMEP`_.
+#. Knowledge of the *surface and soil conditions immediately before the start of the run* (if these initial conditions are not known, it is usually possible to determine suitable values by running the model and using the output at the end of the run to infer the conditions at the start of the run).
 #. The *location of the site* (latitude, longitude, altitude).
 #. Information about the *characteristics of the surface*, including
    land cover, heights of buildings and trees, radiative characteristics
@@ -436,9 +428,9 @@ Get in contact
 --------------
 For issues met in using SUEWS, we recommend the following ways to get in contact with the developers and the SUEWS community:
 
-1. Report issues on `our GitHub page <https://github.com/Urban-Meteorology-Reading/Urban-Meteorology-Reading.github.io/issues>`_.
+#. Report issues on `our GitHub page <https://github.com/Urban-Meteorology-Reading/Urban-Meteorology-Reading.github.io/issues>`_.
 
-2. Ask for help by joining `the Email-list for SUEWS <https://www.lists.reading.ac.uk/mailman/listinfo/met-suews>`_.
+#. Ask for help by joining `the Email-list for SUEWS <https://www.lists.reading.ac.uk/mailman/listinfo/met-suews>`_.
 
 
 .. _`tutorials`: http://umep-docs.readthedocs.io/en/latest/Tutorials/Tutorials.html
