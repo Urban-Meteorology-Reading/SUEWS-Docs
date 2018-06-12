@@ -225,7 +225,7 @@ Input_Options
 .. option:: BaseTHDD
 
 	:Description:
-		Base temperature for heating degree days [°C] e.g. Sailor and Vasireddy (2006) [39]
+		Base temperature for heating degree days [°C] e.g. Sailor and Vasireddy (2006) [SV06]_
 
 	:Configuration:
 		.. csv-table::
@@ -235,15 +235,28 @@ Input_Options
 			:widths: 44 18 38
 
 
-.. option:: BuildEnergyUse
+.. option:: QF0_BEU_WD
 
 	:Description:
-		Building energy use [W m-2] Can be used for CO2 flux calculation. Do not use in v2017a - set to -999
+		Building energy use [W |m^-2|] Can be used for CO2 flux calculation.
 
 	:Configuration:
 		.. csv-table::
 			:class: longtable
-			:file: csv-table/BuildEnergyUse.csv
+			:file: csv-table/QF0_BEU_WD.csv
+			:header-rows: 1
+			:widths: 44 18 38
+
+
+.. option:: QF0_BEU_WE
+
+	:Description:
+		Building energy use [W |m^-2|] Can be used for CO2 flux calculation.
+
+	:Configuration:
+		.. csv-table::
+			:class: longtable
+			:file: csv-table/QF0_BEU_WE.csv
 			:header-rows: 1
 			:widths: 44 18 38
 
@@ -3409,7 +3422,7 @@ Input_Options
 .. option:: TrafficRate_WD
 
 	:Description:
-		Weekday traffic rate [veh km m-2 s-1] Can be used for CO2 flux calculation.
+		Weekday traffic rate [veh km |m^-2| s-1] Can be used for CO2 flux calculation.
 
 	:Configuration:
 		.. csv-table::
@@ -3422,7 +3435,7 @@ Input_Options
 .. option:: TrafficRate_WE
 
 	:Description:
-		Weekend traffic rate [veh km m-2 s-1] Can be used for CO2 flux calculation.
+		Weekend traffic rate [veh km |m^-2| s-1] Can be used for CO2 flux calculation.
 
 	:Configuration:
 		.. csv-table::
