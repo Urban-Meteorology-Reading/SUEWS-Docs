@@ -59,22 +59,17 @@ Decide what type of model run you are interested in
 Download the program and example data files
 -------------------------------------------
 
-Visit the website to receive a link to download the program and example
-data files. Select the appropriate compiled version of the model to
-download. For windows there is an installation version which will put
-the programs and all the files into the appropriate place. There is also
-a version linked to QGIS:
+Visit the `website <https://urban-meteorology-reading.github.io/SUEWS>`_ to receive a link to download the program and example
+data files. Select the appropriate compiled version of the model to download. For windows there is an installation version which will put the programs and all the files into the appropriate place. There is also a version linked to QGIS:
 `UMEP`_.
 
 Note, as the definition of long double precision varies between
 computers (e.g. Mac vs Windows) slightly different results may occur in
 the output files.
 
-Test/example files are given for the London KCL site, 2011 data (denoted
-Kc11)
+Test/example files are given for the London KCL site, 2011 data (denoted :code:`Kc11`)
 
-In the following SS is the site code (e.g. Kc), ss the grid ID, YYYY the
-year and tt the time interval.
+In the following, :code:`SS` is the site code (e.g. :code:`Kc`), :code:`ss` the grid ID, :code:`YYYY` the year and :code:`tt` the time interval.
 
 .. list-table::
    :widths: 33 33 33
@@ -202,11 +197,7 @@ characteristics of deciduous trees in a particular region (links to
 characteristics for different types of urban areas. The codes are
 specified by the user, must be integer values and must be unique within
 the first column of each input file, otherwise the model will return an
-error. (Note in `SUEWS_SiteSelect.txt` the
-first column is labelled 'Grid' and can contain repeat values for
-different years.) See `Input_files` for details. Note
-`UMEP`_ maybe helpful for
-components of this.
+error. (Note in `SUEWS_SiteSelect.txt` the first column is labelled 'Grid' and can contain repeat values for different years.) See `Input_files` for details. Note `UMEP`_ maybe helpful for components of this.
 
 Land cover
 ^^^^^^^^^^
@@ -338,7 +329,7 @@ run the model.
 Preparation of the RunControl file
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-In the RunControl.nml file the site name (``SS``) and directories for the
+In the RunControl.nml file the site name (:code:`SS`) and directories for the
 model input and output are given. This means **before running** the
 model (even the with the example datasets) you must either
 
@@ -440,6 +431,14 @@ grid (1/grid)::
 
     [B] indicates files used with the CBL part of SUEWS (BLUEWS) and therefore are only needed/produced if this option is selected
     [E] indicates files associated with ESTM storage heat flux models and therefore are only needed/produced if this option is selected
+
+Get in contact
+--------------
+For issues met in using SUEWS, we recommend the following ways to get in contact with the developers and the SUEWS community:
+
+1. Report issues on `our GitHub page <https://github.com/Urban-Meteorology-Reading/Urban-Meteorology-Reading.github.io/issues>`_.
+
+2. Ask for help by joining `the Email-list for SUEWS <https://www.lists.reading.ac.uk/mailman/listinfo/met-suews>`_.
 
 
 .. _`tutorials`: http://umep-docs.readthedocs.io/en/latest/Tutorials/Tutorials.html
