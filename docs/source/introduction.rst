@@ -2,7 +2,7 @@ Introduction
 ============
 
 
-.. figure:: SUEWS_Overview_s.png
+.. figure:: /assets/img/SUEWS_Overview_s.png
 	:alt: Overview of SUEWS
 
 	Overview of SUEWS
@@ -17,7 +17,7 @@ utilizes an evaporation-interception approach (Grimmond et al.
 urban surfaces.
 
 
-.. figure:: SUEWS_SurfaceWaterBalance_v2_xxs.jpg
+.. figure:: /assets/img/SUEWS_SurfaceWaterBalance_v2_xxs.jpg
 	:alt: The seven surface types considered in SUEWS
 
 	The seven surface types considered in SUEWS

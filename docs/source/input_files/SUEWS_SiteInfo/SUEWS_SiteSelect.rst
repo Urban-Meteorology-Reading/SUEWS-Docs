@@ -90,10 +90,11 @@ them. Water enters grid 234 from grids 230, 231 and 232 as these are
 more elevated.
 
 
-.. figure:: GridConnections_1.jpg
+.. figure:: /assets/img/GridConnections_1.jpg
     :alt: Example grid connections showing water flow between grids. Arrows indicate the water flow in to and out of grid 234, but note that only only water flowing out of each grid is entered in `SUEWS_SiteSelect.txt`
 
     Example grid connections showing water flow between grids. 
+
 
 .. note::
   Arrows indicate the water flow in to and out of grid 234, 
@@ -101,7 +102,7 @@ more elevated.
 
 
 
-.. figure:: GridConnections_2_v2.jpg
+.. figure:: /assets/img/GridConnections_2_v2.jpg
    :alt:  Example values for the grid connections part of `SUEWS_SiteSelect.txt` for the grids.
 
    Example values for the grid connections part of `SUEWS_SiteSelect.txt` for the grids.

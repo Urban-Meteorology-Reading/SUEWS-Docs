@@ -133,7 +133,7 @@ Thermal comfort
 Lindberg et al. 2008 [FL2008]_, Lindberg and Grimmond 2011 [FL2011]_) is a 2D
 radiation model to estimate mean radiant temperature.
 
-.. figure:: Bluews_2.jpg
+.. figure:: /assets/img/Bluews_2.jpg
     :alt:  Overview of scales. Source: Onomura et al. (2015) [Shiho2015]_
 
     Overview of scales. Source: Onomura et al. (2015) [Shiho2015]_
