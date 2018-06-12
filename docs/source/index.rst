@@ -9,7 +9,7 @@ SUEWS: Surface Urban Energy and Water Balance Scheme
   Also, some statement here may NOT be up to date as the model/software is under rapid development.
   Please report issues on the `GitHub page`_.
 
-The software can be downloaded by completing `this form`_.
+The software can be downloaded via `our GitHub page`_.
 The **latest formal** release of SUEWS is **v2017b** (released 1 August 2017).
 
 
@@ -43,7 +43,7 @@ further details v2017a:
 
 
 
-
+.. _our GitHub page: https://urban-meteorology-reading.github.io/SUEWS
 .. _this form: `dowload form`_
 .. _dowload form: http://micromet.reading.ac.uk/software/
 .. _GitHub page: https://github.com/Urban-Meteorology-Reading/SUEWS-Docs/issues
