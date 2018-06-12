@@ -7,6 +7,7 @@
 
 
 
+.. _Recent_publications:
 
 Recent publications
 ===================

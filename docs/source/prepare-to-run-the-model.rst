@@ -30,8 +30,7 @@ Read the manual and relevant papers (and references therein):
    at two UK sites. Urban Climate 18, 1-32.
    `doi:10.1016/j.uclim.2016.05.001 <http://www.sciencedirect.com/science/article/pii/S2212095516300256/>`__
 
-`See other publications with example
-applications <http://urban-climate.net/umep/SUEWS#Recent_publications>`__
+`See other publications with example applications <Recent_publications>`
 
 Decide what type of model run you are interested in
 ---------------------------------------------------
