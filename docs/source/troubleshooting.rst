@@ -57,8 +57,7 @@ First things to Check if the program seems to have problems
    you to check all options that were used in the run. You may want to
    compare it with the original version supplied with the model.
 -  Note there can not be missing time steps in the data. If you need
-   help with this you may want to checkout
-   `UMEP <http://urban-climate.net/umep/UMEP>`__
+   help with this you may want to checkout `UMEP`_
 
 A pop-up saying “file path not found"
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -117,3 +116,6 @@ Email list
 -  UMEP email list
 
 `https://www.lists.reading.ac.uk/mailman/listinfo/met-umep <https://www.lists.reading.ac.uk/mailman/listinfo/met-umep>`__
+
+
+.. _`UMEP`: http://umep-docs.readthedocs.io/en/latest/index.html
