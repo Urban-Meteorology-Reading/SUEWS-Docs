@@ -43,7 +43,7 @@ Warning messages: warnings.txt
    warnings to ensure there is not a more serious problem.
 -  The warnings.txt file can be large (over several GBs) given warning
    messages are written out during a large scale simulation, you can use
-   ``tail``/``head`` to view the ending/starting part without opening
+   :code:`tail`/:code:`head` to view the ending/starting part without opening
    the whole file on Unix-like systems (Linux/mac OS), which may slow
    down your system.
 -  To prevent warnings.txt from being written, set **SuppressWarnings**
@@ -85,7 +85,7 @@ to :option:`WriteOutOption` set in :ref:`RunControl.nml`.
 SSss_YYYY_nn_TT.nc
 ~~~~~~~~~~~~~~~~~~~
 
-UEWS can also produce the main output file in netCDF format by setting ncMode=1 (set in `RunControl <#RunControl>`__).
+SUEWS can also produce the main output file in netCDF format by setting ncMode=1 (set in `RunControl`).
 
 As the date and time information is incorporated in the netCDF output as
 separate dimension, the first five variables in the normal text output
