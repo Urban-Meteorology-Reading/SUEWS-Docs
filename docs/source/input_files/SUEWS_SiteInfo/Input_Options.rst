@@ -3406,18 +3406,30 @@ Input_Options
 			:widths: 44 18 38
 
 
-.. option:: TrafficRate
+.. option:: TrafficRate_WD
 
 	:Description:
-		Traffic rate [veh km m-2 s-1] Can be used for CO2 flux calculation. Do not use in v2017a - set to -999
+		Weekday traffic rate [veh km m-2 s-1] Can be used for CO2 flux calculation.
 
 	:Configuration:
 		.. csv-table::
 			:class: longtable
-			:file: csv-table/TrafficRate.csv
+			:file: csv-table/TrafficRate_WD.csv
 			:header-rows: 1
 			:widths: 44 18 38
 
+
+.. option:: TrafficRate_WE
+
+	:Description:
+		Weekend traffic rate [veh km m-2 s-1] Can be used for CO2 flux calculation.
+
+	:Configuration:
+		.. csv-table::
+			:class: longtable
+			:file: csv-table/TrafficRate_WE.csv
+			:header-rows: 1
+			:widths: 44 18 38
 
 .. option:: Troad
 

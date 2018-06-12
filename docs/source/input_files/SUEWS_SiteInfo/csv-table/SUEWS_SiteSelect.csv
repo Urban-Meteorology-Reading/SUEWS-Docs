@@ -32,7 +32,8 @@ No.,Column Name,Use,Description
 31,`FAI_DecTr`,`O`,Frontal area index for deciduous trees [-] Required if RoughLenMomMethod = 3 in RunControl.nml .
 32,`PopDensDay`,`O`,"Daytime population density (i.e. workers, tourists) [people ha -1 ] Population density is required if EmissionsMethod = 2 in RunControl.nml . The model will use the average of daytime and night-time population densities, unless only one is provided. If daytime population density is unknown, set to -999. "
 33,`PopDensNight`,`O`,"Night-time population density (i.e. residents) [people ha -1 ] Population density is required if EmissionsMethod = 2 in RunControl.nml . The model will use the average of daytime and night-time population densities, unless only one is provided. If night-time population density is unknown, set to -999. "
-34,`TrafficRate`,`O`,"Traffic rate [veh km m-2 s-1] Can be used for CO2 flux calculation. Do not use in v2018a - set to -999"
+34,`TrafficRate_WD`,`O`,"Weekday traffic rate [veh km m-2 s-1]. Can be used for CO2 flux calculation."
+34,`TrafficRate_WE`,`O`,"Weekend traffic rate [veh km m-2 s-1]. Can be used for CO2 flux calculation."
 35,`BuildEnergyUse`,`O`,Building energy use [W m-2] Can be used for CO2 flux calculation. Do not use in v2018a - set to -999
 36,`Code_Paved`,`L`,"Code for Paved surface characteristics Provides the link to column 1 of SUEWS_NonVeg.txt, which contains the attributes describing paved areas in this grid for this year. Value of integer is arbitrary but must match code specified in column 1 of SUEWS_NonVeg.txt. e.g. 331 means use the characteristics specified in the row of input file SUEWS_NonVeg.txt which has 331 in column 1 (Code). "
 37,`Code_Bldgs`,`L`,"Code for Bldgs surface characteristics Provides the link to column 1 of SUEWS_NonVeg.txt, which contains the attributes describing buildings in this grid for this year. Value of integer is arbitrary but must match code specified in column 1 of SUEWS_NonVeg.txt. "
