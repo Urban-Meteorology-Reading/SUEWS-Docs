@@ -40,7 +40,7 @@ Notation
      Evergreen trees and shrubs
 
    ESTM
-     Element Surface Temperature Method (Offerle et al.,2005 [Oaf2005]_)
+     Element Surface Temperature Method (Offerle et al.,2005 [OGF2005]_)
 
    Grass
      Grass surface

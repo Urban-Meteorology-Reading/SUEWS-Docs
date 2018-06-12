@@ -34,7 +34,12 @@ Model run options
 	:Requirement:
 		Required
 	:Description:
-		Determines whether a high resolution radiation model to calculate mean radiant temperate should be used (SOLWEIG). NOTE: this option will considerably slow down the model since SOLWEIG is a 2D model.
+		Determines whether a high resolution radiation model to calculate mean radiant temperate should be used (SOLWEIG).
+
+		.. warning::
+			#. This option is NOT available in v2018a.
+			#. This option will considerably slow down the model since SOLWEIG is a 2D model.
+
 	:Configuration:
 		.. csv-table::
 			:file: csv-table/SOLWEIGUse.csv
@@ -118,6 +123,7 @@ Model run options
 			:file: csv-table/RoughLenHeatMethod.csv
 			:header-rows: 1
 			:widths: auto
+
 
 
 .. option:: RoughLenMomMethod

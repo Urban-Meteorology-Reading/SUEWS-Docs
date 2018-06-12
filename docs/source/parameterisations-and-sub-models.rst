@@ -59,7 +59,7 @@ Storage heat flux, ΔQ\ :sub:`S`
       2017 [AnOHM17]_). OHM approach using analytically-derived coefficients.
       (**Not recommended in v2017b**)
    -  **ESTM** (Element Surface Temperature Method, Offerle et al.
-      2005 [Oaf2005]_). Heat transfer through urban facets (roof, wall, road,
+      2005 [OGF2005]_). Heat transfer through urban facets (roof, wall, road,
       interior) is calculated from surface temperature measurements and
       knowledge of material properties. (**Not recommended in v2017b**)
 
@@ -110,8 +110,8 @@ evaporation-interception scheme of Grimmond and Oke (1991) [G91]_.
 Snowmelt
 --------
 
-The snowmelt model within SUEWS is described in Järvi et al.
-(2014) [Leena2014]_. Due to changes in the new model version (since v2016a)
+The snowmelt model within SUEWS is described in Järvi et al.(2014) [Leena2014]_.
+Due to changes in the new model version (since v2016a)
 when compared to the older versions, the snow calculation has slightly
 changed. The main difference is that previously all surface state could
 freeze in 1-h time step but now the amount of freezing surface state is

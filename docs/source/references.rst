@@ -86,7 +86,7 @@ References
    10.5194/gmd-2016-300.
 
 
-.. [Oaf2005]
+.. [OGF2005]
    Offerle B, CSB Grimmond, K Fortuniak (2005) Heat storage &
    anthropogenic heat flux in relation to the energy balance of a
    central European city center. International J. of Climatology. 25:
@@ -162,7 +162,7 @@ References
    Meteorol. 24, 1196-1207.
 
 
-.. [CNstab]
+.. [CN1988]
    Campbell GS & Norman JM (1998) Introduction to Environmental
    Biophysics. Springer Science, US.
 
@@ -265,3 +265,21 @@ References
    partitioning in urban environments: links with surface seasonal
    properties. J. of Applied Meteorology and Climatology 51,219-241 doi:
    10.1175/JAMC-D-11-038.1
+
+.. [H1988]
+    Högström U (1988) Non-dimensional wind and temperature profiles in
+    the atmospheric surface layer: A re-evaluation. Boundary-Layer
+    Meteorol. 42, 55–78.
+
+.. [Kent2017a]
+    Kent CW, CSB Grimmond, J Barlow, D Gatey, S Kotthaus, F Lindberg, CH Halios
+    2017a: Evaluation of urban local-scale aerodynamic parameters:
+    implications for the vertical profile of wind and source areas
+    Boundary Layer Meteorology 164,183–213
+    `doi: 10.1007/s10546-017-0248-z <http://dx.doi.org/10.1007/s10546-017-0248-z>`_
+
+.. [Kent2017b]
+    Kent CW, S Grimmond, D Gatey 2017b: Aerodynamic roughness parameters in
+    cities: inclusion of vegetation
+    Journal of Wind Engineering & Industrial Aerodynamics
+    `doi: 10.1016/j.jweia.2017.07.016 <http://dx.doi.org/10.1016/j.jweia.2017.07.016>`_
