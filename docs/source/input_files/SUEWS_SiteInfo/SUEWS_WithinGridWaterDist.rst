@@ -39,5 +39,5 @@ In the table below, for example,
 
 
 .. csv-table::
-  :file: SUEWS_WithinGridWaterDist.csv
+  :file: csv-table/SUEWS_WithinGridWaterDist.csv
   :header-rows: 1

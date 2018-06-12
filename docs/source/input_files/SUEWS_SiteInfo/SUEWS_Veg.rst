@@ -13,6 +13,6 @@ surface type. For suggestions on how to complete this table, see:
 Values <http://urban-climate.net/umep/TypicalValues#Typical_Values>`__.
 
 .. csv-table::
-  :file: SUEWS_Veg.csv
+  :file: csv-table/SUEWS_Veg.csv
   :header-rows: 1
   :widths: 5 25 5 65

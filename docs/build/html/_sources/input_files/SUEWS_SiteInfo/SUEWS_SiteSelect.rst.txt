@@ -9,7 +9,7 @@ The model currently requires a new row for each year of the model run.
 All rows in this file will be read by the model and run.
 
 .. csv-table::
-  :file: SUEWS_SiteSelect.csv
+  :file: csv-table/SUEWS_SiteSelect.csv
   :header-rows: 1
   :widths: 5 25 5 65
 

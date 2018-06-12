@@ -14,6 +14,6 @@ slightly different functional forms and different coefficients (with
 different units).
 
 .. csv-table::
-  :file: SUEWS_Conductance.csv
+  :file: csv-table/SUEWS_Conductance.csv
   :header-rows: 1
   :widths: 5 25 5 65

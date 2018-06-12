@@ -11,7 +11,7 @@ Model run options
 		Determines whether a CBL slab model is used to calculate temperature and humidity.
 	:Configuration:
 		.. csv-table::
-			:file: CBLuse.csv
+			:file: csv-table/CBLuse.csv
 			:header-rows: 1
 			:widths: auto
 
@@ -24,7 +24,7 @@ Model run options
 		Determines whether the snow part of the model runs.
 	:Configuration:
 		.. csv-table::
-			:file: SnowUse.csv
+			:file: csv-table/SnowUse.csv
 			:header-rows: 1
 			:widths: auto
 
@@ -37,7 +37,7 @@ Model run options
 		Determines whether a high resolution radiation model to calculate mean radiant temperate should be used (SOLWEIG). NOTE: this option will considerably slow down the model since SOLWEIG is a 2D model.
 	:Configuration:
 		.. csv-table::
-			:file: SOLWEIGUse.csv
+			:file: csv-table/SOLWEIGUse.csv
 			:header-rows: 1
 			:widths: auto
 
@@ -50,7 +50,7 @@ Model run options
 		Determines method for calculation of radiation fluxes.
 	:Configuration:
 		.. csv-table::
-			:file: NetRadiationMethod.csv
+			:file: csv-table/NetRadiationMethod.csv
 			:header-rows: 1
 			:widths: auto
 
@@ -63,7 +63,7 @@ Model run options
 		Determines method for QF calculation.
 	:Configuration:
 		.. csv-table::
-			:file: AnthropogenicHeat.csv
+			:file: csv-table/EmissionsMethod.csv
 			:header-rows: 1
 			:widths: auto
 
@@ -76,7 +76,7 @@ Model run options
 		Determines method for calculating storage heat flux ΔQS.
 	:Configuration:
 		.. csv-table::
-			:file: StorageHeatMethod.csv
+			:file: csv-table/StorageHeatMethod.csv
 			:header-rows: 1
 			:widths: auto
 
@@ -89,7 +89,7 @@ Model run options
 		Determines whether the storage heat flux calculation uses Q* or (Q*+QF).
 	:Configuration:
 		.. csv-table::
-			:file: OHMIncQF.csv
+			:file: csv-table/OHMIncQF.csv
 			:header-rows: 1
 			:widths: auto
 
@@ -102,7 +102,7 @@ Model run options
 		Defines which atmospheric stability functions are used.
 	:Configuration:
 		.. csv-table::
-			:file: StabilityMethod.csv
+			:file: csv-table/StabilityMethod.csv
 			:header-rows: 1
 			:widths: auto
 
@@ -115,7 +115,7 @@ Model run options
 		Determines method for calculating roughness length for heat.
 	:Configuration:
 		.. csv-table::
-			:file: RoughLenHeatMethod.csv
+			:file: csv-table/RoughLenHeatMethod.csv
 			:header-rows: 1
 			:widths: auto
 
@@ -128,7 +128,7 @@ Model run options
 		Determines how aerodynamic roughness length (z0m) and zero displacement height (zdm) are calculated.
 	:Configuration:
 		.. csv-table::
-			:file: RoughLenMomMethod.csv
+			:file: csv-table/RoughLenMomMethod.csv
 			:header-rows: 1
 			:widths: auto
 
@@ -141,7 +141,7 @@ Model run options
 		Determines method for calculating soil moisture deficit (SMD).
 	:Configuration:
 		.. csv-table::
-			:file: SMDMethod.csv
+			:file: csv-table/SMDMethod.csv
 			:header-rows: 1
 			:widths: auto
 
@@ -154,6 +154,6 @@ Model run options
 		Defines how external water use is calculated.
 	:Configuration:
 		.. csv-table::
-			:file: WaterUseMethod.csv
+			:file: csv-table/WaterUseMethod.csv
 			:header-rows: 1
 			:widths: auto

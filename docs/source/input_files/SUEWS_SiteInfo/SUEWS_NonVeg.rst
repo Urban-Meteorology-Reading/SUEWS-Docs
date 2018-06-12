@@ -10,8 +10,10 @@ of SUEWS_NonVeg.txt to the codes specified in SUEWS_SiteSelect.txt
 particular surface type. For suggestions on how to complete this table,
 see: `Typical Values <http://urban-climate.net/umep/TypicalValues#Typical_Values>`__.
 
+.. literalinclude:: sample-table/SUEWS_NonVeg.txt
+
 .. csv-table::
   :class: longtable
-  :file: SUEWS_NonVeg.csv
+  :file: csv-table/SUEWS_NonVeg.csv
   :header-rows: 1
   :widths: 5 25 5 65

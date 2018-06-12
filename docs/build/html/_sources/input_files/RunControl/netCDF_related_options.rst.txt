@@ -11,7 +11,7 @@ netCDF related options
 		Determine if the output files should be written in netCDF format.
 	:Configuration:
 		.. csv-table::
-			:file: ncMode.csv
+			:file: csv-table/ncMode.csv
 			:header-rows: 1
 			:widths: auto
 

@@ -41,6 +41,6 @@ for AnOHM.
 
 
 .. csv-table::
-  :file: SUEWS_OHMCoefficients.csv
+  :file: csv-table/SUEWS_OHMCoefficients.csv
   :header-rows: 1
   :widths: 5 25 5 65

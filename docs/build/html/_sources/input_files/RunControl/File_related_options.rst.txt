@@ -44,7 +44,7 @@ File related options
 		Specifies whether one single meteorological forcing file is used for all grids or a separate met file is provided for each grid.
 	:Configuration:
 		.. csv-table::
-			:file: MultipleMetFiles.csv
+			:file: csv-table/MultipleMetFiles.csv
 			:header-rows: 1
 			:widths: auto
 
@@ -57,7 +57,7 @@ File related options
 		Specifies whether one single initial conditions file is used for all grids at the start of the run or a separate initial conditions file is provided for each grid.
 	:Configuration:
 		.. csv-table::
-			:file: MultipleInitFiles.csv
+			:file: csv-table/MultipleInitFiles.csv
 			:header-rows: 1
 			:widths: auto
 
@@ -70,7 +70,7 @@ File related options
 		Specifies whether one single ESTM forcing file is used for all grids or a separate file is provided for each grid.
 	:Configuration:
 		.. csv-table::
-			:file: MultipleESTMFiles.csv
+			:file: csv-table/MultipleESTMFiles.csv
 			:header-rows: 1
 			:widths: auto
 
@@ -83,7 +83,7 @@ File related options
 		Specifies whether input meteorological forcing files at the resolution of the model time step should be saved.
 	:Configuration:
 		.. csv-table::
-			:file: KeepTstepFilesIn.csv
+			:file: csv-table/KeepTstepFilesIn.csv
 			:header-rows: 1
 			:widths: auto
 
@@ -96,7 +96,7 @@ File related options
 		Specifies whether output meteorological forcing files at the resolution of the model time step should be saved.
 	:Configuration:
 		.. csv-table::
-			:file: KeepTstepFilesOut.csv
+			:file: csv-table/KeepTstepFilesOut.csv
 			:header-rows: 1
 			:widths: auto
 
@@ -109,7 +109,7 @@ File related options
 		Specifies which variables are written in the output files.
 	:Configuration:
 		.. csv-table::
-			:file: WriteOutOption.csv
+			:file: csv-table/WriteOutOption.csv
 			:header-rows: 1
 			:widths: auto
 
@@ -122,6 +122,6 @@ File related options
 		Controls whether the warnings.txt file is written or not.
 	:Configuration:
 		.. csv-table::
-			:file: SuppressWarnings.csv
+			:file: csv-table/SuppressWarnings.csv
 			:header-rows: 1
 			:widths: auto

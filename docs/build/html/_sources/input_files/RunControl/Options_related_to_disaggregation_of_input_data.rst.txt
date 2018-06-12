@@ -11,7 +11,7 @@ Options related to disaggregation of input data
 		Specifies how meteorological variables in the input file (except rain and snow) are disaggregated to the model time step. Wind direction is not currently downscaled so non -999 values will cause an error.
 	:Configuration:
 		.. csv-table::
-			:file: DisaggMethod.csv
+			:file: csv-table/DisaggMethod.csv
 			:header-rows: 1
 			:widths: auto
 
@@ -24,7 +24,7 @@ Options related to disaggregation of input data
 		Can be used to switch off zenith checking in Kdown disaggregation. Note that the zenith calculation requires location information obtained from SUEWS_SiteSelect.txt. If a single met file is used for all grids, the zenith is calculated for the first grid and the disaggregated data is then applied for all grids.
 	:Configuration:
 		.. csv-table::
-			:file: KdownZen.csv
+			:file: csv-table/KdownZen.csv
 			:header-rows: 1
 			:widths: auto
 
@@ -37,7 +37,7 @@ Options related to disaggregation of input data
 		Specifies how rain in the meteorological forcing file are disaggregated to the model time step. If present in the original met forcing file, snow is currently disaggregated in the same way as rainfall.
 	:Configuration:
 		.. csv-table::
-			:file: RainDisaggMethod.csv
+			:file: csv-table/RainDisaggMethod.csv
 			:header-rows: 1
 			:widths: auto
 
@@ -83,6 +83,6 @@ Options related to disaggregation of input data
 		Specifies how ESTM-related temperatures in the input file are disaggregated to the model time step.
 	:Configuration:
 		.. csv-table::
-			:file: DisaggMethodESTM.csv
+			:file: csv-table/DisaggMethodESTM.csv
 			:header-rows: 1
 			:widths: auto

@@ -17,6 +17,6 @@ case all columns here except Code and BaseTHDD should be set to ’-999’.
 
 
 .. csv-table::
-  :file: SUEWS_AnthropogenicHeat.csv
+  :file: csv-table/SUEWS_AnthropogenicHeat.csv
   :header-rows: 1
   :widths: 5 25 5 65

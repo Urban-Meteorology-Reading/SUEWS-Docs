@@ -1,9 +1,0 @@
-"Name","R/O","Description","Possible Settings"
-"ncMode","O","Determine if the output files should be written in netCDF format.","
-.. csv-table::
-  :file: ncMode.csv 
-  :header-rows: 1
-  :widths: auto
-"
-"nRow","O","Number of rows (e.g., 36) in the output layout (only applicable when ncMode=1).",""
-"nCol","O","Number of columns (e.g., 47) in the output layout (only applicable when ncMode=1).",""
