@@ -83,7 +83,7 @@ New in SUEWS Version 2016a (released 21 June 2016)
 
 #. Major changes to the input file formats to facilitate the running of
    multiple grids and multiple years. Surface characteristics are
-   provided in SiteSelect.txt and other input files are cross-referenced
+   provided in `SUEWS_SiteSelect.txt` and other input files are cross-referenced
    via codes or profile types.
 #. The surface types have been altered:
 

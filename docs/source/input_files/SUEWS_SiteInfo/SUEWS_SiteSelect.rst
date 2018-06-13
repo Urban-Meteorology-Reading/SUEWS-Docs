@@ -14,7 +14,8 @@ All rows in this file will be read by the model and run.
   :widths: 5 25 5 65
 
 .. attention::
-  - Two rows of ``-9`` should be placed at end of this file.
+  
+  - Two rows of :code:`-9` should be placed at end of this file.
   - In this file the **column order is important**.
   - Surface cover fractions specified from `Fr_Paved` to `Fr_Water` should sum up to 1.
   - Surface cover fractions specified from `Fr_ESTMClass_Paved1` to `Fr_ESTMClass_Paved3` should sum up to 1.
@@ -29,11 +30,12 @@ All rows in this file will be read by the model and run.
       2     2002 ...
 
 .. tip::
-  ``\!`` can be used to indicate comments in the file. Comments are not read by the
+  ``!`` can be used to indicate comments in the file. Comments are not read by the
   programme so they can be used by the user to provide notes for their
   interpretation of the contents. This is strongly recommended.
 
 .. _Day_Light_Savings:
+
 Day Light Savings (DLS)
 ^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -82,9 +84,9 @@ grids, as the length of connecting surface linking the grids is very
 small. Model grids need not be square or the same size.
 
 The table gives example values for the grid connections part of
-`SUEWS_SiteSelect.txt` for the grids shown in
-the figure. For each row, only water flowing out of the current grid is
-entered (e.g. water flows from 234 to 236 and 237, with a larger
+`SUEWS_SiteSelect.txt` for the grids shown in the figure.
+For each row, only water flowing out of the current grid is entered
+(e.g. water flows from 234 to 236 and 237, with a larger
 proportion of water flowing to 237 because of the greater length of
 connecting surface between 234 and 237 than between 234 and 236. No
 water is assumed to flow between 234 and 233 or 235 because there is no

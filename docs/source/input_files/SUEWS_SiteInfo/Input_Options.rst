@@ -3967,7 +3967,7 @@ Input_Options
 .. option:: Year
 
 	:Description:
-		Year [YYYY] Years must be continuous. If running multiple years, ensure the rows in SiteSelect.txt are arranged so that all grids for a particular year appear on consecutive lines (rather than grouping all years together for a particular grid).
+		Year [YYYY] Years must be continuous. If running multiple years, ensure the rows in `SUEWS_SiteSelect.txt` are arranged so that all grids for a particular year appear on consecutive lines (rather than grouping all years together for a particular grid).
 
 	:Configuration:
 		.. csv-table::
