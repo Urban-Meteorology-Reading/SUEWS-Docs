@@ -17,7 +17,7 @@ Input_Options
 .. option:: a2
 
 	:Description:
-		Coefficient for dQ*/dt term [h]
+		Coefficient for ``dQ*/dt`` term [h]
 
 	:Configuration:
 		.. csv-table::
@@ -117,6 +117,18 @@ Input_Options
 			:header-rows: 1
 			:widths: 44 18 38
 
+
+.. option:: alpha
+
+	:Description:
+		The mean apparent ecosystem quantum. Represents the initial slope of the light-response curve.
+
+	:Configuration:
+		.. csv-table::
+			:class: longtable
+			:file: csv-table/alpha.csv
+			:header-rows: 1
+			:widths: 44 18 38
 
 .. option:: Alt
 
@@ -235,6 +247,97 @@ Input_Options
 			:widths: 44 18 38
 
 
+.. option:: beta
+
+	:Description:
+		The light-saturated gross photosynthesis of the canopy.
+
+	:Configuration:
+		.. csv-table::
+			:class: longtable
+			:file: csv-table/beta.csv
+			:header-rows: 1
+			:widths: 44 18 38
+
+
+.. option:: theta
+
+	:Description:
+		The convexity of the curve at light saturation.
+
+	:Configuration:
+		.. csv-table::
+			:class: longtable
+			:file: csv-table/theta.csv
+			:header-rows: 1
+			:widths: 44 18 38
+
+
+.. option:: alpha_enh
+
+	:Description:
+		Part of the `alpha` coeﬃcient related to the fraction of vegetation.
+
+	:Configuration:
+		.. csv-table::
+			:class: longtable
+			:file: csv-table/alpha_enh.csv
+			:header-rows: 1
+			:widths: 44 18 38
+
+
+.. option:: beta_enh
+
+	:Description:
+		Part of the `beta` coeﬃcient related to the fraction of vegetation.
+
+	:Configuration:
+		.. csv-table::
+			:class: longtable
+			:file: csv-table/beta_enh.csv
+			:header-rows: 1
+			:widths: 44 18 38
+
+
+.. option:: resp_a
+
+	:Description:
+		Respiration coeﬃcient a.
+
+	:Configuration:
+		.. csv-table::
+			:class: longtable
+			:file: csv-table/resp_a.csv
+			:header-rows: 1
+			:widths: 44 18 38
+
+
+.. option:: resp_b
+
+	:Description:
+		Respiration coeﬃcient b - related to air temperature dependency.
+
+	:Configuration:
+		.. csv-table::
+			:class: longtable
+			:file: csv-table/resp_b.csv
+			:header-rows: 1
+			:widths: 44 18 38
+
+
+.. option:: min_respi
+
+	:Description:
+		Minimum soil respiration rate (for cold-temperature limit)
+
+	:Configuration:
+		.. csv-table::
+			:class: longtable
+			:file: csv-table/min_respi.csv
+			:header-rows: 1
+			:widths: 44 18 38
+
+
 .. option:: QF0_BEU_WD
 
 	:Description:
@@ -264,7 +367,7 @@ Input_Options
 .. option:: Code
 
 	:Description:
-		Code linking to `SUEWS_SiteSelect.txt` for paved surfaces (Code_Paved), buildings (Code_Bldgs) and bare soil surfaces (Code_BSoil). Value of integer is arbitrary but must match codes specified in `SUEWS_SiteSelect.txt`.  Code linking to `SUEWS_SiteSelect.txt` for evergreen trees and shrubs (Code_EveTr), deciduous trees and shrubs (Code_DecTr) and grass surfaces (Code_Grass). Value of integer is arbitrary but must match codes specified in `SUEWS_SiteSelect.txt`.  Code linking to `SUEWS_SiteSelect.txt` for water surfaces (Code_Water). Value of integer is arbitrary but must match code specified in `SUEWS_SiteSelect.txt`.  Code linking to `SUEWS_SiteSelect.txt` for snow surfaces (SnowCode). Value of integer is arbitrary but must match code specified in `SUEWS_SiteSelect.txt`.  Code linking to the SoilTypeCode column in SUEWS_NonVeg.txt (for Paved, Bldgs and BSoil surfaces) and SUEWS_Veg.txt (for EveTr, DecTr and Grass surfaces). Value of integer is arbitrary but must match code specified in `SUEWS_SiteSelect.txt`.  Code linking to the CondCode column in `SUEWS_SiteSelect.txt` . Value of integer is arbitrary but must match code specified in `SUEWS_SiteSelect.txt`.  Code linking to the AnthropogenicCode column in `SUEWS_SiteSelect.txt` . Value of integer is arbitrary but must match code specified in `SUEWS_SiteSelect.txt`.  Code linking to `SUEWS_SiteSelect.txt` for irrigation modelling (IrrigationCode). Value of integer is arbitrary but must match codes specified in `SUEWS_SiteSelect.txt`.  Code linking to the OHMCode_SummerWet, OHMCode_SummerDry, OHMCode_WinterWet and OHMCode_WinterDry columns in SUEWS_NonVeg.txt, SUEWS_Veg,txt, SUEWS_Water.txt and SUEWS_Snow.txt files. Value of integer is arbitrary but must match code specified in `SUEWS_SiteSelect.txt`.  For buildings and paved surfaces, set to zero if there is more than one ESTM class per grid and the codes and surface fractions specified in `SUEWS_SiteSelect.txt` will be used instead.
+		Code linking to `SUEWS_SiteSelect.txt` for paved surfaces (Code_Paved), buildings (Code_Bldgs) and bare soil surfaces (Code_BSoil). Value of integer is arbitrary but must match codes specified in `SUEWS_SiteSelect.txt`.  Code linking to `SUEWS_SiteSelect.txt` for evergreen trees and shrubs (Code_EveTr), deciduous trees and shrubs (Code_DecTr) and grass surfaces (Code_Grass). Value of integer is arbitrary but must match codes specified in `SUEWS_SiteSelect.txt`.  Code linking to `SUEWS_SiteSelect.txt` for water surfaces (Code_Water). Value of integer is arbitrary but must match code specified in `SUEWS_SiteSelect.txt`.  Code linking to `SUEWS_SiteSelect.txt` for snow surfaces (SnowCode). Value of integer is arbitrary but must match code specified in `SUEWS_SiteSelect.txt`.  Code linking to the SoilTypeCode column in SUEWS_NonVeg.txt (for Paved, Bldgs and BSoil surfaces) and SUEWS_Veg.txt (for EveTr, DecTr and Grass surfaces). Value of integer is arbitrary but must match code specified in `SUEWS_SiteSelect.txt`.  Code linking to the CondCode column in `SUEWS_SiteSelect.txt` . Value of integer is arbitrary but must match code specified in `SUEWS_SiteSelect.txt`.  Code linking to the AnthropogenicCode column in `SUEWS_SiteSelect.txt` . Value of integer is arbitrary but must match code specified in `SUEWS_SiteSelect.txt`.  Code linking to `SUEWS_SiteSelect.txt` for irrigation modelling (IrrigationCode). Value of integer is arbitrary but must match codes specified in `SUEWS_SiteSelect.txt`.  Code linking to the OHMCode_SummerWet, OHMCode_SummerDry, OHMCode_WinterWet and OHMCode_WinterDry columns in SUEWS_NonVeg.txt, SUEWS_Veg.txt, SUEWS_Water.txt and SUEWS_Snow.txt files. Value of integer is arbitrary but must match code specified in `SUEWS_SiteSelect.txt`.  For buildings and paved surfaces, set to zero if there is more than one ESTM class per grid and the codes and surface fractions specified in `SUEWS_SiteSelect.txt` will be used instead.
 
 	:Configuration:
 		.. csv-table::
@@ -768,7 +871,7 @@ Input_Options
 .. option:: EnEF_v_Jkm
 
 	:Description:
-		Emission factor for heat. Not used in V2018a 
+		Emission factor for heat. Not used in V2018a
 
 	:Configuration:
 		.. csv-table::
@@ -776,8 +879,8 @@ Input_Options
 			:file: csv-table/EnEF_v_Jkm.csv
 			:header-rows: 1
 			:widths: 44 18 38
-			
-			
+
+
 .. option:: EnergyUseProfWD
 
 	:Description:
@@ -871,7 +974,7 @@ Input_Options
 .. option:: FcEF_v_Jkm
 
 	:Description:
-		Traffic emission factor for CO2. Not used in V2018a. 
+		Traffic emission factor for CO2. Not used in V2018a.
 
 	:Configuration:
 		.. csv-table::
@@ -2277,7 +2380,7 @@ Input_Options
 			:file: csv-table/MinQFMetab.csv
 			:header-rows: 1
 			:widths: 44 18 38
-			
+
 
 .. option:: MaxConductance
 
@@ -2290,8 +2393,8 @@ Input_Options
 			:file: csv-table/MaxConductance.csv
 			:header-rows: 1
 			:widths: 44 18 38
-			
-			
+
+
 .. option:: NARP_Trans
 
 	:Description:
@@ -2472,7 +2575,7 @@ Input_Options
 			:file: csv-table/PopDensNight.csv
 			:header-rows: 1
 			:widths: 44 18 38
-			
+
 
 .. option:: PopProfWD
 
@@ -2485,7 +2588,7 @@ Input_Options
 			:file: csv-table/PopProfWD.csv
 			:header-rows: 1
 			:widths: 44 18 38
-			
+
 .. option:: PopProfWE
 
 	:Description:
@@ -2497,7 +2600,7 @@ Input_Options
 			:file: csv-table/PopProfWE.csv
 			:header-rows: 1
 			:widths: 44 18 38
-			
+
 
 
 .. option:: PorosityMax
@@ -3525,7 +3628,7 @@ Input_Options
 			:header-rows: 1
 			:widths: 44 18 38
 
-.. option:: TraffProfWD 
+.. option:: TraffProfWD
 
 	:Description:
 		Code for traffic activity profile (weekdays) Provides the link to column 1 of SUEWS_Profiles.txt. Look the codes Value of integer is arbitrary but must match code specified in column 1 of SUEWS_Profiles.txt. Not used in v2018a.
@@ -3536,8 +3639,8 @@ Input_Options
 			:file: csv-table/TraffProfWD.csv
 			:header-rows: 1
 			:widths: 44 18 38
-			
-.. option:: TraffProfWE 
+
+.. option:: TraffProfWE
 
 	:Description:
 		Code for traffic activity profile (weekends) Provides the link to column 1 of SUEWS_Profiles.txt. Look the codes Value of integer is arbitrary but must match code specified in column 1 of SUEWS_Profiles.txt. Not used in v2018a.
@@ -3560,9 +3663,9 @@ Input_Options
 			:file: csv-table/TrafficUnits.csv
 			:header-rows: 1
 			:widths: 44 18 38
-			
-			
-			
+
+
+
 .. option:: TrafficRate_WD
 
 	:Description:
