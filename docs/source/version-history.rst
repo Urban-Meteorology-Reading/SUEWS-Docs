@@ -13,6 +13,15 @@ New in SUEWS Version 2018a
 #. Many under-the-hood improvements
 #. New Manual
 #. Improved the anthropogenic heat and CO2 emmission module.
+  .. note::
+
+  	These columns are moved from `SUEWS_SiteSelect.txt` to `SUEWS_AnthropogenicHeat.txt`::
+
+    - `EnergyUseProfWD`
+    - `EnergyUseProfWE`
+    - `ActivityProfWD`
+    - `ActivityProfWE`
+
 
 .. _new_2017b:
 
