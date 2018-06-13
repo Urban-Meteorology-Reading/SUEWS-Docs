@@ -9,44 +9,44 @@ SUEWS: Surface Urban Energy and Water Balance Scheme
   Also, some statement here may NOT be up to date as the model/software is under rapid development.
   Please report issues on the `GitHub page`_.
 
-How to get SUEWS?
-=================
+- **How to get SUEWS?**
 
-The software can be downloaded via `our GitHub page`_.
-The **latest formal** release of SUEWS is `v2017b <new_2017b>` (released 1 August 2017).
+.. epigraph::
 
-
-How to use SUEWS?
-=================
-
-Read :ref:`this documentation <index_page>`.
-For what's new in this version, see :ref:`new_latest`.
-Besides, the manuals for previous versions can be accessed in respective sections under `version_history`.
+  The software can be downloaded via `our GitHub page`_.
+  The **latest formal** release of SUEWS is `v2017b <new_2017b>` (released 1 August 2017).
 
 
-How to understand SUEWS?
-========================
+- **How to use SUEWS?**
 
-The scientific details and application cases of SUEWS can be found in model description papers under `Recent_publications`.
+.. epigraph::
 
-
-How to cite SUEWS?
-========================
-
-Please cite `this version <new_latest>` as follows::
-
-  Sun T, L Järvi, M Havu, HC Ward, S Onomura, F Lindberg, F Olofson, A Gabey, CSB Grimmond (2018).
-  SUEWS Manual V2018a. Department of Meteorology, University of Reading, Reading, UK
+  Read :ref:`this documentation <index_page>`.
+  For what's new in this version, see :ref:`new_latest`.
+  Besides, the manuals for previous versions can be accessed in respective sections under `version_history`.
 
 
-How to support SUEWS?
-========================
+- **How to understand SUEWS?**
 
-#. Contribute to the `development <Development_Suggestions_Support>`.
+.. epigraph::
 
-#. Report issues via the `GitHub page`_.
+  The scientific details and application cases of SUEWS can be found in model description papers under `Recent_publications`.
 
-#. Provide `suggestions and feedbacks <Development_Suggestions_Support>`.
+
+- **How to cite SUEWS?**
+
+  Please cite `this version <new_latest>` as follows:
+
+  .. epigraph::
+
+    Sun T, L Järvi, M Havu, HC Ward, S Onomura, F Lindberg, F Olofson, A Gabey, CSB Grimmond (2018). SUEWS Manual V2018a. Department of Meteorology, University of Reading, Reading, UK
+
+
+- **How to support SUEWS?**
+
+  #. Contribute to the `development <Development_Suggestions_Support>`.
+  #. Report issues via the `GitHub page`_.
+  #. Provide `suggestions and feedbacks <Development_Suggestions_Support>`.
 
 
 .. _our GitHub page: https://urban-meteorology-reading.github.io/SUEWS

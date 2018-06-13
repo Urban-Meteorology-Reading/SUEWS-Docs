@@ -145,7 +145,7 @@ htmlhelp_basename = 'SUEWSdoc'
 # -- Options for LaTeX output ------------------------------------------------
 # this can be one of ['pdflatex', 'xelatex', 'lualatex', 'platex']
 if platform.system() == 'Darwin':
-    latex_engine = 'xelatex'
+    latex_engine = 'lualatex'
 else:
     latex_engine = 'pdflatex'
 
