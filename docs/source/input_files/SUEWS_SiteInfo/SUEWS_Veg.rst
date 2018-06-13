@@ -9,10 +9,17 @@ SUEWS_Veg.txt to the codes specified in
 `SUEWS_SiteSelect.txt` (Code_EveTr,
 Code_DecTr, Code_Grass). Each row should correspond to a particular
 surface type. For suggestions on how to complete this table, see:
-`Typical
-Values <http://urban-climate.net/umep/TypicalValues#Typical_Values>`__.
+`Typical Values <typical_values>`.
+
+
 
 .. csv-table::
   :file: csv-table/SUEWS_Veg.csv
   :header-rows: 1
   :widths: 5 25 5 65
+
+
+
+An example `SUEWS_Veg.txt` can be found below:
+
+.. literalinclude:: sample-table/SUEWS_Veg.txt

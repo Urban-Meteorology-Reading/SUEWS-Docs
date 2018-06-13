@@ -15,6 +15,12 @@ the met forcing file (and set `WaterUseMethod` = 1 in
 `RunControl.nml`), in which case all columns here
 except Code should be set to :code:`-999`.
 
+
+An example `SUEWS_Irrigation.txt` can be found below:
+
+.. literalinclude:: sample-table/SUEWS_Irrigation.txt
+
+
 .. csv-table::
   :file: csv-table/SUEWS_Irrigation.csv
   :header-rows: 1

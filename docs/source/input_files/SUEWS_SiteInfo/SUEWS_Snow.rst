@@ -19,3 +19,8 @@ For a detailed description of the variables, see Järvi et al.
   :file: csv-table/SUEWS_Snow.csv
   :header-rows: 1
   :widths: 5 25 5 65
+
+
+An example `SUEWS_Snow.txt` can be found below:
+
+.. literalinclude:: sample-table/SUEWS_Snow.txt

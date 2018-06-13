@@ -14,17 +14,17 @@ column contains the fraction of water flowing from the surface type to
 each of the other surface types or to runoff or the sub-surface soil
 store.
 
-Note:
+.. note::
 
--  The sum of each row (excluding the Code) must equal 1.
--  Water **CAANOT** flow from one surface to that same surface, so the
-   diagonal elements should be zero.
--  The row corresponding to the water surface should be zero, as there
-   is currently no flow permitted from the water surface to other
-   surfaces by the model.
--  Currently water **CAANOT** go to both runoff and soil store (i.e. it
-   must go to one or the other – `runoff` for impervious surfaces;
-   `soilstore` for pervious surfaces).
+  -  The sum of each row (excluding the Code) must equal 1.
+  -  Water **CAANOT** flow from one surface to that same surface, so the
+     diagonal elements should be zero.
+  -  The row corresponding to the water surface should be zero, as there
+     is currently no flow permitted from the water surface to other
+     surfaces by the model.
+  -  Currently water **CAANOT** go to both runoff and soil store (i.e. it
+     must go to one or the other – `runoff` for impervious surfaces;
+     `soilstore` for pervious surfaces).
 
 In the table below, for example,
 
@@ -41,3 +41,7 @@ In the table below, for example,
 .. csv-table::
   :file: csv-table/SUEWS_WithinGridWaterDist.csv
   :header-rows: 1
+
+An example `SUEWS_WithinGridWaterDist.txt` can be found below:
+
+.. literalinclude:: sample-table/SUEWS_WithinGridWaterDist.txt

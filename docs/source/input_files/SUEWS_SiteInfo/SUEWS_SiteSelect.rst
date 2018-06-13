@@ -14,7 +14,7 @@ All rows in this file will be read by the model and run.
   :widths: 5 25 5 65
 
 .. attention::
-  
+
   - Two rows of :code:`-9` should be placed at end of this file.
   - In this file the **column order is important**.
   - Surface cover fractions specified from `Fr_Paved` to `Fr_Water` should sum up to 1.
@@ -112,3 +112,10 @@ more elevated.
    :alt:  Example values for the grid connections part of `SUEWS_SiteSelect.txt` for the grids.
 
    Example values for the grid connections part of `SUEWS_SiteSelect.txt` for the grids.
+
+
+
+
+An example `SUEWS_SiteSelect.txt` can be found below:
+
+.. literalinclude:: sample-table/SUEWS_SiteSelect.txt

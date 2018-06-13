@@ -42,3 +42,8 @@ conductivity and bulk transfer coefficient. These are specified in
   :file: csv-table/SUEWS_OHMCoefficients.csv
   :header-rows: 1
   :widths: 5 25 5 65
+
+
+An example `SUEWS_OHMCoefficients.txt` can be found below:
+
+.. literalinclude:: sample-table/SUEWS_OHMCoefficients.txt

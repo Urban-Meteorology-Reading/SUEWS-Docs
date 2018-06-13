@@ -25,7 +25,13 @@ Profiles are specified for the following
 
 .. note:: Human activity is not used in v2018a
 
+
 .. csv-table::
   :file: csv-table/SUEWS_Profiles.csv
   :header-rows: 1
   :widths: 5 25 5 65
+
+
+An example `SUEWS_Profiles.txt` can be found below:
+
+.. literalinclude:: sample-table/SUEWS_Profiles.txt

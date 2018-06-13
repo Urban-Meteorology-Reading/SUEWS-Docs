@@ -2240,7 +2240,7 @@ Input_Options
 .. option:: OBS_SMCap
 
 	:Description:
-		Use only if soil moisture is observed and provided in the met forcing file and smd_choice = 1 or 2. Use of observed soil moisture not currently tested
+		Use only if soil moisture is observed and provided in the met forcing file and `SMDMethod` = 1 or 2. Use of observed soil moisture not currently tested
 
 	:Configuration:
 		.. csv-table::
@@ -2253,7 +2253,7 @@ Input_Options
 .. option:: OBS_SMDepth
 
 	:Description:
-		Use only if soil moisture is observed and provided in the met forcing file and smd_choice = 1 or 2. Use of observed soil moisture not currently tested
+		Use only if soil moisture is observed and provided in the met forcing file and `SMDMethod` = 1 or 2. Use of observed soil moisture not currently tested
 
 	:Configuration:
 		.. csv-table::
@@ -2266,7 +2266,7 @@ Input_Options
 .. option:: OBS_SoilNotRocks
 
 	:Description:
-		Use only if soil moisture is observed and provided in the met forcing file and smd_choice = 1 or 2. Use of observed soil moisture not currently tested
+		Use only if soil moisture is observed and provided in the met forcing file and `SMDMethod` = 1 or 2. Use of observed soil moisture not currently tested
 
 	:Configuration:
 		.. csv-table::

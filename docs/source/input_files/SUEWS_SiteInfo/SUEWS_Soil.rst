@@ -14,14 +14,20 @@ single code value to link the characteristics here with the SoilTypeCode
 columns in `SUEWS_NonVeg.txt` and `SUEWS_Veg.txt`.
 
 Soil moisture can either be provided using observational data in the met
-forcing file (smd_choice = 1 or 2 in
-`RunControl.nml`) and providing some metadata
-information here (OBS columns), or modelled by SUEWS (smd_choice = 0
-in `RunControl.nml`). **- Note, the option to use
-observational data is not operational in the current release!**
+forcing file (`SMDMethod` = 1 or 2 in
+`RunControl.nml`) and providing some metadata information here (OBS columns),
+or modelled by SUEWS (`SMDMethod` = 0 in `RunControl.nml`).
+
+.. caution::
+  the option to use observational data is not operational in the current release!
+
 
 
 .. csv-table::
   :file: csv-table/SUEWS_Soil.csv
   :header-rows: 1
   :widths: 5 25 5 65
+
+An example `SUEWS_Soil.txt` can be found below:
+
+.. literalinclude:: sample-table/SUEWS_Soil.txt

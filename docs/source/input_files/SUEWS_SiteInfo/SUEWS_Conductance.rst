@@ -12,6 +12,12 @@ used with `gsModel` = 1. An alternative formulation ( `gsModel` =2) uses
 slightly different functional forms and different coefficients (with
 different units).
 
+
+An example `SUEWS_Conductance.txt` can be found below:
+
+.. literalinclude:: sample-table/SUEWS_Conductance.txt
+
+
 .. csv-table::
   :file: csv-table/SUEWS_Conductance.csv
   :header-rows: 1
