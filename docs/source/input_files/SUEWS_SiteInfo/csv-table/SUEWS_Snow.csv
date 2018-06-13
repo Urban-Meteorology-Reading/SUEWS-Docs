@@ -13,7 +13,7 @@
 12,"`tau_r`","`MD`","Time constant for snow density ageing [-]"
 13,"`CRWMin`","`MD`","Minimum water holding capacity of snow [mm]"
 14,"`CRWMax`","`MD`","Maximum water holding capacity of snow [mm]"
-15,"`PrecipLimSnow`","`MD`","Auer (1974) [38]"
+15,"`PrecipLimSnow`","`MD`","Auer (1974) [Au74]_"
 16,"`OHMCode_SummerWet`","`L`","Code for OHM coefficients to use for this surface during wet conditions in summer. Links to SUEWS_OHMCoefficients.txt . Value of integer is arbitrary but must match code specified in column 1 of SUEWS_OHMCoefficients.txt. "
 17,"`OHMCode_SummerDry`","`L`","Code for OHM coefficients to use for this surface during dry conditions in summer. Links to SUEWS_OHMCoefficients.txt . Value of integer is arbitrary but must match code specified in column 1 of SUEWS_OHMCoefficients.txt. "
 18,"`OHMCode_WinterWet`","`L`","Code for OHM coefficients to use for this surface during wet conditions in winter. Links to SUEWS_OHMCoefficients.txt . Value of integer is arbitrary but must match code specified in column 1 of SUEWS_OHMCoefficients.txt. "

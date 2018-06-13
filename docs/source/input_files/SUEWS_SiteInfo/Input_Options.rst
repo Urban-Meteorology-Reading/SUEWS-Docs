@@ -900,7 +900,7 @@ Input_Options
 .. option:: DrainageEq
 
 	:Description:
-		Options 1 Falk and Niemczynowicz (1978) [32] 2 Halldin et al. (1979) [33] (Rutter eqn corrected for c=0, see Calder & Wright (1986) [34] ) Recommended [3] for BSoil 3 Falk and Niemczynowicz (1978) [32] Recommended [3] for Paved and Bldgs Coefficients are specified in the following two columns. Options 1 Falk and Niemczynowicz (1978) [32] 2 Halldin et al. (1979) [33] (Rutter eqn corrected for c=0, see Calder & Wright (1986) [34] ) Recommended [3] for EveTr, DecTr, Grass (unirrigated) 3 Falk and Niemczynowicz (1978) [32] Recommended [3] for Grass (irrigated) Coefficients are specified in the following two columns. Not currently used for water surface.
+		Options 1 Falk and Niemczynowicz (1978) [FN78]_ 2 Halldin et al. (1979) [Ha79]_ (Rutter eqn corrected for c=0, see Calder & Wright (1986) [CW86]_ ) Recommended [3] for BSoil 3 Falk and Niemczynowicz (1978) [FN78]_ Recommended [3] for Paved and Bldgs Coefficients are specified in the following two columns. Options 1 Falk and Niemczynowicz (1978) [FN78]_ 2 Halldin et al. (1979) [Ha79]_ (Rutter eqn corrected for c=0, see Calder & Wright (1986) [CW86]_ ) Recommended [3] for EveTr, DecTr, Grass (unirrigated) 3 Falk and Niemczynowicz (1978) [FN78]_ Recommended [3] for Grass (irrigated) Coefficients are specified in the following two columns. Not currently used for water surface.
 
 	:Configuration:
 		.. csv-table::
@@ -2284,7 +2284,7 @@ Input_Options
 .. option:: LAIMax
 
 	:Description:
-		full leaf-on summertime value Example values [|m^-2| |m^-2|] 5.1 EveTr Breuer et al. (2003) [36]  5.5 DecTr Breuer et al. (2003) [36]  5.9 Grass Breuer et al. (2003) [36]
+		full leaf-on summertime value Example values [|m^-2| |m^-2|] 5.1 EveTr Breuer et al. (2003) [Br03]_  5.5 DecTr Breuer et al. (2003) [Br03]_  5.9 Grass Breuer et al. (2003) [Br03]_
 
 	:Configuration:
 		.. csv-table::
@@ -2723,7 +2723,7 @@ Input_Options
 .. option:: PrecipLimSnow
 
 	:Description:
-		Auer (1974) [38]
+		Auer (1974) [Au74]_
 
 	:Configuration:
 		.. csv-table::
@@ -3204,7 +3204,7 @@ Input_Options
 .. option:: StorageMax
 
 	:Description:
-		Maximum water storage capacity for upper surfaces (i.e. canopy) Min and max values are to account for seasonal variation (e.g. leaf-on/leaf-off differences for vegetated surfaces). Not currently used for non-vegetated surfaces - set the same as StorageMin. Example values [mm] 0.48 Paved 0.25 Bldgs 0.8 BSoil Maximum water storage capacity for upper surfaces (i.e. canopy) Min/max values are to account for seasonal variation (e.g. leaf-off/leaf-on differences for vegetated surfaces) Only used for DecTr surfaces - set EveTr and Grass values the same as StorageMin. Example values [mm] 1.3 EveTr Breuer et al. (2003) [36]  0.8 DecTr Breuer et al. (2003) [36]  1.9 Grass Breuer et al. (2003) [36]  Maximum water storage capacity for upper surfaces (i.e. canopy) Min and max values are to account for seasonal variation - not used for water surfaces so set same as StorageMin.
+		Maximum water storage capacity for upper surfaces (i.e. canopy) Min and max values are to account for seasonal variation (e.g. leaf-on/leaf-off differences for vegetated surfaces). Not currently used for non-vegetated surfaces - set the same as StorageMin. Example values [mm] 0.48 Paved 0.25 Bldgs 0.8 BSoil Maximum water storage capacity for upper surfaces (i.e. canopy) Min/max values are to account for seasonal variation (e.g. leaf-off/leaf-on differences for vegetated surfaces) Only used for DecTr surfaces - set EveTr and Grass values the same as StorageMin. Example values [mm] 1.3 EveTr Breuer et al. (2003) [Br03]_  0.8 DecTr Breuer et al. (2003) [Br03]_  1.9 Grass Breuer et al. (2003) [Br03]_  Maximum water storage capacity for upper surfaces (i.e. canopy) Min and max values are to account for seasonal variation - not used for water surfaces so set same as StorageMin.
 
 	:Configuration:
 		.. csv-table::

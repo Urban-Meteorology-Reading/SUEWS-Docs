@@ -150,10 +150,6 @@ References
    Meteorol. 7, 363-372.
 
 
-.. [H88]
-   Högström U (1988) Non-dimensional wind and temperature profiles in
-   the atmospheric surface layer: A re-evaluation. Boundary-Layer
-   Meteorol. 42, 55–78.
 
 
 .. [VUH85]
@@ -267,19 +263,19 @@ References
    10.1175/JAMC-D-11-038.1
 
 .. [H1988]
-    Högström U (1988) Non-dimensional wind and temperature profiles in
-    the atmospheric surface layer: A re-evaluation. Boundary-Layer
-    Meteorol. 42, 55–78.
+   Högström U (1988) Non-dimensional wind and temperature profiles in
+   the atmospheric surface layer: A re-evaluation. Boundary-Layer
+   Meteorol. 42, 55–78.
 
 .. [Kent2017a]
-    Kent CW, CSB Grimmond, J Barlow, D Gatey, S Kotthaus, F Lindberg, CH Halios
-    2017a: Evaluation of urban local-scale aerodynamic parameters:
-    implications for the vertical profile of wind and source areas
-    Boundary Layer Meteorology 164,183–213
-    `doi: 10.1007/s10546-017-0248-z <http://dx.doi.org/10.1007/s10546-017-0248-z>`_
+   Kent CW, CSB Grimmond, J Barlow, D Gatey, S Kotthaus, F Lindberg, CH Halios
+   2017a: Evaluation of urban local-scale aerodynamic parameters:
+   implications for the vertical profile of wind and source areas
+   Boundary Layer Meteorology 164,183–213
+   `doi: 10.1007/s10546-017-0248-z <http://dx.doi.org/10.1007/s10546-017-0248-z>`_
 
 .. [Kent2017b]
-    Kent CW, S Grimmond, D Gatey 2017b: Aerodynamic roughness parameters in
-    cities: inclusion of vegetation
-    Journal of Wind Engineering & Industrial Aerodynamics
-    `doi: 10.1016/j.jweia.2017.07.016 <http://dx.doi.org/10.1016/j.jweia.2017.07.016>`_
+   Kent CW, S Grimmond, D Gatey 2017b: Aerodynamic roughness parameters in
+   cities: inclusion of vegetation
+   Journal of Wind Engineering & Industrial Aerodynamics
+   `doi: 10.1016/j.jweia.2017.07.016 <http://dx.doi.org/10.1016/j.jweia.2017.07.016>`_
