@@ -338,6 +338,19 @@ Input_Options
 			:widths: 44 18 38
 
 
+.. option:: BiogenCO2Code
+
+	:Description:
+		Code linking to the `Code` column in `SUEWS_BiogenCO2.txt`.
+
+	:Configuration:
+		.. csv-table::
+			:class: longtable
+			:file: csv-table/BiogenCO2Code.csv
+			:header-rows: 1
+			:widths: 44 18 38
+
+
 .. option:: QF0_BEU_WD
 
 	:Description:
@@ -367,7 +380,7 @@ Input_Options
 .. option:: Code
 
 	:Description:
-		Code linking to `SUEWS_SiteSelect.txt` for paved surfaces (Code_Paved), buildings (Code_Bldgs) and bare soil surfaces (Code_BSoil). Value of integer is arbitrary but must match codes specified in `SUEWS_SiteSelect.txt`.  Code linking to `SUEWS_SiteSelect.txt` for evergreen trees and shrubs (Code_EveTr), deciduous trees and shrubs (Code_DecTr) and grass surfaces (Code_Grass). Value of integer is arbitrary but must match codes specified in `SUEWS_SiteSelect.txt`.  Code linking to `SUEWS_SiteSelect.txt` for water surfaces (Code_Water). Value of integer is arbitrary but must match code specified in `SUEWS_SiteSelect.txt`.  Code linking to `SUEWS_SiteSelect.txt` for snow surfaces (SnowCode). Value of integer is arbitrary but must match code specified in `SUEWS_SiteSelect.txt`.  Code linking to the SoilTypeCode column in SUEWS_NonVeg.txt (for Paved, Bldgs and BSoil surfaces) and SUEWS_Veg.txt (for EveTr, DecTr and Grass surfaces). Value of integer is arbitrary but must match code specified in `SUEWS_SiteSelect.txt`.  Code linking to the CondCode column in `SUEWS_SiteSelect.txt` . Value of integer is arbitrary but must match code specified in `SUEWS_SiteSelect.txt`.  Code linking to the AnthropogenicCode column in `SUEWS_SiteSelect.txt` . Value of integer is arbitrary but must match code specified in `SUEWS_SiteSelect.txt`.  Code linking to `SUEWS_SiteSelect.txt` for irrigation modelling (IrrigationCode). Value of integer is arbitrary but must match codes specified in `SUEWS_SiteSelect.txt`.  Code linking to the OHMCode_SummerWet, OHMCode_SummerDry, OHMCode_WinterWet and OHMCode_WinterDry columns in SUEWS_NonVeg.txt, SUEWS_Veg.txt, SUEWS_Water.txt and SUEWS_Snow.txt files. Value of integer is arbitrary but must match code specified in `SUEWS_SiteSelect.txt`.  For buildings and paved surfaces, set to zero if there is more than one ESTM class per grid and the codes and surface fractions specified in `SUEWS_SiteSelect.txt` will be used instead.
+		Code linking to various look-up talbes described below.
 
 	:Configuration:
 		.. csv-table::

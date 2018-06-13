@@ -5,6 +5,7 @@ Model run options
 
 .. option:: CBLuse
 
+		.. warning:: This option is NOT available in v2018a.
 	:Requirement:
 		Required
 	:Description:
@@ -31,14 +32,15 @@ Model run options
 
 .. option:: SOLWEIGUse
 
+		.. warning::
+			#. This option is NOT available in v2018a.
+			#. This option will considerably slow down the model since SOLWEIG is a 2D model.
+
 	:Requirement:
 		Required
 	:Description:
 		Determines whether a high resolution radiation model to calculate mean radiant temperate should be used (SOLWEIG).
 
-		.. warning::
-			#. This option is NOT available in v2018a.
-			#. This option will considerably slow down the model since SOLWEIG is a 2D model.
 
 	:Configuration:
 		.. csv-table::
