@@ -40,6 +40,19 @@ Input_Options
 			:widths: 44 18 38
 
 
+.. option:: FcEF_v_kgkm
+
+	:Description:
+		CO2 emission factor [kg k|m^−1|]
+
+	:Configuration:
+		.. csv-table::
+			:class: longtable
+			:file: csv-table/FcEF_v_kgkm.csv
+			:header-rows: 1
+			:widths: 44 18 38
+
+
 .. option:: ActivityProfWD
 
 	:Description:
@@ -147,7 +160,7 @@ Input_Options
 .. option:: AlbedoMax
 
 	:Description:
-		Effective surface albedo (middle of the day value) for summertime. View factors should be taken into account. Effective surface albedo (middle of the day value) for summertime, full leaf-on. View factors should be taken into account. Example values [-] 0.1 EveTr Oke (1987) [35]  0.18 DecTr Oke (1987) [35]  0.21 Grass Oke (1987) [35]  Effective albedo of the water surface. View factors should be taken into account. Example values [-] 0.1 Water Oke (1987) [35]  Example values [-] 0.85 Järvi et al. (2014) [Leena2014]_
+		Effective surface albedo (middle of the day value) for summertime. View factors should be taken into account. Effective surface albedo (middle of the day value) for summertime, full leaf-on. View factors should be taken into account. Example values [-] 0.1 EveTr Oke (1987) [Ok87]_  0.18 DecTr Oke (1987) [Ok87]_  0.21 Grass Oke (1987) [Ok87]_  Effective albedo of the water surface. View factors should be taken into account. Example values [-] 0.1 Water Oke (1987) [Ok87]_  Example values [-] 0.85 Järvi et al. (2014) [Leena2014]_
 
 	:Configuration:
 		.. csv-table::
@@ -160,7 +173,7 @@ Input_Options
 .. option:: AlbedoMin
 
 	:Description:
-		Effective surface albedo (middle of the day value) for wintertime (not including snow). View factors should be taken into account. Not currently used for non-vegetated surfaces – set the same as AlbedoMax. Effective surface albedo (middle of the day value) for wintertime (not including snow), leaf-off. View factors should be taken into account. Example values [-] 0.1 EveTr Oke (1987) [35]  0.18 DecTr Oke (1987) [35]  0.21 Grass Oke (1987) [35]  View factors should be taken into account. Not currently used for water surface - set same as AlbedoMax. Example values [-] 0.18 Järvi et al. (2014) [Leena2014]_
+		Effective surface albedo (middle of the day value) for wintertime (not including snow). View factors should be taken into account. Not currently used for non-vegetated surfaces – set the same as AlbedoMax. Effective surface albedo (middle of the day value) for wintertime (not including snow), leaf-off. View factors should be taken into account. Example values [-] 0.1 EveTr Oke (1987) [Ok87]_  0.18 DecTr Oke (1987) [Ok87]_  0.21 Grass Oke (1987) [Ok87]_  View factors should be taken into account. Not currently used for water surface - set same as AlbedoMax. Example values [-] 0.18 Järvi et al. (2014) [Leena2014]_
 
 	:Configuration:
 		.. csv-table::
@@ -911,7 +924,7 @@ Input_Options
 .. option:: Emissivity
 
 	:Description:
-		Effective surface emissivity. View factors should be taken into account. Effective surface emissivity. View factors should be taken into account. Example values [-] 0.98 EveTr Oke (1987) [35]  0.98 DecTr Oke (1987) [35]  0.93 Grass Oke (1987) [35]  Effective surface emissivity. View factors should be taken into account Example values [-] 0.95 Water Oke (1987) [35]  Effective surface emissivity. View factors should be taken into account Example values [-] 0.99 Järvi et al. (2014) [Leena2014]_
+		Effective surface emissivity. View factors should be taken into account. Effective surface emissivity. View factors should be taken into account. Example values [-] 0.98 EveTr Oke (1987) [Ok87]_  0.98 DecTr Oke (1987) [Ok87]_  0.93 Grass Oke (1987) [Ok87]_  Effective surface emissivity. View factors should be taken into account Example values [-] 0.95 Water Oke (1987) [Ok87]_  Effective surface emissivity. View factors should be taken into account Example values [-] 0.99 Järvi et al. (2014) [Leena2014]_
 
 	:Configuration:
 		.. csv-table::
@@ -2759,7 +2772,7 @@ Input_Options
 			:widths: 44 18 38
 
 
-.. option:: QF_A_Weekday
+.. option:: QF_A_WD
 
 	:Description:
 		Use with EmissionsMethod = 2 Example values [W |m^-2| (Cap ha-1) -1 ] 0.3081 Järvi et al. (2011) [J11]_  0.1 Järvi et al. (2014) [Leena2014]_
@@ -2767,12 +2780,12 @@ Input_Options
 	:Configuration:
 		.. csv-table::
 			:class: longtable
-			:file: csv-table/QF_A_Weekday.csv
+			:file: csv-table/QF_A_WD.csv
 			:header-rows: 1
 			:widths: 44 18 38
 
 
-.. option:: QF_A_Weekend
+.. option:: QF_A_WE
 
 	:Description:
 		Use with EmissionsMethod = 2 Example values [W |m^-2| (Cap ha -1 ) -1 ] 0.3081 Järvi et al. (2011) [J11]_  0.1 Järvi et al. (2014) [Leena2014]_
@@ -2780,12 +2793,12 @@ Input_Options
 	:Configuration:
 		.. csv-table::
 			:class: longtable
-			:file: csv-table/QF_A_Weekend.csv
+			:file: csv-table/QF_A_WE.csv
 			:header-rows: 1
 			:widths: 44 18 38
 
 
-.. option:: QF_B_Weekday
+.. option:: QF_B_WD
 
 	:Description:
 		Use with EmissionsMethod = 2 Example values [W |m^-2| |K^-1| (Cap ha -1 ) -1 ] 0.0099 Järvi et al. (2011) [J11]_  0.0099 Järvi et al. (2014) [Leena2014]_
@@ -2793,12 +2806,12 @@ Input_Options
 	:Configuration:
 		.. csv-table::
 			:class: longtable
-			:file: csv-table/QF_B_Weekday.csv
+			:file: csv-table/QF_B_WD.csv
 			:header-rows: 1
 			:widths: 44 18 38
 
 
-.. option:: QF_B_Weekend
+.. option:: QF_B_WE
 
 	:Description:
 		Use with EmissionsMethod = 2 Example values [W |m^-2| |K^-1| (Cap ha -1 ) -1 ] 0.0099 Järvi et al. (2011) [J11]_  0.0099 Järvi et al. (2014) [Leena2014]_
@@ -2806,12 +2819,12 @@ Input_Options
 	:Configuration:
 		.. csv-table::
 			:class: longtable
-			:file: csv-table/QF_B_Weekend.csv
+			:file: csv-table/QF_B_WE.csv
 			:header-rows: 1
 			:widths: 44 18 38
 
 
-.. option:: QF_C_Weekday
+.. option:: QF_C_WD
 
 	:Description:
 		Use with EmissionsMethod = 2 Example values [W |m^-2| |K^-1| (Cap ha -1 ) -1 ] 0.0102 Järvi et al. (2011) [J11]_  0.0102 Järvi et al. (2014) [Leena2014]_
@@ -2819,12 +2832,12 @@ Input_Options
 	:Configuration:
 		.. csv-table::
 			:class: longtable
-			:file: csv-table/QF_C_Weekday.csv
+			:file: csv-table/QF_C_WD.csv
 			:header-rows: 1
 			:widths: 44 18 38
 
 
-.. option:: QF_C_Weekend
+.. option:: QF_C_WE
 
 	:Description:
 		Example values [W |m^-2| |K^-1| (Cap ha -1 ) -1 ] 0.0102 Järvi et al. (2011) [J11]_  0.0102 Järvi et al. (2014) [Leena2014]_
@@ -2832,7 +2845,7 @@ Input_Options
 	:Configuration:
 		.. csv-table::
 			:class: longtable
-			:file: csv-table/QF_C_Weekend.csv
+			:file: csv-table/QF_C_WE.csv
 			:header-rows: 1
 			:widths: 44 18 38
 

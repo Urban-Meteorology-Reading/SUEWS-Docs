@@ -103,8 +103,8 @@ Notation
    SVF
      Sky view factor
 
-   Theta
-     potential  temperature
+   *θ*
+     potential temperature
 
    tt
      time step of data
