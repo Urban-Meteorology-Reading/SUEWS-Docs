@@ -88,6 +88,7 @@ default_role = 'any'
 
 # some text replacement defintions
 rst_prolog = """
+.. |km^-1| replace:: km\ :sup:`-1`
 .. |mm^-1| replace:: mm\ :sup:`-1`
 .. |m^-1| replace:: m\ :sup:`-1`
 .. |m^-2| replace:: m\ :sup:`-2`

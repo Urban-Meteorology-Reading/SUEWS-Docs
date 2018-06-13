@@ -7,26 +7,30 @@ Version History
 
 .. _new_2018a:
 
-New in SUEWS Version 2018a
---------------------------
+Version 2018a (released June Version 2018)
+----------------------------------------------------
+- New
 
-#. Many under-the-hood improvements
-#. New Manual
-#. Improved the anthropogenic heat and CO2 emmission module.
+  #. Many under-the-hood improvements
+  #. New documentation system
+  #. Improved the anthropogenic heat and CO2 emmission module.
 
-  .. note::
+- Changes
 
-  	These columns are moved from `SUEWS_SiteSelect.txt` to `SUEWS_AnthropogenicHeat.txt`:
-
-     -  `EnergyUseProfWD`
-     -  `EnergyUseProfWE`
-     -  `ActivityProfWD`
-     -  `ActivityProfWE`
+  #. These columns are moved from `SUEWS_SiteSelect.txt` to `SUEWS_AnthropogenicHeat.txt`:
+  `EnergyUseProfWD`, `EnergyUseProfWE`, `ActivityProfWD`, `ActivityProfWE`.
+  #. `BiogenCO2Code` is added to `SUEWS_Veg.txt` for looking up biogenic characteristics in the new `SUEWS_BiogenCO2.txt` file.
+  #. :code:`TraifficRate` and :code:`BuildEnergyUse` in `SUEWS_SiteSelect.txt` are expanded to allow weekday and weekend values:
+  `TrafficRate_WD`, `TrafficRate_WE`, `QF0_BEU_WD`, `QF0_BEU_WE`.
+  #. `AnthropCO2Method` is removed from `RunControl.nml`.
+  #. `AnthropHeatMethod` is renamed to `EmissionsMethod`.
+  #. `AHMin`, `AHSlope` and `TCritic` are expanded to allow weekday and weekend values by adding :code:`_WD` and :code:`_WE` as suffix,
+  of which `AHSlope` and `TCritic` are also expanded to allow cooling and heating settings.
 
 
 .. _new_2017b:
 
-New in SUEWS Version 2017b (released 2 August 2017)
+Version 2017b (released 2 August Version 2017)
 ---------------------------------------------------
 
 :download:`PDF Manual for v2017b </assets/doc/SUEWS_V2017b_Manual.pdf>`
@@ -43,7 +47,7 @@ New in SUEWS Version 2017b (released 2 August 2017)
 #. New capabilities being developed, including two new options for
    calculating storage heat flux (AnOHM, ESTM) and modelling of carbon
    dioxide fluxes. These are currently under development and **should
-   not be used** in v2017b.
+   not be used** in vVersion 2017b.
 #. Known issues
 
    #. BLUEWS parameters need to be checked
@@ -51,7 +55,7 @@ New in SUEWS Version 2017b (released 2 August 2017)
    #. Wind direction is not currently downscaled so non -999 values will
       cause an error.
 
-New in SUEWS Version 2017a (Feb 2017)
+Version 2017a (Feb Version 2017)
 -------------------------------------
 
 #. Changes to input file formats (including RunControl.nml and
@@ -84,9 +88,9 @@ New in SUEWS Version 2017a (Feb 2017)
 #. New capabilities being developed, including two new options for
    calculating storage heat flux (AnOHM, ESTM) and modelling of carbon
    dioxide fluxes. These are currently under development and **should
-   not be used** in v2017a.
+   not be used** in vVersion 2017a.
 
-New in SUEWS Version 2016a (released 21 June 2016)
+Version 2016a (released 21 June Version 2016)
 --------------------------------------------------
 
 :download:`PDF Manual for v2016a </assets/doc/SUEWS_V2016a_Manual.pdf>`
@@ -119,7 +123,7 @@ New in SUEWS Version 2016a (released 21 June 2016)
 #. CBL model included.
 #. SUEWS has been incorporated into `UMEP <http://umep-docs.readthedocs.io/>`_
 
-New in SUEWS Version 2014b (released 8 October 2014)
+Version 2014b (released 8 October Version 2014)
 ----------------------------------------------------
 
 :download:`PDF Manual for v2014b </assets/doc/SUEWS_V2014b_Manual.pdf>`
@@ -148,19 +152,19 @@ Other issues:
 #. Manual: notation table updated
 #. Possibility to add snow accumulation and melt: new paper
 
-Järvi L, Grimmond CSB, Taka M, Nordbo A, Setälä H, and Strachan IB 2014:
+Järvi L, Grimmond CSB, Taka M, Nordbo A, Setälä H, and Strachan IB Version 2014:
 Development of the Surface Urban Energy and Water balance Scheme (SUEWS)
 for cold climate cities, Geosci. Model Dev. 7, 1691-1711,
-doi:10.5194/gmd-7-1691-2014.
+doi:10.5194/gmd-7-1691-Version 2014.
 
-New in SUEWS Version 2014a.1 (released 26 February 2014)
+Version 2014a.1 (released 26 February Version 2014)
 --------------------------------------------------------
 
-#. Please see the large number of changes made in the 2014a release.
+#. Please see the large number of changes made in the Version 2014a release.
 #. This is a minor change to address installing the software.
 #. Minor updates to the manual
 
-New in SUEWS Version 2014a (released 21 February 2014)
+Version 2014a (released 21 February Version 2014)
 ------------------------------------------------------
 
 #. Bug fix: External irrigation is calculated as combined from automatic
@@ -174,7 +178,7 @@ New in SUEWS Version 2014a (released 21 February 2014)
    treated as separate surfaces, but the amount of irrigation is evenly
    distributed to the whole surface type in the modelled area. The
    amount of water is calculated using same equation as for grass
-   surface (equation 5 in Järvi et al. 2011), and the fraction of
+   surface (equation 5 in Järvi et al. Version 2011), and the fraction of
    irrigated trees/shrubs (relative to the area of tree/shrubs surface)
    is set in the gis file (See Table 4.11: SSss_YYYY.gis)
 #. In the current version of the model, the user is able to adjust the
@@ -199,7 +203,7 @@ New in SUEWS Version 2014a (released 21 February 2014)
 #. Bug fix: with very small amount of vegetation in an area – impacted
    Phenology for LUMPS
 
-New in SUEWS Version 2013a
+Version 2013a
 --------------------------
 
 #. Radiation selection bug fixed
@@ -210,7 +214,7 @@ New in SUEWS Version 2013a
 #. min file – now includes a decimal time column – see Section 5.4 –
    Table 5.3
 
-New in SUEWS Version 2012b
+Version 2012b
 --------------------------
 
 #. Error message generated if all the data are not available for the
@@ -232,7 +236,7 @@ defaultRH=50 defaultT=10 defaultU=3 RunControl.nml
 -  Values you had were likely different from these example value shown
    here
 
-New in SUEWS Version 2012a
+Version 2012a
 --------------------------
 
 #. Improved error messages when an error is encountered. Error message
@@ -265,7 +269,7 @@ New in SUEWS Version 2012a
    -  Clarification of surface types has been made. See GIS and OHM
       related files
 
-New in SUEWS Version2011b
+Version 2011b
 -------------------------
 
 #. Storage heat flux (ΔQs) and anthropogenic heat flux (QF) can be set
@@ -295,4 +299,4 @@ SUEWS
 
    -  AHDIUPRF – diurnal profile used if EmissionsMethod = 1
 
-V2012a this became obsolete OHM file (SSss_YYYY.ohm)
+VVersion 2012a this became obsolete OHM file (SSss_YYYY.ohm)
