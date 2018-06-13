@@ -23,7 +23,7 @@ Profiles are specified for the following
 -  Snow removal (weekday and weekend)
 -  Human activity (weekday and weekend).
 
-.. note:: Human activity is not used in v2017a
+.. note:: Human activity is not used in v2018a
 
 .. csv-table::
   :file: csv-table/SUEWS_Profiles.csv
