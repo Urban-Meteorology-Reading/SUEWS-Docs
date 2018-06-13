@@ -1,3 +1,4 @@
+.. _typical_values:
 Typical Values
 ##################
 

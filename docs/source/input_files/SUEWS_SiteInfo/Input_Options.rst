@@ -287,7 +287,7 @@ Input_Options
 			:widths: 44 18 38
 
 
-.. option:: Code_Bsoil
+.. option:: Code_BSoil
 
 	:Description:
 		Code for BSoil surface characteristics Provides the link to column 1 of SUEWS_NonVeg.txt, which contains the attributes describing bare soil in this grid for this year. Value of integer is arbitrary but must match code specified in column 1 of SUEWS_NonVeg.txt.
@@ -295,7 +295,7 @@ Input_Options
 	:Configuration:
 		.. csv-table::
 			:class: longtable
-			:file: csv-table/Code_Bsoil.csv
+			:file: csv-table/Code_BSoil.csv
 			:header-rows: 1
 			:widths: 44 18 38
 

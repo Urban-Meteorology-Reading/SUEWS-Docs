@@ -8,7 +8,7 @@ surface cover types (Paved, Bldgs, BSoil) by linking codes in column 1
 of SUEWS_NonVeg.txt to the codes specified in SUEWS_SiteSelect.txt
 (Code_Paved, Code_Bldgs, Code_BSoil). Each row should correspond to a
 particular surface type. For suggestions on how to complete this table,
-see: `Typical Values <http://urban-climate.net/umep/TypicalValues#Typical_Values>`__.
+see: `Typical Values <typical_values>`.
 
 .. literalinclude:: sample-table/SUEWS_NonVeg.txt
 

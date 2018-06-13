@@ -17,15 +17,13 @@ and surface characteristics.
    Typical Values]).
 -  Coefficients can be changed depending on:
 
-:# surface wetness state (wet/dry) based on the calculated surface
-wetness state and soil moisture.
-
-:# season (summer/winter) based on a 5-day running mean air temperature.
+    #. surface wetness state (wet/dry) based on the calculated surface wetness state and soil moisture.
+    #. season (summer/winter) based on a 5-day running mean air temperature.
 
 -  To use the same coefficients irrespective of wet/dry and
    summer/winter conditions, use the same code for all four OHM columns
-   (OHMCode_SummerWet, OHMCode_SummerDry, OHMCode_WinterWet and
-   OHMCode_WinterDry).
+   (`OHMCode_SummerWet`, `OHMCode_SummerDry`, `OHMCode_WinterWet` and
+   `OHMCode_WinterDry`).
 
 Note, **AnOHM** does not use the coefficients specified in
 SUEWS_OHMCoefficients.txt but instead requires three parameters to be
@@ -34,10 +32,10 @@ conductivity and bulk transfer coefficient. These are specified in
 `SUEWS_NonVeg.txt`,
 `SUEWS_Veg.txt`,
 `SUEWS_Water.txt` and
-`SUEWS_Snow.txt`. No additional files are required
-for AnOHM.
+`SUEWS_Snow.txt`. No additional files are required for AnOHM.
 
-**Note AnOHM is under development in v2017a and should not be used!**
+.. note::
+    AnOHM is under development in v2018a and should NOT be used!
 
 
 .. csv-table::
