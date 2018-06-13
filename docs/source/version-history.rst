@@ -15,7 +15,7 @@ Version 2018a (released June Version 2018)
   #. New documentation system
   #. Improved the anthropogenic heat and CO2 emmission module.
 
-- Changes
+- Changes 
 
   #. These columns are moved from `SUEWS_SiteSelect.txt` to `SUEWS_AnthropogenicHeat.txt`:
   `EnergyUseProfWD`, `EnergyUseProfWE`, `ActivityProfWD`, `ActivityProfWE`.
