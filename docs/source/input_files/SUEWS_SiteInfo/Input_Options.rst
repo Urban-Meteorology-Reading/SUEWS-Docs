@@ -43,7 +43,7 @@ Input_Options
 .. option:: ActivityProfWD
 
 	:Description:
-		Code for human activity profile (weekdays) Provides the link to column 1 of SUEWS_Profiles.txt. Look the codes Value of integer is arbitrary but must match code specified in column 1 of SUEWS_Profiles.txt. Used for CO2 flux calculation - not used in v2017a
+		Code for human activity profile (weekdays) Provides the link to column 1 of SUEWS_Profiles.txt. Look the codes Value of integer is arbitrary but must match code specified in column 1 of SUEWS_Profiles.txt. Used for CO2 flux calculation - not used in v2018a
 
 	:Configuration:
 		.. csv-table::
@@ -56,7 +56,7 @@ Input_Options
 .. option:: ActivityProfWE
 
 	:Description:
-		Code for human activity profile (weekends) Provides the link to column 1 of SUEWS_Profiles.txt. Look the codes Value of integer is arbitrary but must match code specified in column 1 of SUEWS_Profiles.txt. Used for CO2 flux calculation - not used in v2017a
+		Code for human activity profile (weekends) Provides the link to column 1 of SUEWS_Profiles.txt. Look the codes Value of integer is arbitrary but must match code specified in column 1 of SUEWS_Profiles.txt. Used for CO2 flux calculation - not used in v2018a
 
 	:Configuration:
 		.. csv-table::
