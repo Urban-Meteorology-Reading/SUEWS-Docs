@@ -238,7 +238,7 @@ Input_Options
 .. option:: QF0_BEU_WD
 
 	:Description:
-		Building energy use [W |m^-2|] Can be used for CO2 flux calculation.
+		Building energy use [W |m^-2|] Can be used for CO2 flux calculation - not used in v2018a.
 
 	:Configuration:
 		.. csv-table::
@@ -251,7 +251,7 @@ Input_Options
 .. option:: QF0_BEU_WE
 
 	:Description:
-		Building energy use [W |m^-2|] Can be used for CO2 flux calculation.
+		Building energy use [W |m^-2|] Can be used for CO2 flux calculation - not used in v2018a.
 
 	:Configuration:
 		.. csv-table::
@@ -728,6 +728,17 @@ Input_Options
 			:header-rows: 1
 			:widths: 44 18 38
 
+.. option:: EF_umolCO2perJ
+
+	:Description:
+		Emission factor for fuels used for building heating. Not used in V2018a.
+
+	:Configuration:
+		.. csv-table::
+			:class: longtable
+			:file: csv-table/EF_umolCO2perJ.csv
+			:header-rows: 1
+			:widths: 44 18 38
 
 .. option:: Emissivity
 
@@ -754,11 +765,23 @@ Input_Options
 			:header-rows: 1
 			:widths: 44 18 38
 
+.. option:: EnEF_v_Jkm
 
+	:Description:
+		Emission factor for heat. Not used in V2018a 
+
+	:Configuration:
+		.. csv-table::
+			:class: longtable
+			:file: csv-table/EnEF_v_Jkm.csv
+			:header-rows: 1
+			:widths: 44 18 38
+			
+			
 .. option:: EnergyUseProfWD
 
 	:Description:
-		Code for energy use profile (weekdays) Provides the link to column 1 of SUEWS_Profiles.txt. Look the codes Value of integer is arbitrary but must match code specified in column 1 of SUEWS_Profiles.txt.
+		Code for energy use profile (weekdays) Provides the link to column 1 of SUEWS_Profiles.txt. Look the codes Value of integer is arbitrary but must match code specified in column 1 of SUEWS_Profiles.txt. Not used in v2018a.
 
 	:Configuration:
 		.. csv-table::
@@ -771,7 +794,7 @@ Input_Options
 .. option:: EnergyUseProfWE
 
 	:Description:
-		Code for energy use profile (weekends) Provides the link to column 1 of SUEWS_Profiles.txt. Value of integer is arbitrary but must match code specified in column 1 of SUEWS_Profiles.txt.
+		Code for energy use profile (weekends) Provides the link to column 1 of SUEWS_Profiles.txt. Value of integer is arbitrary but must match code specified in column 1 of SUEWS_Profiles.txt. Not used in v2018a.
 
 	:Configuration:
 		.. csv-table::
@@ -845,7 +868,17 @@ Input_Options
 			:header-rows: 1
 			:widths: 44 18 38
 
+.. option:: FcEF_v_Jkm
 
+	:Description:
+		Traffic emission factor for CO2. Not used in V2018a. 
+
+	:Configuration:
+		.. csv-table::
+			:class: longtable
+			:file: csv-table/FcEF_v_Jkm.csv
+			:header-rows: 1
+			:widths: 44 18 38
 .. option:: fcld
 
 	:Description:
@@ -1170,6 +1203,31 @@ Input_Options
 			:header-rows: 1
 			:widths: 44 18 38
 
+
+.. option:: FrFossilFuel_Heat
+
+	:Description:
+		Fraction of fossil fuels used for building heating. Not used in V2018a
+
+	:Configuration:
+		.. csv-table::
+			:class: longtable
+			:file: csv-table/FrFossilFuel_Heat.csv
+			:header-rows: 1
+			:widths: 44 18 38
+
+
+.. option:: FrFossilFuel_NonHeat
+
+	:Description:
+		Fraction of fossil fuels used for building energy use. Not used in V2018a
+
+	:Configuration:
+		.. csv-table::
+			:class: longtable
+			:file: csv-table/FrFossilFuel_NonHeat.csv
+			:header-rows: 1
+			:widths: 44 18 38
 
 .. option:: G1
 
@@ -2197,6 +2255,29 @@ Input_Options
 			:header-rows: 1
 			:widths: 44 18 38
 
+.. option:: MaxQFMetab
+
+	:Description:
+		Maximum value for human heat emission. Not used in V2018a.
+
+	:Configuration:
+		.. csv-table::
+			:class: longtable
+			:file: csv-table/MaxQFMetab.csv
+			:header-rows: 1
+			:widths: 44 18 38
+.. option:: MinQFMetab
+
+	:Description:
+		Minimum value for human heat emission. Not used in V2018a.
+
+	:Configuration:
+		.. csv-table::
+			:class: longtable
+			:file: csv-table/MinQFMetab.csv
+			:header-rows: 1
+			:widths: 44 18 38
+			
 
 .. option:: MaxConductance
 
@@ -2209,8 +2290,8 @@ Input_Options
 			:file: csv-table/MaxConductance.csv
 			:header-rows: 1
 			:widths: 44 18 38
-
-
+			
+			
 .. option:: NARP_Trans
 
 	:Description:
@@ -2391,6 +2472,32 @@ Input_Options
 			:file: csv-table/PopDensNight.csv
 			:header-rows: 1
 			:widths: 44 18 38
+			
+
+.. option:: PopProfWD
+
+	:Description:
+		Code for population density profile (weekdays) Provides the link to column 1 of SUEWS_Profiles.txt. Look the codes Value of integer is arbitrary but must match code specified in column 1 of SUEWS_Profiles.txt. Not used in v2018a.
+
+	:Configuration:
+		.. csv-table::
+			:class: longtable
+			:file: csv-table/PopProfWD.csv
+			:header-rows: 1
+			:widths: 44 18 38
+			
+.. option:: PopProfWE
+
+	:Description:
+		Code for population density profile (weekends) Provides the link to column 1 of SUEWS_Profiles.txt. Look the codes Value of integer is arbitrary but must match code specified in column 1 of SUEWS_Profiles.txt. Not used in v2018a.
+
+	:Configuration:
+		.. csv-table::
+			:class: longtable
+			:file: csv-table/PopProfWE.csv
+			:header-rows: 1
+			:widths: 44 18 38
+			
 
 
 .. option:: PorosityMax
@@ -3418,11 +3525,48 @@ Input_Options
 			:header-rows: 1
 			:widths: 44 18 38
 
+.. option:: TraffProfWD 
 
+	:Description:
+		Code for traffic activity profile (weekdays) Provides the link to column 1 of SUEWS_Profiles.txt. Look the codes Value of integer is arbitrary but must match code specified in column 1 of SUEWS_Profiles.txt. Not used in v2018a.
+
+	:Configuration:
+		.. csv-table::
+			:class: longtable
+			:file: csv-table/TraffProfWD.csv
+			:header-rows: 1
+			:widths: 44 18 38
+			
+.. option:: TraffProfWE 
+
+	:Description:
+		Code for traffic activity profile (weekends) Provides the link to column 1 of SUEWS_Profiles.txt. Look the codes Value of integer is arbitrary but must match code specified in column 1 of SUEWS_Profiles.txt. Not used in v2018a.
+
+	:Configuration:
+		.. csv-table::
+			:class: longtable
+			:file: csv-table/TraffProfWE.csv
+			:header-rows: 1
+			:widths: 44 18 38
+
+.. option:: TrafficUnits
+
+	:Description:
+		Units for the traffic rate for the study area. Not used in v2018a.
+
+	:Configuration:
+		.. csv-table::
+			:class: longtable
+			:file: csv-table/TrafficUnits.csv
+			:header-rows: 1
+			:widths: 44 18 38
+			
+			
+			
 .. option:: TrafficRate_WD
 
 	:Description:
-		Weekday traffic rate [veh km |m^-2| s-1] Can be used for CO2 flux calculation.
+		Weekday traffic rate [veh km |m^-2| s-1] Can be used for CO2 flux calculation - not used in v2018a.
 
 	:Configuration:
 		.. csv-table::
@@ -3435,7 +3579,7 @@ Input_Options
 .. option:: TrafficRate_WE
 
 	:Description:
-		Weekend traffic rate [veh km |m^-2| s-1] Can be used for CO2 flux calculation.
+		Weekend traffic rate [veh km |m^-2| s-1] Can be used for CO2 flux calculation - not used in v2018a.
 
 	:Configuration:
 		.. csv-table::
