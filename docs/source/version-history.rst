@@ -12,6 +12,7 @@ New in SUEWS Version 2018a
 
 #. Many under-the-hood improvements
 #. New Manual
+#. Improved the anthropogenic heat and CO2 emmission module.
 
 .. _new_2017b:
 
@@ -282,6 +283,6 @@ SUEWS
    input, the missing data is replaced with the default values.
 #. Added to SAHP input file
 
-   -  AHDIUPRF – diurnal profile used if AnthropHeatChoice = 1
+   -  AHDIUPRF – diurnal profile used if EmissionsMethod = 1
 
 V2012a this became obsolete OHM file (SSss_YYYY.ohm)

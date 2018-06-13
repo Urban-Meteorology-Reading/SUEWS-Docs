@@ -22,9 +22,9 @@ netCDF related options
 		Optional
 
 	:Description:
-		Number of rows (e.g., 36) in the output layout (only applicable when ncMode=1).
+		Number of rows in the output layout (only applicable when ncMode=1).
 	:Configuration:
-		to fill
+		An integer (e.g., 36) that satisfies `nRow` × `nCol` = the total number of grids.
 
 
 .. option:: nCol
@@ -33,6 +33,6 @@ netCDF related options
 		Optional
 
 	:Description:
-		Number of columns (e.g., 47) in the output layout (only applicable when ncMode=1).
+		Number of columns in the output layout (only applicable when ncMode=1).
 	:Configuration:
-		to fill
+		An integer (e.g., 47.) that satisfies `nRow` × `nCol` = the total number of grids

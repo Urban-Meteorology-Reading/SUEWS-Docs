@@ -69,7 +69,7 @@ Input_Options
 .. option:: AHMin
 
 	:Description:
-		Use with AnthropHeatMethod = 1
+		Use with EmissionsMethod = 1
 
 	:Configuration:
 		.. csv-table::
@@ -82,7 +82,7 @@ Input_Options
 .. option:: AHSlope
 
 	:Description:
-		Use with AnthropHeatMethod = 1
+		Use with EmissionsMethod = 1
 
 	:Configuration:
 		.. csv-table::
@@ -95,7 +95,7 @@ Input_Options
 .. option:: AlbedoMax
 
 	:Description:
-		Effective surface albedo (middle of the day value) for summertime. View factors should be taken into account. Effective surface albedo (middle of the day value) for summertime, full leaf-on. View factors should be taken into account. Example values [-] 0.1 EveTr Oke (1987) [35]  0.18 DecTr Oke (1987) [35]  0.21 Grass Oke (1987) [35]  Effective albedo of the water surface. View factors should be taken into account. Example values [-] 0.1 Water Oke (1987) [35]  Example values [-] 0.85 Järvi et al. (2014) [15]
+		Effective surface albedo (middle of the day value) for summertime. View factors should be taken into account. Effective surface albedo (middle of the day value) for summertime, full leaf-on. View factors should be taken into account. Example values [-] 0.1 EveTr Oke (1987) [35]  0.18 DecTr Oke (1987) [35]  0.21 Grass Oke (1987) [35]  Effective albedo of the water surface. View factors should be taken into account. Example values [-] 0.1 Water Oke (1987) [35]  Example values [-] 0.85 Järvi et al. (2014) [Leena2014]_
 
 	:Configuration:
 		.. csv-table::
@@ -108,7 +108,7 @@ Input_Options
 .. option:: AlbedoMin
 
 	:Description:
-		Effective surface albedo (middle of the day value) for wintertime (not including snow). View factors should be taken into account. Not currently used for non-vegetated surfaces – set the same as AlbedoMax. Effective surface albedo (middle of the day value) for wintertime (not including snow), leaf-off. View factors should be taken into account. Example values [-] 0.1 EveTr Oke (1987) [35]  0.18 DecTr Oke (1987) [35]  0.21 Grass Oke (1987) [35]  View factors should be taken into account. Not currently used for water surface - set same as AlbedoMax. Example values [-] 0.18 Järvi et al. (2014) [15]
+		Effective surface albedo (middle of the day value) for wintertime (not including snow). View factors should be taken into account. Not currently used for non-vegetated surfaces – set the same as AlbedoMax. Effective surface albedo (middle of the day value) for wintertime (not including snow), leaf-off. View factors should be taken into account. Example values [-] 0.1 EveTr Oke (1987) [35]  0.18 DecTr Oke (1987) [35]  0.21 Grass Oke (1987) [35]  View factors should be taken into account. Not currently used for water surface - set same as AlbedoMax. Example values [-] 0.18 Järvi et al. (2014) [Leena2014]_
 
 	:Configuration:
 		.. csv-table::
@@ -173,7 +173,7 @@ Input_Options
 .. option:: AnthropogenicCode
 
 	:Description:
-		Code for modelling anthropogenic heat flux Provides the link to column 1 of SUEWS_AnthropogenicHeat.txt, which contains the model coefficients for estimation of the anthropogenic heat flux (used if AnthropHeatChoice = 1, 2 in RunControl.nml ). Value of integer is arbitrary but must match code specified in column 1 of SUEWS_AnthropogenicHeat.txt.
+		Code for modelling anthropogenic heat flux Provides the link to column 1 of SUEWS_AnthropogenicHeat.txt, which contains the model coefficients for estimation of the anthropogenic heat flux (used if EmissionsMethod = 1, 2 in RunControl.nml ). Value of integer is arbitrary but must match code specified in column 1 of SUEWS_AnthropogenicHeat.txt.
 
 	:Configuration:
 		.. csv-table::
@@ -199,7 +199,7 @@ Input_Options
 .. option:: BaseT
 
 	:Description:
-		See section 2.2 Järvi et al. (2011); Appendix A Järvi et al. (2014). Example values [°C] 5 EveTr Järvi et al. (2011) [1]  5 DecTr Järvi et al. (2011) [1]  5 Grass Järvi et al. (2011) [1]
+		See section 2.2 Järvi et al. (2011); Appendix A Järvi et al. (2014). Example values [°C] 5 EveTr Järvi et al. (2011) [J11]_  5 DecTr Järvi et al. (2011) [J11]_  5 Grass Järvi et al. (2011) [J11]_
 
 	:Configuration:
 		.. csv-table::
@@ -212,7 +212,7 @@ Input_Options
 .. option:: BaseTe
 
 	:Description:
-		See section 2.2 Järvi et al. (2011) [1] ; Appendix A Järvi et al. (2014) [15] . Example values [°C] 10 EveTr Järvi et al. (2011) [1]  10 DecTr Järvi et al. (2011) [1]  10 Grass Järvi et al. (2011) [1]
+		See section 2.2 Järvi et al. (2011) [J11]_ ; Appendix A Järvi et al. (2014) [Leena2014]_ . Example values [°C] 10 EveTr Järvi et al. (2011) [J11]_  10 DecTr Järvi et al. (2011) [J11]_  10 Grass Järvi et al. (2011) [J11]_
 
 	:Configuration:
 		.. csv-table::
@@ -732,7 +732,7 @@ Input_Options
 .. option:: Emissivity
 
 	:Description:
-		Effective surface emissivity. View factors should be taken into account. Effective surface emissivity. View factors should be taken into account. Example values [-] 0.98 EveTr Oke (1987) [35]  0.98 DecTr Oke (1987) [35]  0.93 Grass Oke (1987) [35]  Effective surface emissivity. View factors should be taken into account Example values [-] 0.95 Water Oke (1987) [35]  Effective surface emissivity. View factors should be taken into account Example values [-] 0.99 Järvi et al. (2014) [15]
+		Effective surface emissivity. View factors should be taken into account. Effective surface emissivity. View factors should be taken into account. Example values [-] 0.98 EveTr Oke (1987) [35]  0.98 DecTr Oke (1987) [35]  0.93 Grass Oke (1987) [35]  Effective surface emissivity. View factors should be taken into account Example values [-] 0.95 Water Oke (1987) [35]  Effective surface emissivity. View factors should be taken into account Example values [-] 0.99 Järvi et al. (2014) [Leena2014]_
 
 	:Configuration:
 		.. csv-table::
@@ -1278,7 +1278,7 @@ Input_Options
 .. option:: GDDFull
 
 	:Description:
-		This should be checked carefully for your study area using modelled LAI from the DailyState output file compared to known behaviour in the study area. See section 2.2 Järvi et al. (2011) [1] ; Appendix A Järvi et al. (2014) [15] for more details. Example values [°C] 300 EveTr Järvi et al. (2011) [1]  300 DecTr Järvi et al. (2011) [1]  300 Grass Järvi et al. (2011) [1]
+		This should be checked carefully for your study area using modelled LAI from the DailyState output file compared to known behaviour in the study area. See section 2.2 Järvi et al. (2011) [J11]_ ; Appendix A Järvi et al. (2014) [Leena2014]_ for more details. Example values [°C] 300 EveTr Järvi et al. (2011) [J11]_  300 DecTr Järvi et al. (2011) [J11]_  300 Grass Järvi et al. (2011) [J11]_
 
 	:Configuration:
 		.. csv-table::
@@ -1408,7 +1408,7 @@ Input_Options
 .. option:: gsModel
 
 	:Description:
-		1 = Järvi et al. (2011) [1] 2 = Ward et al. (2016) [2] Recommended.
+		Formulation choice for conductance calculation.
 
 	:Configuration:
 		.. csv-table::
@@ -1460,7 +1460,7 @@ Input_Options
 .. option:: id
 
 	:Description:
-		Day [DOY] Not used: set to 1 in this version.  Day of year [DOY] Day of year [DOY] Day of year [DOY]
+		Day of year [DOY]
 
 	:Configuration:
 		.. csv-table::
@@ -2032,7 +2032,7 @@ Input_Options
 .. option:: LAIEq
 
 	:Description:
-		Options 0 Järvi et al. (2011) [1]  1 Järvi et al. (2014) [15]  Coefficients are specified in the following four columns. N.B. North and South hemispheres are treated slightly differently.
+		Options 0 Järvi et al. (2011) [J11]_  1 Järvi et al. (2014) [Leena2014]_  Coefficients are specified in the following four columns. N.B. North and South hemispheres are treated slightly differently.
 
 	:Configuration:
 		.. csv-table::
@@ -2058,7 +2058,7 @@ Input_Options
 .. option:: LAIMin
 
 	:Description:
-		leaf-off wintertime value Example values [|m^-2| |m^-2|] 4. EveTr Järvi et al. (2011) [1]  1. DecTr Järvi et al. (2011) [1]  1.6 Grass Grimmond and Oke (1991) [3] and references therein
+		leaf-off wintertime value Example values [|m^-2| |m^-2|] 4. EveTr Järvi et al. (2011) [J11]_  1. DecTr Järvi et al. (2011) [J11]_  1.6 Grass Grimmond and Oke (1991) [3] and references therein
 
 	:Configuration:
 		.. csv-table::
@@ -2097,7 +2097,7 @@ Input_Options
 .. option:: LeafGrowthPower1
 
 	:Description:
-		Example values LAIEq 0.03 Järvi et al. (2011) [1] 0 0.04 Järvi et al. (2014) [15] 1
+		Example values LAIEq 0.03 Järvi et al. (2011) [J11]_ 0 0.04 Järvi et al. (2014) [Leena2014]_ 1
 
 	:Configuration:
 		.. csv-table::
@@ -2110,7 +2110,7 @@ Input_Options
 .. option:: LeafGrowthPower2
 
 	:Description:
-		Example values [|K^-1|] LAIEq 0.0005 Järvi et al. (2011) [1] 0 0.001 Järvi et al. (2014) [15] 1
+		Example values [|K^-1|] LAIEq 0.0005 Järvi et al. (2011) [J11]_ 0 0.001 Järvi et al. (2014) [Leena2014]_ 1
 
 	:Configuration:
 		.. csv-table::
@@ -2123,7 +2123,7 @@ Input_Options
 .. option:: LeafOffPower1
 
 	:Description:
-		Example values LAIEq 0.03 Järvi et al. (2011) [1] 0 -1.5 Järvi et al. (2014) [15] 1
+		Example values LAIEq 0.03 Järvi et al. (2011) [J11]_ 0 -1.5 Järvi et al. (2014) [Leena2014]_ 1
 
 	:Configuration:
 		.. csv-table::
@@ -2136,7 +2136,7 @@ Input_Options
 .. option:: LeafOffPower2
 
 	:Description:
-		Example values [|K^-1|] LAIEq 0.0005 Järvi et al. (2011) [1] 0 0.0015 Järvi et al. (2014) [15] 1
+		Example values [|K^-1|] LAIEq 0.0005 Järvi et al. (2011) [J11]_ 0 0.0015 Järvi et al. (2014) [Leena2014]_ 1
 
 	:Configuration:
 		.. csv-table::
@@ -2201,7 +2201,7 @@ Input_Options
 .. option:: MaxConductance
 
 	:Description:
-		Example values [mm |s^-1|] 7.4 EveTr Järvi et al. (2011) [1]  11.7 DecTr Järvi et al. (2011) [1]  33.1 Grass (unirrigated) Järvi et al. (2011) [1]  40. Grass (irrigated) Järvi et al. (2011) [1]
+		Example values [mm |s^-1|] 7.4 EveTr Järvi et al. (2011) [J11]_  11.7 DecTr Järvi et al. (2011) [J11]_  33.1 Grass (unirrigated) Järvi et al. (2011) [J11]_  40. Grass (irrigated) Järvi et al. (2011) [J11]_
 
 	:Configuration:
 		.. csv-table::
@@ -2370,7 +2370,7 @@ Input_Options
 .. option:: PopDensDay
 
 	:Description:
-		Daytime population density (i.e. workers, tourists) [people ha -1 ] Population density is required if AnthropHeatMethod = 2 in RunControl.nml . The model will use the average of daytime and night-time population densities, unless only one is provided. If daytime population density is unknown, set to -999.
+		Daytime population density (i.e. workers, tourists) [people ha -1 ] Population density is required if EmissionsMethod = 2 in RunControl.nml . The model will use the average of daytime and night-time population densities, unless only one is provided. If daytime population density is unknown, set to -999.
 
 	:Configuration:
 		.. csv-table::
@@ -2383,7 +2383,7 @@ Input_Options
 .. option:: PopDensNight
 
 	:Description:
-		Night-time population density (i.e. residents) [people ha -1 ] Population density is required if AnthropHeatMethod = 2 in RunControl.nml . The model will use the average of daytime and night-time population densities, unless only one is provided. If night-time population density is unknown, set to -999.
+		Night-time population density (i.e. residents) [people ha -1 ] Population density is required if EmissionsMethod = 2 in RunControl.nml . The model will use the average of daytime and night-time population densities, unless only one is provided. If night-time population density is unknown, set to -999.
 
 	:Configuration:
 		.. csv-table::
@@ -2487,7 +2487,7 @@ Input_Options
 .. option:: QF_A_Weekday
 
 	:Description:
-		Use with AnthropHeatChoice = 2 Example values [W |m^-2| (Cap ha-1) -1 ] 0.3081 Järvi et al. (2011) [1]  0.1 Järvi et al. (2014) [15]
+		Use with EmissionsMethod = 2 Example values [W |m^-2| (Cap ha-1) -1 ] 0.3081 Järvi et al. (2011) [J11]_  0.1 Järvi et al. (2014) [Leena2014]_
 
 	:Configuration:
 		.. csv-table::
@@ -2500,7 +2500,7 @@ Input_Options
 .. option:: QF_A_Weekend
 
 	:Description:
-		Use with AnthropHeatMethod = 2 Example values [W |m^-2| (Cap ha -1 ) -1 ] 0.3081 Järvi et al. (2011) [1]  0.1 Järvi et al. (2014) [15]
+		Use with EmissionsMethod = 2 Example values [W |m^-2| (Cap ha -1 ) -1 ] 0.3081 Järvi et al. (2011) [J11]_  0.1 Järvi et al. (2014) [Leena2014]_
 
 	:Configuration:
 		.. csv-table::
@@ -2513,7 +2513,7 @@ Input_Options
 .. option:: QF_B_Weekday
 
 	:Description:
-		Use with AnthropHeatMethod = 2 Example values [W |m^-2| |K^-1| (Cap ha -1 ) -1 ] 0.0099 Järvi et al. (2011) [1]  0.0099 Järvi et al. (2014) [15]
+		Use with EmissionsMethod = 2 Example values [W |m^-2| |K^-1| (Cap ha -1 ) -1 ] 0.0099 Järvi et al. (2011) [J11]_  0.0099 Järvi et al. (2014) [Leena2014]_
 
 	:Configuration:
 		.. csv-table::
@@ -2526,7 +2526,7 @@ Input_Options
 .. option:: QF_B_Weekend
 
 	:Description:
-		Use with AnthropHeatMethod = 2 Example values [W |m^-2| |K^-1| (Cap ha -1 ) -1 ] 0.0099 Järvi et al. (2011) [1]  0.0099 Järvi et al. (2014) [15]
+		Use with EmissionsMethod = 2 Example values [W |m^-2| |K^-1| (Cap ha -1 ) -1 ] 0.0099 Järvi et al. (2011) [J11]_  0.0099 Järvi et al. (2014) [Leena2014]_
 
 	:Configuration:
 		.. csv-table::
@@ -2539,7 +2539,7 @@ Input_Options
 .. option:: QF_C_Weekday
 
 	:Description:
-		Use with AnthropHeatMethod = 2 Example values [W |m^-2| |K^-1| (Cap ha -1 ) -1 ] 0.0102 Järvi et al. (2011) [1]  0.0102 Järvi et al. (2014) [15]
+		Use with EmissionsMethod = 2 Example values [W |m^-2| |K^-1| (Cap ha -1 ) -1 ] 0.0102 Järvi et al. (2011) [J11]_  0.0102 Järvi et al. (2014) [Leena2014]_
 
 	:Configuration:
 		.. csv-table::
@@ -2552,7 +2552,7 @@ Input_Options
 .. option:: QF_C_Weekend
 
 	:Description:
-		Example values [W |m^-2| |K^-1| (Cap ha -1 ) -1 ] 0.0102 Järvi et al. (2011) [1]  0.0102 Järvi et al. (2014) [15]
+		Example values [W |m^-2| |K^-1| (Cap ha -1 ) -1 ] 0.0102 Järvi et al. (2011) [J11]_  0.0102 Järvi et al. (2014) [Leena2014]_
 
 	:Configuration:
 		.. csv-table::
@@ -2721,7 +2721,7 @@ Input_Options
 .. option:: SDDFull
 
 	:Description:
-		This should be checked carefully for your study area using modelled LAI from the DailyState output file compared to known behaviour in the study area. See section 2.2 Järvi et al. (2011) [1] ; Appendix A Järvi et al. (2014) [15] for more details. Example values [°C] -450 EveTr Järvi et al. (2011) [1]  -450 DecTr Järvi et al. (2011) [1]  -450 Grass Järvi et al. (2011) [1]
+		This should be checked carefully for your study area using modelled LAI from the DailyState output file compared to known behaviour in the study area. See section 2.2 Järvi et al. (2011) [J11]_ ; Appendix A Järvi et al. (2014) [Leena2014]_ for more details. Example values [°C] -450 EveTr Järvi et al. (2011) [J11]_  -450 DecTr Järvi et al. (2011) [J11]_  -450 Grass Järvi et al. (2011) [J11]_
 
 	:Configuration:
 		.. csv-table::
@@ -2812,7 +2812,7 @@ Input_Options
 .. option:: SnowLimPatch
 
 	:Description:
-		Not needed if SnowUse = 0 in RunControl.nml . Example values [mm] 190 Paved Järvi et al. (2014) [15]  190 Bldgs Järvi et al. (2014) [15]  190 BSoil Järvi et al. (2014) [15]  Limit of snow water equivalent when the surface surface is fully covered with snow. Not needed if SnowUse = 0 in RunControl.nml . Example values [mm] 190 EveTr Järvi et al. (2014) [15]  190 DecTr Järvi et al. (2014) [15]  190 Grass Järvi et al. (2014) [15]
+		Not needed if SnowUse = 0 in RunControl.nml . Example values [mm] 190 Paved Järvi et al. (2014) [Leena2014]_  190 Bldgs Järvi et al. (2014) [Leena2014]_  190 BSoil Järvi et al. (2014) [Leena2014]_  Limit of snow water equivalent when the surface surface is fully covered with snow. Not needed if SnowUse = 0 in RunControl.nml . Example values [mm] 190 EveTr Järvi et al. (2014) [Leena2014]_  190 DecTr Järvi et al. (2014) [Leena2014]_  190 Grass Järvi et al. (2014) [Leena2014]_
 
 	:Configuration:
 		.. csv-table::
@@ -2825,7 +2825,7 @@ Input_Options
 .. option:: SnowLimRemove
 
 	:Description:
-		Not needed if SnowUse = 0 in RunControl.nml . Currently not implemented for BSoil surface Example values [mm] 40 Paved Järvi et al. (2014) [15]  100 Bldgs Järvi et al. (2014) [15]
+		Not needed if SnowUse = 0 in RunControl.nml . Currently not implemented for BSoil surface Example values [mm] 40 Paved Järvi et al. (2014) [Leena2014]_  100 Bldgs Järvi et al. (2014) [Leena2014]_
 
 	:Configuration:
 		.. csv-table::
@@ -3201,7 +3201,7 @@ Input_Options
 .. option:: TCritic
 
 	:Description:
-		Use with AnthropHeatMethod = 1
+		Use with EmissionsMethod = 1
 
 	:Configuration:
 		.. csv-table::

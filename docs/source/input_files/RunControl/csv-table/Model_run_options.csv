@@ -23,9 +23,9 @@
   :header-rows: 1
   :widths: auto
 "
-"AnthropHeatMethod","R","Determines method for QF calculation.","
+"EmissionsMethod","R","Determines method for QF calculation.","
 .. csv-table::
-  :file: AnthropHeatMethod.csv 
+  :file: EmissionsMethod.csv 
   :header-rows: 1
   :widths: auto
 "

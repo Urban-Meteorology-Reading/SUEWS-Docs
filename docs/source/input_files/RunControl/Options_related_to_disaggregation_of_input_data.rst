@@ -8,7 +8,8 @@ Options related to disaggregation of input data
 	:Requirement:
 		Optional
 	:Description:
-		Specifies how meteorological variables in the input file (except rain and snow) are disaggregated to the model time step. Wind direction is not currently downscaled so non -999 values will cause an error.
+		Specifies how meteorological variables in the input file (except rain and snow) are disaggregated to the model time step.
+		Wind direction is not currently downscaled so non -999 values will cause an error.
 	:Configuration:
 		.. csv-table::
 			:file: csv-table/DisaggMethod.csv
@@ -48,9 +49,9 @@ Options related to disaggregation of input data
 		Optional
 
 	:Description:
-		Specifies the number of subintervals (of length tt) over which to distribute rainfall in each interval (of length TT). Must be an integer value. Use with RainDisaggMethod = 101.
+		Specifies the number of subintervals (of length tt) over which to distribute rainfall in each interval (of length TT).
 	:Configuration:
-		to fill
+		Must be an integer value. Use with RainDisaggMethod = 101.
 
 
 .. option:: MultRainAmongN
@@ -59,9 +60,10 @@ Options related to disaggregation of input data
 		Optional
 
 	:Description:
-		Specifies the number of subintervals (of length tt) over which to distribute rainfall in each interval (of length TT) for up to 5 intensity bins. Must take integer values. Use with RainDisaggMethod = 102. e.g. MultRainAmongN(1) = 5, MultRainAmongN(2) = 8, MultRainAmongN(3) = 12
+		Specifies the number of subintervals (of length tt) over which to distribute rainfall in each interval (of length TT) for up to 5 intensity bins. Must take integer values.
 	:Configuration:
-		to fill
+		Use with RainDisaggMethod = 102.
+		e.g. MultRainAmongN(1) = 5, MultRainAmongN(2) = 8, MultRainAmongN(3) = 12
 
 
 .. option:: MultRainAmongNUpperI
@@ -70,9 +72,11 @@ Options related to disaggregation of input data
 		Optional
 
 	:Description:
-		Specifies upper limit for each intensity bin to apply MultRainAmongN. Any intensities above the highest specified intensity will use the last MultRainAmongN value and write a warning to warnings.txt. Use with RainDisaggMethod = 102. e.g. MultRainAmongNUpperI(1) = 0.5, MultRainAmongNUpperI(2) = 2.0, MultRainAmongNUpperI(3) = 50.0
+		Specifies upper limit for each intensity bin to apply MultRainAmongN.
 	:Configuration:
-		to fill
+		Any intensities above the highest specified intensity will use the last MultRainAmongN value and write a warning to `warnings.txt`.
+		Use with RainDisaggMethod = 102.
+		e.g. MultRainAmongNUpperI(1) = 0.5, MultRainAmongNUpperI(2) = 2.0, MultRainAmongNUpperI(3) = 50.0
 
 
 .. option:: DisaggMethodESTM

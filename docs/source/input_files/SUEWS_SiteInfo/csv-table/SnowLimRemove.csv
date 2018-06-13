@@ -1,2 +1,2 @@
 "Referencing Table","Requirement","Comment"
-"`SUEWS_NonVeg.txt`","`O`","Not needed if SnowUse = 0 in RunControl.nml . Currently not implemented for BSoil surface Example values [mm] 40 Paved Järvi et al. (2014) [15]  100 Bldgs Järvi et al. (2014) [15] "
+"`SUEWS_NonVeg.txt`","`O`","Not needed if SnowUse = 0 in RunControl.nml . Currently not implemented for BSoil surface Example values [mm] 40 Paved Järvi et al. (2014) [Leena2014]_  100 Bldgs Järvi et al. (2014) [Leena2014]_ "
