@@ -11,9 +11,9 @@ of water use is modelled according to the daily cycles specified in
 `SUEWS_Profiles.txt`.
 
 Alternatively, if available, the external water use can be provided in
-the met forcing file (and set WaterUseMethod = 1 in
+the met forcing file (and set `WaterUseMethod` = 1 in
 `RunControl.nml`), in which case all columns here
-except Code should be set to '-999'.
+except Code should be set to :code:`-999`.
 
 .. csv-table::
   :file: csv-table/SUEWS_Irrigation.csv
