@@ -72,7 +72,7 @@ Grid Connections (water flow between grids)
 
 .. caution::
     - not currently implemented
-    - columns 64-79 of `SUEWS_SiteSelect.txt` can be set to zero.
+    - columns betwee `GridConnection1of8` and `GridConnection8of8` in `SUEWS_SiteSelect.txt` can be set to zero.
 
 This section gives an example of water flow between grids, calculated
 based on the relative elevation of the grids and length of the
