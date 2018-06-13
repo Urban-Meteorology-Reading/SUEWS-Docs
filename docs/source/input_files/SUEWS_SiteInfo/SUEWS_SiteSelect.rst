@@ -16,6 +16,9 @@ All rows in this file will be read by the model and run.
 .. attention::
   - Two rows of ``-9`` should be placed at end of this file.
   - In this file the **column order is important**.
+  - Surface cover fractions specified from `Fr_Paved` to `Fr_Water` should sum up to 1.
+  - Surface cover fractions specified from `Fr_ESTMClass_Paved1` to `Fr_ESTMClass_Paved3` should sum up to 1.
+  - Surface cover fractions specified from `Fr_ESTMClass_Bldgs1` to `Fr_ESTMClass_Bldgs5` should sum up to 1.
   - In this file the **row order is important** for simulaitons of **multiple grids and multiple years**.
     Ensure the rows in are arranged so that all grids for a particular year appear on consecutive lines (rather than grouping all years together for a particular grid). See below for a valid example::
 
@@ -30,6 +33,7 @@ All rows in this file will be read by the model and run.
   programme so they can be used by the user to provide notes for their
   interpretation of the contents. This is strongly recommended.
 
+.. _Day_Light_Savings:
 Day Light Savings (DLS)
 ^^^^^^^^^^^^^^^^^^^^^^^
 

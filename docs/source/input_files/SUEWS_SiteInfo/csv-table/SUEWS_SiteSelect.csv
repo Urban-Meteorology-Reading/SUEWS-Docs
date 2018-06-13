@@ -1,10 +1,17 @@
 No.,Column Name,Use,Description
-1,`Grid`,`MU`,Grid numbers do not need to be consecutive and do not need to start at a particular value. Each grid must have a unique grid number. All grids must be present for all years. These grid numbers are referred to in GridConnections (columns 64-79) ( N.B. GridConnections not currently implemented! )
-2,`Year`,`MU`,"Year [YYYY] Years must be continuous. If running multiple years, ensure the rows in SiteSelect.txt are arranged so that all grids for a particular year appear on consecutive lines (rather than grouping all years together for a particular grid). "
-3,`StartDLS`,`MU`,Start of the day light savings [DOY] See section on Day Light Savings .
-4,`EndDLS`,`MU`,End of the day light savings [DOY] See section on Day Light Savings .
-5,`lat`,`MU`,"Use coordinate system WGS84. Positive values are northern hemisphere (negative southern hemisphere). Used in radiation calculations. Note, if the total modelled area is small the latitude and longitude could be the same for each grid but small differences in radiation will not be determined. If you are defining the latitude and longitude differently between grids make certain that you provide enough decimal places."
-6,`lng`,`MU`,"Use coordinate system WGS84. For compatibility with GIS, negative values are to the west, positive values are to the east (e.g. Vancouver = -123.12; Shanghai = 121.47) Note this is a change of sign convention between v2016a and v2017a See latitude for more details."
+1,`Grid`,`MU`,Grid numbers do not need to be consecutive and do not need to start at a particular value. Each grid must have a unique grid number. All grids must be present for all years. These grid numbers are referred to columns from `GridConnection1of8` to `GridConnection8of8` ( N.B. GridConnections not currently implemented! )
+2,`Year`,`MU`,"Year [YYYY] Years must be continuous. If running multiple years, ensure the rows in `SiteSelect.txt` are arranged so that all grids for a particular year appear on consecutive lines (rather than grouping all years together for a particular grid). "
+3,`StartDLS`,`MU`,Start of the day light savings [DOY] See `Day_Light_Savings`.
+4,`EndDLS`,`MU`,End of the day light savings [DOY] See `Day_Light_Savings`.
+5,`lat`,`MU`,"Use coordinate system WGS84. Positive values are northern hemisphere (negative southern hemisphere). Used in radiation calculations.
+
+.. note::
+    If the total modelled area is small the latitude and longitude could be the same for each grid but small differences in radiation will not be determined.
+    If you are defining the latitude and longitude differently between grids make certain that you provide enough decimal places."
+6,`lng`,`MU`,"Use coordinate system WGS84. For compatibility with GIS, negative values are to the west, positive values are to the east (e.g. Vancouver = -123.12; Shanghai = 121.47)
+
+.. note::
+    this is a change of sign convention between v2016a and v2017a See `lat` for more details."
 7,`Timezone`,`MU`,Time zone [h] for site relative to UTC (east is positive). This should be set according to the times given in the meteorological forcing file(s).
 8,`SurfaceArea`,`MU`,Area of the grid [ha].
 9,`Alt`,`MU`,Used for both the radiation and water flow between grids. ( N.B. water flow between grids not currently implemented. )
@@ -12,7 +19,7 @@ No.,Column Name,Use,Description
 11,`id`,`MD`,Day [DOY] Not used: set to 1 in this version.
 12,`ih`,`MD`,Hour [H] Not used: set to 0 in this version.
 13,`imin`,`MD`,Minute [M] Not used: set to 0 in this version.
-14,`Fr_Paved`,`MU`,Columns 14 to 20 must sum to 1 .
+14,`Fr_Paved`,`MU`,Surface cover fraction of paved surfaces [-].
 15,`Fr_Bldgs`,`MU`,Surface cover fraction of buildings [-]
 16,`Fr_EveTr`,`MU`,Surface cover fraction of evergreen trees and shrubs [-]
 17,`Fr_DecTr`,`MU`,Surface cover fraction of deciduous trees and shrubs [-]
@@ -25,42 +32,42 @@ No.,Column Name,Use,Description
 24,`H_Bldgs`,`MU`,Mean building height [m]
 25,`H_EveTr`,`MU`,Mean height of evergreen trees [m]
 26,`H_DecTr`,`MU`,Mean height of deciduous trees [m]
-27,`z0`,`O`,"Roughness length for momentum [m] Value supplied here is used if RoughLenMomMethod = 1 in RunControl.nml ; otherwise set to '-999' and a value will be calculated by the model (RoughLenMomMethod = 2, 3). "
-28,`zd`,`O`,"Zero-plane displacement [m] Value supplied here is used if RoughLenMomMethod = 1 in RunControl.nml ; otherwise set to '-999' and a value will be calculated by the model (RoughLenMomMethod = 2, 3). "
-29,`FAI_Bldgs`,`O`,Frontal area index for buildings [-] Required if RoughLenMomMethod = 3 in RunControl.nml .
-30,`FAI_EveTr`,`O`,Frontal area index for evergreen trees [-] Required if RoughLenMomMethod = 3 in RunControl.nml .
-31,`FAI_DecTr`,`O`,Frontal area index for deciduous trees [-] Required if RoughLenMomMethod = 3 in RunControl.nml .
-32,`PopDensDay`,`O`,"Daytime population density (i.e. workers, tourists) [people ha -1 ] Population density is required if EmissionsMethod = 2 in RunControl.nml . The model will use the average of daytime and night-time population densities, unless only one is provided. If daytime population density is unknown, set to -999. "
-33,`PopDensNight`,`O`,"Night-time population density (i.e. residents) [people ha -1 ] Population density is required if EmissionsMethod = 2 in RunControl.nml . The model will use the average of daytime and night-time population densities, unless only one is provided. If night-time population density is unknown, set to -999. "
-34,`TrafficRate_WD`,`O`,Weekday traffic rate [veh km m-2 s-1]. Can be used for CO2 flux calculation.
-35,`TrafficRate_WE`,`O`,Weekend traffic rate [veh km m-2 s-1]. Can be used for CO2 flux calculation.
-36,`QF0_BEU_WD`,`O`,Weekday building energy use [W m-2] Can be used for CO2 flux calculation.
-37,`QF0_BEU_WE`,`O`,Weekend building energy use [W m-2] Can be used for CO2 flux calculation.
-38,`Code_Paved`,`L`,"Code for Paved surface characteristics Provides the link to column 1 of SUEWS_NonVeg.txt, which contains the attributes describing paved areas in this grid for this year. Value of integer is arbitrary but must match code specified in column 1 of SUEWS_NonVeg.txt. e.g. 331 means use the characteristics specified in the row of input file SUEWS_NonVeg.txt which has 331 in column 1 (Code). "
-39,`Code_Bldgs`,`L`,"Code for Bldgs surface characteristics Provides the link to column 1 of SUEWS_NonVeg.txt, which contains the attributes describing buildings in this grid for this year. Value of integer is arbitrary but must match code specified in column 1 of SUEWS_NonVeg.txt. "
-40,`Code_EveTr`,`L`,"Code for EveTr surface characteristics Provides the link to column 1 of SUEWS_Veg.txt, which contains the attributes describing evergreen trees and shrubs in this grid for this year. Value of integer is arbitrary but must match code specified in column 1 of SUEWS_Veg.txt. "
-41,`Code_DecTr`,`L`,"Code for DecTr surface characteristics Provides the link to column 1 of SUEWS_Veg.txt, which contains the attributes describing deciduous trees and shrubs in this grid for this year. Value of integer is arbitrary but must match code specified in column 1 of SUEWS_Veg.txt. "
-42,`Code_Grass`,`L`,"Code for Grass surface characteristics Provides the link to column 1 of SUEWS_Veg.txt, which contains the attributes describing grass surfaces in this grid for this year. Value of integer is arbitrary but must match code specified in column 1 of SUEWS_Veg.txt. "
-43,`Code_BSoil`,`L`,"Code for BSoil surface characteristics Provides the link to column 1 of SUEWS_NonVeg.txt, which contains the attributes describing bare soil in this grid for this year. Value of integer is arbitrary but must match code specified in column 1 of SUEWS_NonVeg.txt. "
-44,`Code_Water`,`L`,"Code for Water surface characteristics Provides the link to column 1 of SUEWS_Water.txt, which contains the attributes describing open water in this grid for this year. Value of integer is arbitrary but must match code specified in column 1 of SUEWS_Water.txt. "
+27,`z0`,`O`,"Roughness length for momentum [m] Value supplied here is used if `RoughLenMomMethod` = 1 in `RunControl.nml` ; otherwise set to '-999' and a value will be calculated by the model (`RoughLenMomMethod` = 2, 3). "
+28,`zd`,`O`,"Zero-plane displacement [m] Value supplied here is used if `RoughLenMomMethod` = 1 in `RunControl.nml` ; otherwise set to '-999' and a value will be calculated by the model (`RoughLenMomMethod` = 2, 3). "
+29,`FAI_Bldgs`,`O`,Frontal area index for buildings [-] Required if `RoughLenMomMethod` = 3 in `RunControl.nml` .
+30,`FAI_EveTr`,`O`,Frontal area index for evergreen trees [-] Required if `RoughLenMomMethod` = 3 in `RunControl.nml` .
+31,`FAI_DecTr`,`O`,Frontal area index for deciduous trees [-] Required if `RoughLenMomMethod` = 3 in `RunControl.nml` .
+32,`PopDensDay`,`O`,"Daytime population density (i.e. workers, tourists) [people ha -1 ] Population density is required if EmissionsMethod = 2 in `RunControl.nml` . The model will use the average of daytime and night-time population densities, unless only one is provided. If daytime population density is unknown, set to -999. "
+33,`PopDensNight`,`O`,"Night-time population density (i.e. residents) [people ha -1 ] Population density is required if EmissionsMethod = 2 in `RunControl.nml` . The model will use the average of daytime and night-time population densities, unless only one is provided. If night-time population density is unknown, set to -999. "
+34,`TrafficRate_WD`,`O`,Weekday traffic rate [veh km |m^-2| |s^-1|]. Can be used for CO2 flux calculation.
+35,`TrafficRate_WE`,`O`,Weekend traffic rate [veh km |m^-2| |s^-1|]. Can be used for CO2 flux calculation.
+36,`QF0_BEU_WD`,`O`,Weekday building energy use [W |m^-2|] Can be used for CO2 flux calculation.
+37,`QF0_BEU_WE`,`O`,Weekend building energy use [W |m^-2|] Can be used for CO2 flux calculation.
+38,`Code_Paved`,`L`,"Code for Paved surface characteristics Provides the link to column 1 of `SUEWS_NonVeg.txt`, which contains the attributes describing paved areas in this grid for this year. Value of integer is arbitrary but must match code specified in column 1 of `SUEWS_NonVeg.txt`. e.g. 331 means use the characteristics specified in the row of input file `SUEWS_NonVeg.txt` which has 331 in column 1 (Code). "
+39,`Code_Bldgs`,`L`,"Code for Bldgs surface characteristics Provides the link to column 1 of `SUEWS_NonVeg.txt`, which contains the attributes describing buildings in this grid for this year. Value of integer is arbitrary but must match code specified in column 1 of `SUEWS_NonVeg.txt`. "
+40,`Code_EveTr`,`L`,"Code for EveTr surface characteristics Provides the link to column 1 of `SUEWS_Veg.txt`, which contains the attributes describing evergreen trees and shrubs in this grid for this year. Value of integer is arbitrary but must match code specified in column 1 of `SUEWS_Veg.txt`. "
+41,`Code_DecTr`,`L`,"Code for DecTr surface characteristics Provides the link to column 1 of `SUEWS_Veg.txt`, which contains the attributes describing deciduous trees and shrubs in this grid for this year. Value of integer is arbitrary but must match code specified in column 1 of `SUEWS_Veg.txt`. "
+42,`Code_Grass`,`L`,"Code for Grass surface characteristics Provides the link to column 1 of `SUEWS_Veg.txt`, which contains the attributes describing grass surfaces in this grid for this year. Value of integer is arbitrary but must match code specified in column 1 of `SUEWS_Veg.txt`. "
+43,`Code_BSoil`,`L`,"Code for BSoil surface characteristics Provides the link to column 1 of `SUEWS_NonVeg.txt`, which contains the attributes describing bare soil in this grid for this year. Value of integer is arbitrary but must match code specified in column 1 of `SUEWS_NonVeg.txt`. "
+44,`Code_Water`,`L`,"Code for Water surface characteristics Provides the link to column 1 of `SUEWS_Water.txt`, which contains the attributes describing open water in this grid for this year. Value of integer is arbitrary but must match code specified in column 1 of `SUEWS_Water.txt`. "
 45,`LUMPS_DrRate`,`MD`,Drainage rate of bucket for LUMPS [mm |h^-1|] Used for LUMPS surface wetness control. Default recommended value of 0.25 mm |h^-1| from Loridan et al. (2011) [5] .
 46,`LUMPS_Cover`,`MD`,Limit when surface totally covered with water [mm] Used for LUMPS surface wetness control. Default recommended value of 1 mm from Loridan et al. (2011) [5] .
 47,`LUMPS_MaxRes`,`MD`,Maximum water bucket reservoir [mm] Used for LUMPS surface wetness control. Default recommended value of 10 mm from Loridan et al. (2011) [5] .
 48,`NARP_Trans`,`MD`,Atmospheric transmissivity for NARP [-] Value must in the range 0-1. Default recommended value of 1.
-49,`CondCode`,`L`,"Code for surface conductance parameters Provides the link to column 1 of SUEWS_Conductance.txt, which contains the parameters for the Jarvis (1976) parameterisation of surface conductance. Value of integer is arbitrary but must match code specified in column 1 of SUEWS_Conductance.txt. e.g. 33 means use the characteristics specified in the row of input file SUEWS_Conductance.txt which has 33 in column 1 (Code). "
-50,`SnowCode`,`L`,"Code for snow surface characteristics Provides the link to column 1 of SUEWS_Snow.txt, which contains the attributes describing snow surfaces in this grid for this year. Value of integer is arbitrary but must match code specified in column 1 of SUEWS_Snow.txt. "
-51,`SnowClearingProfWD`,`L`,Code for snow clearing profile (weekdays) Provides the link to column 1 of SUEWS_Profiles.txt. Value of integer is arbitrary but must match code specified in column 1 of SUEWS_Profiles.txt. e.g. 1 means use the characteristics specified in the row of input file SUEWS_Profiles.txt which has 1 in column 1 (Code).
-52,`SnowClearingProfWE`,`L`,"Code for snow clearing profile (weekends) Provides the link to column 1 of SUEWS_Profiles.txt. Value of integer is arbitrary but must match code specified in column 1 of SUEWS_Profiles.txt. e.g. 1 means use the characteristics specified in the row of input file SUEWS_Profiles.txt which has 1 in column 1 (Code). Providing the same code for SnowClearingProfWD and SnowClearingProfWE would link to the same row in SUEWS_Profiles.txt, i.e. the same profile would be used for weekdays and weekends. "
-53,`AnthropogenicCode`,`L`,"Code for modelling anthropogenic heat flux Provides the link to column 1 of SUEWS_AnthropogenicHeat.txt, which contains the model coefficients for estimation of the anthropogenic heat flux (used if `EmissionsMethod` = 1, 2, 3 in `RunControl.nml` ). Value of integer is arbitrary but must match code specified in column 1 of SUEWS_AnthropogenicHeat.txt. "
-54,`EnergyUseProfWD`,`L`,Code for energy use profile (weekdays) Provides the link to column 1 of SUEWS_Profiles.txt. Look the codes Value of integer is arbitrary but must match code specified in column 1 of SUEWS_Profiles.txt.
-55,`EnergyUseProfWE`,`L`,Code for energy use profile (weekends) Provides the link to column 1 of SUEWS_Profiles.txt. Value of integer is arbitrary but must match code specified in column 1 of SUEWS_Profiles.txt.
-56,`ActivityProfWD`,`L`,Code for human activity profile (weekdays) Provides the link to column 1 of SUEWS_Profiles.txt. Look the codes Value of integer is arbitrary but must match code specified in column 1 of SUEWS_Profiles.txt. Used for CO2 flux calculation - not used in v2017a
-57,`ActivityProfWE`,`L`,Code for human activity profile (weekends) Provides the link to column 1 of SUEWS_Profiles.txt. Look the codes Value of integer is arbitrary but must match code specified in column 1 of SUEWS_Profiles.txt. Used for CO2 flux calculation - not used in v2017a
-58,`IrrigationCode`,`L`,"Code for modelling irrigation Provides the link to column 1 of SUEWS_Irrigation.txt, which contains the model coefficients for estimation of the water use (used if WU_Choice = 0 in RunControl.nml ). Value of integer is arbitrary but must match code specified in column 1 of SUEWS_Irrigation.txt. "
-59,`WaterUseProfManuWD`,`L`,"Code for water use profile (manual irrigation, weekdays) Provides the link to column 1 of SUEWS_Profiles.txt. Value of integer is arbitrary but must match code specified in column 1 of SUEWS_Profiles.txt. "
-60,`WaterUseProfManuWE`,`L`,"Code for water use profile (manual irrigation, weekends) Provides the link to column 1 of SUEWS_Profiles.txt. Value of integer is arbitrary but must match code specified in column 1 of SUEWS_Profiles.txt. "
-61,`WaterUseProfAutoWD`,`L`,"Code for water use profile (automatic irrigation, weekdays) Provides the link to column 1 of SUEWS_Profiles.txt. Value of integer is arbitrary but must match code specified in column 1 of SUEWS_Profiles.txt. "
-62,`WaterUseProfAutoWE`,`L`,"Code for water use profile (automatic irrigation, weekends) Provides the link to column 1 of SUEWS_Profiles.txt. Value of integer is arbitrary but must match code specified in column 1 of SUEWS_Profiles.txt. "
+49,`CondCode`,`L`,"Code for surface conductance parameters Provides the link to column 1 of `SUEWS_Conductance.txt`, which contains the parameters for the Jarvis (1976) parameterisation of surface conductance. Value of integer is arbitrary but must match code specified in column 1 of `SUEWS_Conductance.txt`. e.g. 33 means use the characteristics specified in the row of input file `SUEWS_Conductance.txt` which has 33 in column 1 (Code). "
+50,`SnowCode`,`L`,"Code for snow surface characteristics Provides the link to column 1 of `SUEWS_Snow.txt`, which contains the attributes describing snow surfaces in this grid for this year. Value of integer is arbitrary but must match code specified in column 1 of `SUEWS_Snow.txt`. "
+51,`SnowClearingProfWD`,`L`,Code for snow clearing profile (weekdays) Provides the link to column 1 of `SUEWS_Profiles.txt`. Value of integer is arbitrary but must match code specified in column 1 of `SUEWS_Profiles.txt`. e.g. 1 means use the characteristics specified in the row of input file `SUEWS_Profiles.txt` which has 1 in column 1 (Code).
+52,`SnowClearingProfWE`,`L`,"Code for snow clearing profile (weekends) Provides the link to column 1 of `SUEWS_Profiles.txt`. Value of integer is arbitrary but must match code specified in column 1 of `SUEWS_Profiles.txt`. e.g. 1 means use the characteristics specified in the row of input file `SUEWS_Profiles.txt` which has 1 in column 1 (Code). Providing the same code for `SnowClearingProfWD` and `SnowClearingProfWE` would link to the same row in `SUEWS_Profiles.txt`, i.e. the same profile would be used for weekdays and weekends. "
+53,`AnthropogenicCode`,`L`,"Code for modelling anthropogenic heat flux Provides the link to column 1 of `SUEWS_AnthropogenicHeat.txt`, which contains the model coefficients for estimation of the anthropogenic heat flux (used if `EmissionsMethod` = 1, 2, 3 in `RunControl.nml` ). Value of integer is arbitrary but must match code specified in column 1 of `SUEWS_AnthropogenicHeat.txt`. "
+54,`EnergyUseProfWD`,`L`,Code for energy use profile (weekdays) Provides the link to column 1 of `SUEWS_Profiles.txt`. Look the codes Value of integer is arbitrary but must match code specified in column 1 of `SUEWS_Profiles.txt`.
+55,`EnergyUseProfWE`,`L`,Code for energy use profile (weekends) Provides the link to column 1 of `SUEWS_Profiles.txt`. Value of integer is arbitrary but must match code specified in column 1 of `SUEWS_Profiles.txt`.
+56,`ActivityProfWD`,`L`,Code for human activity profile (weekdays) Provides the link to column 1 of `SUEWS_Profiles.txt`. Look the codes Value of integer is arbitrary but must match code specified in column 1 of `SUEWS_Profiles.txt`. Used for CO2 flux calculation - not used in v2017a
+57,`ActivityProfWE`,`L`,Code for human activity profile (weekends) Provides the link to column 1 of `SUEWS_Profiles.txt`. Look the codes Value of integer is arbitrary but must match code specified in column 1 of `SUEWS_Profiles.txt`. Used for CO2 flux calculation - not used in v2017a
+58,`IrrigationCode`,`L`,"Code for modelling irrigation Provides the link to column 1 of SUEWS_Irrigation.txt, which contains the model coefficients for estimation of the water use (used if WU_Choice = 0 in `RunControl.nml` ). Value of integer is arbitrary but must match code specified in column 1 of SUEWS_Irrigation.txt. "
+59,`WaterUseProfManuWD`,`L`,"Code for water use profile (manual irrigation, weekdays) Provides the link to column 1 of `SUEWS_Profiles.txt`. Value of integer is arbitrary but must match code specified in column 1 of `SUEWS_Profiles.txt`. "
+60,`WaterUseProfManuWE`,`L`,"Code for water use profile (manual irrigation, weekends) Provides the link to column 1 of `SUEWS_Profiles.txt`. Value of integer is arbitrary but must match code specified in column 1 of `SUEWS_Profiles.txt`. "
+61,`WaterUseProfAutoWD`,`L`,"Code for water use profile (automatic irrigation, weekdays) Provides the link to column 1 of `SUEWS_Profiles.txt`. Value of integer is arbitrary but must match code specified in column 1 of `SUEWS_Profiles.txt`. "
+62,`WaterUseProfAutoWE`,`L`,"Code for water use profile (automatic irrigation, weekends) Provides the link to column 1 of `SUEWS_Profiles.txt`. Value of integer is arbitrary but must match code specified in column 1 of `SUEWS_Profiles.txt`. "
 63,`FlowChange`,`MD`,Difference in input and output flows for water surface [mm |h^-1|] Used to indicate river or stream flow through the grid. Currently not fully tested!
 64,`RunoffToWater`,`MD` `MU`,Fraction of above-ground runoff flowing to water surface during flooding [-] Value must be in the range 0-1. Fraction of above-ground runoff that can flow to the water surface in the case of flooding.
 65,`PipeCapacity`,`MD` `MU`,Storage capacity of pipes [mm] Runoff amounting to less than the value specified here is assumed to be removed by pipes.
@@ -88,19 +95,19 @@ No.,Column Name,Use,Description
 87,`WithinGridBSoilCode`,`L`,Code that links to the fraction of water that flows from BSoil surfaces to surfaces in columns 2-10 of SUEWS_WithinGridWaterDist.txt. Value of integer is arbitrary but must match code specified in column 1 of SUEWS_WithinGridWaterDist.txt.
 88,`WithinGridWaterCode`,`L`,Code that links to the fraction of water that flows from Water surfaces to surfaces in columns 2-10 of SUEWS_WithinGridWaterDist.txt. Value of integer is arbitrary but must match code specified in column 1 of SUEWS_WithinGridWaterDist.txt.
 89,`AreaWall`,`MU`,Area of wall within grid (needed for ESTM calculation).
-90,`Fr_ESTMClass_Paved1`,`MU`,Columns 88-90 must add up to 1
-91,`Fr_ESTMClass_Paved2`,`MU`,Columns 88-90 must add up to 1
-92,`Fr_ESTMClass_Paved3`,`MU`,Columns 88-90 must add up to 1
-93,`Code_ESTMClass_Paved1`,`L`,Code linking to SUEWS_ESTMCoefficients.txt
-94,`Code_ESTMClass_Paved2`,`L`,Code linking to SUEWS_ESTMCoefficients.txt
-95,`Code_ESTMClass_Paved3`,`L`,Code linking to SUEWS_ESTMCoefficients.txt
-96,`Fr_ESTMClass_Bldgs1`,`MU`,Columns 94-98 must add up to 1
-97,`Fr_ESTMClass_Bldgs2`,`MU`,Columns 94-98 must add up to 1
-98,`Fr_ESTMClass_Bldgs3`,`MU`,Columns 94-98 must add up to 1
-99,`Fr_ESTMClass_Bldgs4`,`MU`,Columns 94-98 must add up to 1
-100,`Fr_ESTMClass_Bldgs5`,`MU`,Columns 94-98 must add up to 1
-101,`Code_ESTMClass_Bldgs1`,`L`,Code linking to SUEWS_ESTMCoefficients.txt
-102,`Code_ESTMClass_Bldgs2`,`L`,Code linking to SUEWS_ESTMCoefficients.txt
-103,`Code_ESTMClass_Bldgs3`,`L`,Code linking to SUEWS_ESTMCoefficients.txt
-104,`Code_ESTMClass_Bldgs4`,`L`,Code linking to SUEWS_ESTMCoefficients.txt
-105,`Code_ESTMClass_Bldgs5`,`L`,Code linking to SUEWS_ESTMCoefficients.txt
+90,`Fr_ESTMClass_Paved1`,`MU`,Surface cover fraction of paved surface class 1 used in ESTM calculations
+91,`Fr_ESTMClass_Paved2`,`MU`,Surface cover fraction of paved surface class 2 used in ESTM calculations
+92,`Fr_ESTMClass_Paved3`,`MU`,Surface cover fraction of paved surface class 3 used in ESTM calculations
+93,`Code_ESTMClass_Paved1`,`L`,Code linking to `SUEWS_ESTMCoefficients.txt`
+94,`Code_ESTMClass_Paved2`,`L`,Code linking to `SUEWS_ESTMCoefficients.txt`
+95,`Code_ESTMClass_Paved3`,`L`,Code linking to `SUEWS_ESTMCoefficients.txt`
+96,`Fr_ESTMClass_Bldgs1`,`MU`,Surface cover fraction of building class 1 used in ESTM calculations
+97,`Fr_ESTMClass_Bldgs2`,`MU`,Surface cover fraction of building class 2 used in ESTM calculations
+98,`Fr_ESTMClass_Bldgs3`,`MU`,Surface cover fraction of building class 3 used in ESTM calculations
+99,`Fr_ESTMClass_Bldgs4`,`MU`,Surface cover fraction of building class 4 used in ESTM calculations
+100,`Fr_ESTMClass_Bldgs5`,`MU`,Surface cover fraction of building class 5 used in ESTM calculations
+101,`Code_ESTMClass_Bldgs1`,`L`,Code linking to `SUEWS_ESTMCoefficients.txt`
+102,`Code_ESTMClass_Bldgs2`,`L`,Code linking to `SUEWS_ESTMCoefficients.txt`
+103,`Code_ESTMClass_Bldgs3`,`L`,Code linking to `SUEWS_ESTMCoefficients.txt`
+104,`Code_ESTMClass_Bldgs4`,`L`,Code linking to `SUEWS_ESTMCoefficients.txt`
+105,`Code_ESTMClass_Bldgs5`,`L`,Code linking to `SUEWS_ESTMCoefficients.txt`
