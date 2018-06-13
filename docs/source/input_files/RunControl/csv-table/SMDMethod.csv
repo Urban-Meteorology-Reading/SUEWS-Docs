@@ -5,14 +5,10 @@ SMD modelled using parameters specified in `SUEWS_Soil.txt`."
 1,"
 Observed SM provided in the meteorological forcing file is used.
 Data are provided as volumetric soil moisture content. Metadata must be provided in `SUEWS_Soil.txt`.
-
-.. warning::
-  Not currently implemented - do not use!
+Not currently implemented - do not use!
 "
 2,"
 Observed SM provided in the meteorological forcing file is used.
 Data are provided as gravimetric soil moisture content. Metadata must be provided in `SUEWS_Soil.txt`.
-
-.. warning::
-  Not currently implemented - do not use!
+Not currently implemented - do not use!
 "
