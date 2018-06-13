@@ -15,17 +15,14 @@ Version 2018a (released June Version 2018)
   #. New documentation system
   #. Improved the anthropogenic heat and CO2 emmission module.
 
-- Changes 
+- Changes
 
-  #. These columns are moved from `SUEWS_SiteSelect.txt` to `SUEWS_AnthropogenicHeat.txt`:
-  `EnergyUseProfWD`, `EnergyUseProfWE`, `ActivityProfWD`, `ActivityProfWE`.
+  #. These columns are moved from `SUEWS_SiteSelect.txt` to `SUEWS_AnthropogenicHeat.txt`: `EnergyUseProfWD`, `EnergyUseProfWE`, `ActivityProfWD`, `ActivityProfWE`.
   #. `BiogenCO2Code` is added to `SUEWS_Veg.txt` for looking up biogenic characteristics in the new `SUEWS_BiogenCO2.txt` file.
-  #. :code:`TraifficRate` and :code:`BuildEnergyUse` in `SUEWS_SiteSelect.txt` are expanded to allow weekday and weekend values:
-  `TrafficRate_WD`, `TrafficRate_WE`, `QF0_BEU_WD`, `QF0_BEU_WE`.
-  #. `AnthropCO2Method` is removed from `RunControl.nml`.
-  #. `AnthropHeatMethod` is renamed to `EmissionsMethod`.
-  #. `AHMin`, `AHSlope` and `TCritic` are expanded to allow weekday and weekend values by adding :code:`_WD` and :code:`_WE` as suffix,
-  of which `AHSlope` and `TCritic` are also expanded to allow cooling and heating settings.
+  #. :code:`TraifficRate` and :code:`BuildEnergyUse` in `SUEWS_SiteSelect.txt` are expanded to allow weekday and weekend values: `TrafficRate_WD`, `TrafficRate_WE`, `QF0_BEU_WD`, `QF0_BEU_WE`.
+  #. :code:`AnthropCO2Method` is removed from `RunControl.nml`.
+  #. :code:`AnthropHeatMethod` is renamed to `EmissionsMethod`.
+  #. :code:`AHMin`, :code:`AHSlope` and :code:`TCritic` are expanded to allow weekday and weekend values by adding :code:`_WD` and :code:`_WE` as suffix, of which :code:`AHSlope` and :code:`TCritic` are also expanded to allow cooling and heating settings.
 
 
 .. _new_2017b:
