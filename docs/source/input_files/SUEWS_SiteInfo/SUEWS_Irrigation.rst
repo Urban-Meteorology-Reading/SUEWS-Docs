@@ -16,12 +16,13 @@ the met forcing file (and set `WaterUseMethod` = 1 in
 except Code should be set to :code:`-999`.
 
 
-An example `SUEWS_Irrigation.txt` can be found below:
-
-.. literalinclude:: sample-table/SUEWS_Irrigation.txt
-
 
 .. csv-table::
   :file: csv-table/SUEWS_Irrigation.csv
   :header-rows: 1
   :widths: 5 25 5 65
+
+
+An example `SUEWS_Irrigation.txt` can be found below:
+
+.. literalinclude:: sample-table/SUEWS_Irrigation.txt
