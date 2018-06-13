@@ -66,7 +66,7 @@ Input_Options
 			:widths: 44 18 38
 
 
-.. option:: AHMin
+.. option:: AHMin_WD
 
 	:Description:
 		Use with EmissionsMethod = 1
@@ -74,12 +74,12 @@ Input_Options
 	:Configuration:
 		.. csv-table::
 			:class: longtable
-			:file: csv-table/AHMin.csv
+			:file: csv-table/AHMin_WD.csv
 			:header-rows: 1
 			:widths: 44 18 38
 
 
-.. option:: AHSlope
+.. option:: AHMin_WE
 
 	:Description:
 		Use with EmissionsMethod = 1
@@ -87,7 +87,59 @@ Input_Options
 	:Configuration:
 		.. csv-table::
 			:class: longtable
-			:file: csv-table/AHSlope.csv
+			:file: csv-table/AHMin_WE.csv
+			:header-rows: 1
+			:widths: 44 18 38
+
+
+.. option:: AHSlope_Heating_WD
+
+	:Description:
+		Use with EmissionsMethod = 1
+
+	:Configuration:
+		.. csv-table::
+			:class: longtable
+			:file: csv-table/AHSlope_Heating_WD.csv
+			:header-rows: 1
+			:widths: 44 18 38
+
+
+.. option:: AHSlope_Heating_WE
+
+	:Description:
+		Use with EmissionsMethod = 1
+
+	:Configuration:
+		.. csv-table::
+			:class: longtable
+			:file: csv-table/AHSlope_Heating_WE.csv
+			:header-rows: 1
+			:widths: 44 18 38
+
+
+.. option:: AHSlope_Cooling_WD
+
+	:Description:
+		Use with EmissionsMethod = 1
+
+	:Configuration:
+		.. csv-table::
+			:class: longtable
+			:file: csv-table/AHSlope_Cooling_WD.csv
+			:header-rows: 1
+			:widths: 44 18 38
+
+
+.. option:: AHSlope_Cooling_WE
+
+	:Description:
+		Use with EmissionsMethod = 1
+
+	:Configuration:
+		.. csv-table::
+			:class: longtable
+			:file: csv-table/AHSlope_Cooling_WE.csv
 			:header-rows: 1
 			:widths: 44 18 38
 
@@ -3421,7 +3473,7 @@ Input_Options
 			:widths: 44 18 38
 
 
-.. option:: TCritic
+.. option:: TCritic_Heating_WD
 
 	:Description:
 		Use with EmissionsMethod = 1
@@ -3429,7 +3481,46 @@ Input_Options
 	:Configuration:
 		.. csv-table::
 			:class: longtable
-			:file: csv-table/TCritic.csv
+			:file: csv-table/TCritic_Heating_WD.csv
+			:header-rows: 1
+			:widths: 44 18 38
+
+
+.. option:: TCritic_Heating_WE
+
+	:Description:
+		Use with EmissionsMethod = 1
+
+	:Configuration:
+		.. csv-table::
+			:class: longtable
+			:file: csv-table/TCritic_Heating_WE.csv
+			:header-rows: 1
+			:widths: 44 18 38
+
+
+.. option:: TCritic_Cooling_WD
+
+	:Description:
+		Use with EmissionsMethod = 1
+
+	:Configuration:
+		.. csv-table::
+			:class: longtable
+			:file: csv-table/TCritic_Cooling_WD.csv
+			:header-rows: 1
+			:widths: 44 18 38
+
+
+.. option:: TCritic_Cooling_WE
+
+	:Description:
+		Use with EmissionsMethod = 1
+
+	:Configuration:
+		.. csv-table::
+			:class: longtable
+			:file: csv-table/TCritic_Cooling_WE.csv
 			:header-rows: 1
 			:widths: 44 18 38
 

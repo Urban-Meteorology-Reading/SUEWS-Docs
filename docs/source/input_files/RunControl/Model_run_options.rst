@@ -6,6 +6,7 @@ Model run options
 .. option:: CBLuse
 
 		.. warning:: This option is NOT available in v2018a.
+
 	:Requirement:
 		Required
 	:Description:

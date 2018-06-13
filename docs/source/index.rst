@@ -9,38 +9,44 @@ SUEWS: Surface Urban Energy and Water Balance Scheme
   Also, some statement here may NOT be up to date as the model/software is under rapid development.
   Please report issues on the `GitHub page`_.
 
+How to get SUEWS?
+=================
+
 The software can be downloaded via `our GitHub page`_.
-The **latest formal** release of SUEWS is **v2017b** (released 1 August 2017).
+The **latest formal** release of SUEWS is `v2017b <new_2017b>` (released 1 August 2017).
 
 
-:ref:`This documentation site <index_page>` is regularly
-updated with new developments. For what's new in this version, see :ref:`new_latest`.
+How to use SUEWS?
+=================
+
+Read :ref:`this documentation <index_page>`.
+For what's new in this version, see :ref:`new_latest`.
+Besides, the manuals for previous versions can be accessed in respective sections under `version_history`.
 
 
+How to understand SUEWS?
+========================
 
-The manual for SUEWS v2017b can be accessed
-`here <:File:SUEWS_V2017b_Manual.pdf>`__ and should be referenced as
-follows:
-
-.. epigraph::
-
-   Ward HC, L Järvi, T Sun, S Onomura, F Lindberg, F Olofson, A Gabey, CSB Grimmond (2017).
-   SUEWS Manual V2017b Department of Meteorology, University of Reading, Reading, UK
+The scientific details and application cases of SUEWS can be found in model description papers under `Recent_publications`.
 
 
-Please refer to `Ward et al. (2017) <http://onlinelibrary.wiley.com/doi/10.1002/joc.5200/full>`__ for
-further details v2017a:
+How to cite SUEWS?
+========================
 
-.. epigraph::
+Please cite `this version <new_latest>` as follows::
 
-  Ward HC, Yin San Tan, AM Gabey, S Kotthaus, WTJ Morrison, CSB Grimmond. 
-  Impact of temporal resolution of precipitation forcing data on modelled urban-atmosphere exchanges and surface conditions. 
-  International Journal of Climatology.
-  `doi: 10.1002/joc.5200 <http://doi.org/10.1002/joc.5200/>`_
+  Sun T, L Järvi, M Havu, HC Ward, S Onomura, F Lindberg, F Olofson, A Gabey, CSB Grimmond (2018).
+  SUEWS Manual V2018a. Department of Meteorology, University of Reading, Reading, UK
 
 
-.. note:: See other publications in the next section (if you have papers that could be added, please send them through)
+How to support SUEWS?
+========================
 
+#. Contribute to the `development <Development_Suggestions_Support>`.
+
+#. Report issues via the `GitHub page`_.
+
+#. Provide `suggestions and feedbacks <Development_Suggestions_Support>`.
 
 
 .. _our GitHub page: https://urban-meteorology-reading.github.io/SUEWS

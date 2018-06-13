@@ -103,7 +103,7 @@ Notation
    SVF
      Sky view factor
 
-   theta
+   Theta
      potential  temperature
 
    tt
