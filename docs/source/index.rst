@@ -46,7 +46,7 @@ SUEWS: Surface Urban Energy and Water Balance Scheme
 
 .. epigraph::
 
-  The scientific details and application cases of SUEWS can be found in model description papers under `Recent_publications`.
+  The scientific details and application cases of SUEWS can be found in related papers under `Recent_publications`.
 
 
 - **How to cite SUEWS?**
