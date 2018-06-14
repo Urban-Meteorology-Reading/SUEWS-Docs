@@ -42,7 +42,7 @@ SUEWS: Surface Urban Energy and Water Balance Scheme
     Besides, it is a good starting point to learn running SUEWS via `the tutorial. <http://umep-docs.readthedocs.io/en/latest/Tutorials/IntroductionToSuews.html#urban-energy-balance-suews-introduction>`_
 
 
-- **How to understand SUEWS?**
+- **How has SUEWS been used?**
 
 .. epigraph::
 

@@ -23,3 +23,4 @@ example) for your site/model domain.
    CBL_input/CBL_input
    ESTM_related_files/ESTM_related_files
    SOLWEIG_input/SOLWEIG_input
+   input_converter
