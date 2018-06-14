@@ -56,7 +56,7 @@ Input_Options
 .. option:: ActivityProfWD
 
 	:Description:
-		Code for human activity profile (weekdays) Provides the link to column 1 of SUEWS_Profiles.txt. Look the codes Value of integer is arbitrary but must match code specified in column 1 of SUEWS_Profiles.txt. Used for CO2 flux calculation - not used in v2018a
+		Code linking to `ActivityProfWD` in `SUEWS_Profiles.txt`. not used in v2018a
 
 	:Configuration:
 		.. csv-table::
@@ -69,7 +69,7 @@ Input_Options
 .. option:: ActivityProfWE
 
 	:Description:
-		Code for human activity profile (weekends) Provides the link to column 1 of SUEWS_Profiles.txt. Look the codes Value of integer is arbitrary but must match code specified in column 1 of SUEWS_Profiles.txt. Used for CO2 flux calculation - not used in v2018a
+		Code linking to `ActivityProfWE` in `SUEWS_Profiles.txt`. not used in v2018a
 
 	:Configuration:
 		.. csv-table::
@@ -82,7 +82,7 @@ Input_Options
 .. option:: AHMin_WD
 
 	:Description:
-		Use with EmissionsMethod = 1
+		Minimum QF on weekdays [W |m^-2|]
 
 	:Configuration:
 		.. csv-table::
@@ -95,7 +95,7 @@ Input_Options
 .. option:: AHMin_WE
 
 	:Description:
-		Use with EmissionsMethod = 1
+		Minimum QF on weekends [W |m^-2|]
 
 	:Configuration:
 		.. csv-table::
@@ -108,7 +108,7 @@ Input_Options
 .. option:: AHSlope_Heating_WD
 
 	:Description:
-		Use with EmissionsMethod = 1
+		Heating slope of QF on weekdays [W |m^-2| |K^-1|]
 
 	:Configuration:
 		.. csv-table::
@@ -121,7 +121,7 @@ Input_Options
 .. option:: AHSlope_Heating_WE
 
 	:Description:
-		Use with EmissionsMethod = 1
+		Heating slope of QF on weekends [W |m^-2| |K^-1|]
 
 	:Configuration:
 		.. csv-table::
@@ -134,7 +134,7 @@ Input_Options
 .. option:: AHSlope_Cooling_WD
 
 	:Description:
-		Use with EmissionsMethod = 1
+		Cooling slope of QF on weekdays [W |m^-2| |K^-1|]
 
 	:Configuration:
 		.. csv-table::
@@ -147,7 +147,7 @@ Input_Options
 .. option:: AHSlope_Cooling_WE
 
 	:Description:
-		Use with EmissionsMethod = 1
+		Cooling slope of QF on weekends [W |m^-2| |K^-1|]
 
 	:Configuration:
 		.. csv-table::
@@ -160,7 +160,7 @@ Input_Options
 .. option:: AlbedoMax
 
 	:Description:
-		Effective surface albedo (middle of the day value) for summertime. View factors should be taken into account. Effective surface albedo (middle of the day value) for summertime, full leaf-on. View factors should be taken into account. Example values [-] 0.1 EveTr Oke (1987) [Ok87]_  0.18 DecTr Oke (1987) [Ok87]_  0.21 Grass Oke (1987) [Ok87]_  Effective albedo of the water surface. View factors should be taken into account. Example values [-] 0.1 Water Oke (1987) [Ok87]_  Example values [-] 0.85 Järvi et al. (2014) [Leena2014]_
+		Effective surface albedo (middle of the day value) for summertime. View factors should be taken into account.
 
 	:Configuration:
 		.. csv-table::
@@ -962,7 +962,7 @@ Input_Options
 .. option:: EnergyUseProfWD
 
 	:Description:
-		Code for energy use profile (weekdays) Provides the link to column 1 of SUEWS_Profiles.txt. Look the codes Value of integer is arbitrary but must match code specified in column 1 of SUEWS_Profiles.txt. Not used in v2018a.
+		Code linking to `EnergyUseProfWD` in `SUEWS_Profiles.txt`. Not used in v2018a.
 
 	:Configuration:
 		.. csv-table::
@@ -975,7 +975,7 @@ Input_Options
 .. option:: EnergyUseProfWE
 
 	:Description:
-		Code for energy use profile (weekends) Provides the link to column 1 of SUEWS_Profiles.txt. Value of integer is arbitrary but must match code specified in column 1 of SUEWS_Profiles.txt. Not used in v2018a.
+		Code linking to `EnergyUseProfWE` in `SUEWS_Profiles.txt`. Not used in v2018a.
 
 	:Configuration:
 		.. csv-table::
@@ -2593,7 +2593,7 @@ Input_Options
 .. option:: OHMThresh_SW
 
 	:Description:
-		Temperature threshold determining whether summer/winter OHM coefficients are applied [°C] If 5-day running mean air temperature is greater than or equal to this threshold, OHM coefficients for summertime are applied; otherwise coefficients for wintertime are applied.  Temperature threshold determining whether summer/winter OHM coefficients are applied [°C] If 5-day running mean air temperature is greater than or equal to this threshold, OHM coefficients for summertime are applied; otherwise coefficients for wintertime are applied.  Temperature threshold determining whether summer/winter OHM coefficients are applied [°C] If 5-day running mean air temperature is greater than or equal to this threshold, OHM coefficients for summertime are applied; otherwise coefficients for wintertime are applied.  Temperature threshold determining whether summer/winter OHM coefficients are applied [°C] If 5-day running mean air temperature is greater than or equal to this threshold, OHM coefficients for summertime are applied; otherwise coefficients for wintertime are applied. Not actually used for Snow surface as winter wet conditions always assumed.
+		Temperature threshold determining whether summer/winter OHM coefficients are applied [°C] If 5-day running mean air temperature is greater than or equal to this threshold, OHM coefficients for summertime are applied; otherwise coefficients for wintertime are applied.
 
 	:Configuration:
 		.. csv-table::
@@ -2606,7 +2606,7 @@ Input_Options
 .. option:: OHMThresh_WD
 
 	:Description:
-		Soil moisture threshold determining whether wet/dry OHM coefficients are applied [-] If soil moisture (as a proportion of maximum soil moisture capacity) exceeds this threshold for bare soil and vegetated surfaces, OHM coefficients for wet conditions are applied; otherwise coefficients for dry coefficients are applied. Note that OHM coefficients for wet conditions are applied if the surface is wet. Not actually used for building and paved surfaces (as impervious).  Soil moisture threshold determining whether wet/dry OHM coefficients are applied [-] If soil moisture (as a proportion of maximum soil moisture capacity) exceeds this threshold for bare soil and vegetated surfaces, OHM coefficients for wet conditions are applied; otherwise coefficients for dry coefficients are applied. Note that OHM coefficients for wet conditions are applied if the surface is wet.  Soil moisture threshold determining whether wet/dry OHM coefficients are applied [-] If soil moisture (as a proportion of maximum soil moisture capacity) exceeds this threshold for bare soil and vegetated surfaces, OHM coefficients for wet conditions are applied; otherwise coefficients for dry coefficients are applied. Note that OHM coefficients for wet conditions are applied if the surface is wet. Not actually used for water surface (as no soil surface beneath).  Soil moisture threshold determining whether wet/dry OHM coefficients are applied [-] If soil moisture (as a proportion of maximum soil moisture capacity) exceeds this threshold for bare soil and vegetated surfaces, OHM coefficients for wet conditions are applied; otherwise coefficients for dry coefficients are applied. Note that OHM coefficients for wet conditions are applied if the surface is wet. Not actually used for Snow surface as winter wet conditions always assumed.
+		Soil moisture threshold determining whether wet/dry OHM coefficients are applied [-] If soil moisture (as a proportion of maximum soil moisture capacity) exceeds this threshold for bare soil and vegetated surfaces, OHM coefficients for wet conditions are applied; otherwise coefficients for dry coefficients are applied. Note that OHM coefficients for wet conditions are applied if the surface is wet.
 
 	:Configuration:
 		.. csv-table::
@@ -2658,7 +2658,7 @@ Input_Options
 .. option:: PopProfWD
 
 	:Description:
-		Code for population density profile (weekdays) Provides the link to column 1 of SUEWS_Profiles.txt. Look the codes Value of integer is arbitrary but must match code specified in column 1 of SUEWS_Profiles.txt. Not used in v2018a.
+		Code for population density profile (weekdays) Provides the link to column 1 of `SUEWS_Profiles.txt`. Look the codes Value of integer is arbitrary but must match code specified in column 1 of `SUEWS_Profiles.txt`. Not used in v2018a.
 
 	:Configuration:
 		.. csv-table::
@@ -2670,7 +2670,7 @@ Input_Options
 .. option:: PopProfWE
 
 	:Description:
-		Code for population density profile (weekends) Provides the link to column 1 of SUEWS_Profiles.txt. Look the codes Value of integer is arbitrary but must match code specified in column 1 of SUEWS_Profiles.txt. Not used in v2018a.
+		Code for population density profile (weekends) Provides the link to column 1 of `SUEWS_Profiles.txt`. Look the codes Value of integer is arbitrary but must match code specified in column 1 of `SUEWS_Profiles.txt`. Not used in v2018a.
 
 	:Configuration:
 		.. csv-table::
@@ -3035,7 +3035,7 @@ Input_Options
 .. option:: SnowClearingProfWD
 
 	:Description:
-		Code for snow clearing profile (weekdays) Provides the link to column 1 of SUEWS_Profiles.txt. Value of integer is arbitrary but must match code specified in column 1 of SUEWS_Profiles.txt. e.g. 1 means use the characteristics specified in the row of input file SUEWS_Profiles.txt which has 1 in column 1 (Code).
+		Code for snow clearing profile (weekdays) Provides the link to column 1 of `SUEWS_Profiles.txt`. Value of integer is arbitrary but must match code specified in column 1 of `SUEWS_Profiles.txt`. e.g. 1 means use the characteristics specified in the row of input file `SUEWS_Profiles.txt` which has 1 in column 1 (Code).
 
 	:Configuration:
 		.. csv-table::
@@ -3048,7 +3048,7 @@ Input_Options
 .. option:: SnowClearingProfWE
 
 	:Description:
-		Code for snow clearing profile (weekends) Provides the link to column 1 of SUEWS_Profiles.txt. Value of integer is arbitrary but must match code specified in column 1 of SUEWS_Profiles.txt. e.g. 1 means use the characteristics specified in the row of input file SUEWS_Profiles.txt which has 1 in column 1 (Code). Providing the same code for SnowClearingProfWD and SnowClearingProfWE would link to the same row in SUEWS_Profiles.txt, i.e. the same profile would be used for weekdays and weekends.
+		Code for snow clearing profile (weekends) Provides the link to column 1 of `SUEWS_Profiles.txt`. Value of integer is arbitrary but must match code specified in column 1 of `SUEWS_Profiles.txt`. e.g. 1 means use the characteristics specified in the row of input file `SUEWS_Profiles.txt` which has 1 in column 1 (Code). Providing the same code for SnowClearingProfWD and SnowClearingProfWE would link to the same row in `SUEWS_Profiles.txt`, i.e. the same profile would be used for weekdays and weekends.
 
 	:Configuration:
 		.. csv-table::
@@ -3489,7 +3489,7 @@ Input_Options
 .. option:: TCritic_Heating_WD
 
 	:Description:
-		Use with EmissionsMethod = 1
+		Critical heating temperature on weekdays [°C]
 
 	:Configuration:
 		.. csv-table::
@@ -3502,7 +3502,7 @@ Input_Options
 .. option:: TCritic_Heating_WE
 
 	:Description:
-		Use with EmissionsMethod = 1
+		Critical heating temperature on weekends [°C]
 
 	:Configuration:
 		.. csv-table::
@@ -3515,7 +3515,7 @@ Input_Options
 .. option:: TCritic_Cooling_WD
 
 	:Description:
-		Use with EmissionsMethod = 1
+		Critical cooling temperature on weekdays [°C]
 
 	:Configuration:
 		.. csv-table::
@@ -3528,7 +3528,7 @@ Input_Options
 .. option:: TCritic_Cooling_WE
 
 	:Description:
-		Use with EmissionsMethod = 1
+		Critical cooling temperature on weekends [°C]
 
 	:Configuration:
 		.. csv-table::
@@ -3748,7 +3748,7 @@ Input_Options
 .. option:: TraffProfWD
 
 	:Description:
-		Code for traffic activity profile (weekdays) Provides the link to column 1 of SUEWS_Profiles.txt. Look the codes Value of integer is arbitrary but must match code specified in column 1 of SUEWS_Profiles.txt. Not used in v2018a.
+		Code for traffic activity profile (weekdays) Provides the link to column 1 of `SUEWS_Profiles.txt`. Not used in v2018a.
 
 	:Configuration:
 		.. csv-table::
@@ -3760,7 +3760,7 @@ Input_Options
 .. option:: TraffProfWE
 
 	:Description:
-		Code for traffic activity profile (weekends) Provides the link to column 1 of SUEWS_Profiles.txt. Look the codes Value of integer is arbitrary but must match code specified in column 1 of SUEWS_Profiles.txt. Not used in v2018a.
+		Code for traffic activity profile (weekends) Provides the link to column 1 of `SUEWS_Profiles.txt`. Not used in v2018a.
 
 	:Configuration:
 		.. csv-table::
@@ -4136,7 +4136,7 @@ Input_Options
 .. option:: WaterUseProfAutoWD
 
 	:Description:
-		Code for water use profile (automatic irrigation, weekdays) Provides the link to column 1 of SUEWS_Profiles.txt. Value of integer is arbitrary but must match code specified in column 1 of SUEWS_Profiles.txt.
+		Code for water use profile (automatic irrigation, weekdays) Provides the link to column 1 of `SUEWS_Profiles.txt`. Value of integer is arbitrary but must match code specified in column 1 of `SUEWS_Profiles.txt`.
 
 	:Configuration:
 		.. csv-table::
@@ -4149,7 +4149,7 @@ Input_Options
 .. option:: WaterUseProfAutoWE
 
 	:Description:
-		Code for water use profile (automatic irrigation, weekends) Provides the link to column 1 of SUEWS_Profiles.txt. Value of integer is arbitrary but must match code specified in column 1 of SUEWS_Profiles.txt.
+		Code for water use profile (automatic irrigation, weekends) Provides the link to column 1 of `SUEWS_Profiles.txt`. Value of integer is arbitrary but must match code specified in column 1 of `SUEWS_Profiles.txt`.
 
 	:Configuration:
 		.. csv-table::
@@ -4162,7 +4162,7 @@ Input_Options
 .. option:: WaterUseProfManuWD
 
 	:Description:
-		Code for water use profile (manual irrigation, weekdays) Provides the link to column 1 of SUEWS_Profiles.txt. Value of integer is arbitrary but must match code specified in column 1 of SUEWS_Profiles.txt.
+		Code for water use profile (manual irrigation, weekdays) Provides the link to column 1 of `SUEWS_Profiles.txt`. Value of integer is arbitrary but must match code specified in column 1 of `SUEWS_Profiles.txt`.
 
 	:Configuration:
 		.. csv-table::
@@ -4175,7 +4175,7 @@ Input_Options
 .. option:: WaterUseProfManuWE
 
 	:Description:
-		Code for water use profile (manual irrigation, weekends) Provides the link to column 1 of SUEWS_Profiles.txt. Value of integer is arbitrary but must match code specified in column 1 of SUEWS_Profiles.txt.
+		Code for water use profile (manual irrigation, weekends) Provides the link to column 1 of `SUEWS_Profiles.txt`. Value of integer is arbitrary but must match code specified in column 1 of `SUEWS_Profiles.txt`.
 
 	:Configuration:
 		.. csv-table::
