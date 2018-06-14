@@ -79,15 +79,14 @@ SUEWS: Surface Urban Energy and Water Balance Scheme
 
    recent-publications
    introduction
-   suews-and-umep
    parameterisations-and-sub-models
    prepare-to-run-the-model
    input_files/input_files
    output_files/output_files
    troubleshooting
-   acknowledgement
-   notation
+   suews_related_softwares
    development
    version-history
-   differences-suews-lumps-fraise
+   acknowledgement
+   notation
    references
