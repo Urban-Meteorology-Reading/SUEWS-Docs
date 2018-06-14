@@ -7,7 +7,7 @@ Version History
 
 .. _new_2018a:
 
-Version 2018a (released June Version 2018)
+Version 2018a (released June 2018)
 ----------------------------------------------------
 - New
 
@@ -27,7 +27,7 @@ Version 2018a (released June Version 2018)
 
 .. _new_2017b:
 
-Version 2017b (released 2 August Version 2017)
+Version 2017b (released 2 August 2017)
 ---------------------------------------------------
 
 :download:`PDF Manual for v2017b </assets/doc/SUEWS_V2017b_Manual.pdf>`
@@ -52,7 +52,7 @@ Version 2017b (released 2 August Version 2017)
    #. Wind direction is not currently downscaled so non -999 values will
       cause an error.
 
-Version 2017a (Feb Version 2017)
+Version 2017a (Feb 2017)
 -------------------------------------
 
 #. Changes to input file formats (including RunControl.nml and
@@ -87,7 +87,7 @@ Version 2017a (Feb Version 2017)
    dioxide fluxes. These are currently under development and **should
    not be used** in vVersion 2017a.
 
-Version 2016a (released 21 June Version 2016)
+Version 2016a (released 21 June 2016)
 --------------------------------------------------
 
 :download:`PDF Manual for v2016a </assets/doc/SUEWS_V2016a_Manual.pdf>`
@@ -120,7 +120,7 @@ Version 2016a (released 21 June Version 2016)
 #. CBL model included.
 #. SUEWS has been incorporated into `UMEP <http://umep-docs.readthedocs.io/>`_
 
-Version 2014b (released 8 October Version 2014)
+Version 2014b (released 8 October 2014)
 ----------------------------------------------------
 
 :download:`PDF Manual for v2014b </assets/doc/SUEWS_V2014b_Manual.pdf>`
@@ -154,14 +154,14 @@ Development of the Surface Urban Energy and Water balance Scheme (SUEWS)
 for cold climate cities, Geosci. Model Dev. 7, 1691-1711,
 doi:10.5194/gmd-7-1691-Version 2014.
 
-Version 2014a.1 (released 26 February Version 2014)
+Version 2014a.1 (released 26 February 2014)
 --------------------------------------------------------
 
 #. Please see the large number of changes made in the Version 2014a release.
 #. This is a minor change to address installing the software.
 #. Minor updates to the manual
 
-Version 2014a (released 21 February Version 2014)
+Version 2014a (released 21 February 2014)
 ------------------------------------------------------
 
 #. Bug fix: External irrigation is calculated as combined from automatic
