@@ -11,8 +11,6 @@ Runtime diagnostic information
 Error messages: problems.txt
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-see this :ref:`output_files`
-
 If there are problems running the program serious error messages will be
 written to problems.txt.
 

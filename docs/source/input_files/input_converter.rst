@@ -47,4 +47,4 @@ The current available rules are listed below:
   :class: longtable
   :file: rules.csv
   :header-rows: 1
-  :widths: 5 5 5 30 30 5 5
+  :widths: auto
