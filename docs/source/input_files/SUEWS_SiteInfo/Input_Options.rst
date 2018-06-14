@@ -3100,7 +3100,7 @@ Input_Options
 .. option:: SnowLimPatch
 
 	:Description:
-		Not needed if SnowUse = 0 in RunControl.nml . Example values [mm] 190 Paved Järvi et al. (2014) [Leena2014]_  190 Bldgs Järvi et al. (2014) [Leena2014]_  190 BSoil Järvi et al. (2014) [Leena2014]_  Limit of snow water equivalent when the surface surface is fully covered with snow. Not needed if SnowUse = 0 in RunControl.nml . Example values [mm] 190 EveTr Järvi et al. (2014) [Leena2014]_  190 DecTr Järvi et al. (2014) [Leena2014]_  190 Grass Järvi et al. (2014) [Leena2014]_
+		Limit for the snow water equivalent when snow cover starts to be patchy (mm) Not needed if SnowUse = 0 in RunControl.nml . Example values [mm] 190 Paved Järvi et al. (2014) [Leena2014]_  190 Bldgs Järvi et al. (2014) [Leena2014]_  190 BSoil Järvi et al. (2014) [Leena2014]_  Limit of snow water equivalent when the surface surface is fully covered with snow. Not needed if SnowUse = 0 in RunControl.nml . Example values [mm] 190 EveTr Järvi et al. (2014) [Leena2014]_  190 DecTr Järvi et al. (2014) [Leena2014]_  190 Grass Järvi et al. (2014) [Leena2014]_
 
 	:Configuration:
 		.. csv-table::
@@ -3113,7 +3113,7 @@ Input_Options
 .. option:: SnowLimRemove
 
 	:Description:
-		Not needed if SnowUse = 0 in RunControl.nml . Currently not implemented for BSoil surface Example values [mm] 40 Paved Järvi et al. (2014) [Leena2014]_  100 Bldgs Järvi et al. (2014) [Leena2014]_
+		Limit of the snow water equivalent for snow removal from roads and roofs (mm) Not needed if SnowUse = 0 in RunControl.nml . Currently not implemented for BSoil surface Example values [mm] 40 Paved Järvi et al. (2014) [Leena2014]_  100 Bldgs Järvi et al. (2014) [Leena2014]_
 
 	:Configuration:
 		.. csv-table::
