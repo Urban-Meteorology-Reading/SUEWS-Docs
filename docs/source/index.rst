@@ -14,16 +14,32 @@ SUEWS: Surface Urban Energy and Water Balance Scheme
 .. epigraph::
 
   The software can be downloaded via `our GitHub page`_.
-  The **latest formal** release of SUEWS is `v2017b <new_2017b>` (released 1 August 2017).
+  The **latest formal** release of SUEWS is `v2018a <new_2018a>` (released 1 August 2017).
 
 
 - **How to use SUEWS?**
 
-.. epigraph::
+  - **For existing users:**
 
-  Read :ref:`this documentation <index_page>`.
-  For what's new in this version, see :ref:`new_latest`.
-  Besides, the manuals for previous versions can be accessed in respective sections under `version_history`.
+  .. epigraph::
+
+    For notable changes in this version, see :ref:`new_latest`.
+    If such changes have impacts on your exisitng simulation, please read parts related to your simulation files under influence and make necessary changes to adapt them for the new version.
+
+    .. tip::
+
+        A helper python script, `SUEWS table converter <input_converter>`, is provided to help facilitate the conversions of input files between different versions.
+
+    Besides, the manuals for previous versions can be accessed in respective sections under `version_history`.
+
+
+  - **For new users:**
+
+  .. epigraph::
+
+    Before starting to perform SUEWS simulations, new users are suggested to first get an overview from :ref:`introduction`, then follow the steps in `Preparing_to_run_the_model` to prepare `input files <input_files>` for SUEWS.
+
+    Besides, it is a good starting point to learn running SUEWS via `the tutorial. <http://umep-docs.readthedocs.io/en/latest/Tutorials/IntroductionToSuews.html#urban-energy-balance-suews-introduction>`_
 
 
 - **How to understand SUEWS?**
