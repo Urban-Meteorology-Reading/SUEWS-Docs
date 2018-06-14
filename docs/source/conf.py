@@ -100,9 +100,7 @@ rst_prolog = """
 .. |W^-1| replace:: W\ :sup:`-1`
 .. |h^-1| replace:: h\ :sup:`-1`
 .. |ha^-1| replace:: ha\ :sup:`-1`
-.. |)^−1| replace:: )\ :sup:`-1`
 .. |QF| replace:: Q\ :sub:`F`
-.. |degC| replace:: °C
 """
 # -- Options for HTML output -------------------------------------------------
 # The theme to use for HTML and HTML Help pages.  See the documentation for
