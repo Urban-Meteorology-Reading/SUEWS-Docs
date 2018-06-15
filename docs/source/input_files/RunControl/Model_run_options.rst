@@ -5,7 +5,7 @@ Model run options
 
 .. option:: CBLuse
 
-		.. warning:: This option is NOT available in v2018a.
+		.. warning:: |NotAvail|
 
 	:Requirement:
 		Required
@@ -34,7 +34,7 @@ Model run options
 .. option:: SOLWEIGUse
 
 		.. warning::
-			#. This option is NOT available in v2018a.
+			#. |NotAvail|
 			#. This option will considerably slow down the model since SOLWEIG is a 2D model.
 
 	:Requirement:

@@ -1,5 +1,6 @@
 No.,Column Name,Use,Description
-1,`Grid`,`MU`,Grid numbers do not need to be consecutive and do not need to start at a particular value. Each grid must have a unique grid number. All grids must be present for all years. These grid numbers are referred to columns from `GridConnection1of8` to `GridConnection8of8` ( N.B. GridConnections not currently implemented! )
+1,`Grid`,`MU`,Grid numbers do not need to be consecutive and do not need to start at a particular value. Each grid must have a unique grid number. All grids must be present for all years. These grid numbers are referred to columns from `GridConnection1of8` to `GridConnection8of8`
+|NotAvail|
 2,`Year`,`MU`,"Year [YYYY] Years must be continuous. If running multiple years, ensure the rows in `SUEWS_SiteSelect.txt` are arranged so that all grids for a particular year appear on consecutive lines (rather than grouping all years together for a particular grid). "
 3,`StartDLS`,`MU`,Start of the day light savings [DOY] See `Day_Light_Savings`.
 4,`EndDLS`,`MU`,End of the day light savings [DOY] See `Day_Light_Savings`.
@@ -14,7 +15,9 @@ No.,Column Name,Use,Description
     this is a change of sign convention between v2016a and v2017a See `lat` for more details."
 7,`Timezone`,`MU`,Time zone [h] for site relative to UTC (east is positive). This should be set according to the times given in the meteorological forcing file(s).
 8,`SurfaceArea`,`MU`,Area of the grid [ha].
-9,`Alt`,`MU`,Used for both the radiation and water flow between grids. ( N.B. water flow between grids not currently implemented. )
+9,`Alt`,`MU`,"Used for both the radiation and water flow between grids.
+
+|NotAvail|"
 10,`z`,`MU`,"z must be greater than the displacement height. Forcing data should be representative of the local-scale, i.e. above the height of the roughness elements."
 11,`id`,`MD`,Day [DOY] Not used: set to 1 in this version.
 12,`ih`,`MD`,Hour [H] Not used: set to 0 in this version.

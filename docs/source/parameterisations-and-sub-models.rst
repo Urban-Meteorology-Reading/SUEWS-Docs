@@ -57,11 +57,11 @@ Storage heat flux, ΔQ\ :sub:`S`
       radiation and the rate of change in net all-wave radiation.
    -  **AnOHM** (Analytical Objective Hysteresis Model, Sun et al.
       2017 [AnOHM17]_). OHM approach using analytically-derived coefficients.
-      (**Not recommended in v2017b**)
+      |NotRecmd|
    -  **ESTM** (Element Surface Temperature Method, Offerle et al.
       2005 [OGF2005]_). Heat transfer through urban facets (roof, wall, road,
       interior) is calculated from surface temperature measurements and
-      knowledge of material properties. (**Not recommended in v2017b**)
+      knowledge of material properties. |NotRecmd|
 
 #. Alternatively, 'observed' storage heat flux can be supplied with the
    meteorological forcing data.
@@ -98,12 +98,11 @@ evaporation-interception scheme of Grimmond and Oke (1991) [G91]_.
    if data are available.
 -  Drainage equations and coefficients to use must be specified in the
    input files.
--  Soil moisture can be calculated by the model (**Use of observed soil
-   moisture is not possible in v2017b**).
+-  Soil moisture can be calculated by the model (|NotAvail|).
 -  Runoff is permitted:
 
    -  between surface types within each model grid
-   -  between model grids (**Not implemented in v2017b**)
+   -  between model grids (|NotAvail|)
    -  to deep soil
    -  to pipes.
 

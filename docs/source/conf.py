@@ -104,6 +104,9 @@ rst_prolog = """
 .. |d^-1| replace:: d\ :sup:`-1`
 .. |d^-2| replace:: d\ :sup:`-2`
 .. |)^-1| replace:: )\ :sup:`-1`
+.. |Recmd| replace:: **Recommended in this version.**
+.. |NotRecmd| replace:: **Not recommended in this version.**
+.. |NotAvail| replace:: **Not available in this version.**
 """
 # -- Options for HTML output -------------------------------------------------
 # The theme to use for HTML and HTML Help pages.  See the documentation for

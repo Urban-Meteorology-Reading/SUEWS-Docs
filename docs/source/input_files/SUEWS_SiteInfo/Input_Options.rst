@@ -52,7 +52,7 @@ Input Options
 .. option:: FcEF_v_kgkm
 
 	:Description:
-		CO2 emission factor [kg |km^−1|]
+		CO2 emission factor [kg |km^-1|]
 
 	:Configuration:
 		.. csv-table::
@@ -1552,7 +1552,7 @@ Input Options
 .. option:: Grid
 
 	:Description:
-		Grid numbers do not need to be consecutive and do not need to start at a particular value. Each grid must have a unique grid number. All grids must be present for all years. These grid numbers are referred to in GridConnections (columns 64-79) ( N.B. GridConnections not currently implemented! )
+		a unique number to represent grid
 
 	:Configuration:
 		.. csv-table::
@@ -4223,7 +4223,7 @@ Input Options
 .. option:: wdir
 
 	:Description:
-		Wind direction [deg]. Currently not implemented
+		Wind direction [deg].
 
 	:Configuration:
 		.. csv-table::

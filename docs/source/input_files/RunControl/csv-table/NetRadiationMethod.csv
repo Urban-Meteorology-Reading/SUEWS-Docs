@@ -9,12 +9,12 @@ Zenith angle not accounted for in albedo calculation."
 100,"Q* modelled with L↓ observations supplied in meteorological forcing file.
 Zenith angle accounted for in albedo calculation.
 SSss_YYYY_NARPOut.txt file produced.
-Not recommended in this release"
+|NotRecmd|"
 200,"Q* modelled with L↓ modelled using cloud cover fraction supplied in meteorological forcing file (Loridan et al. 2011 [L2011]_).
 Zenith angle accounted for in albedo calculation.
 SSss_YYYY_NARPOut.txt file produced.
-Not recommended in this release"
+|NotRecmd|"
 300,"Q* modelled with L↓ modelled using air temperature and relative humidity supplied in meteorological forcing file (Loridan et al. 2011 [L2011]_).
 Zenith angle accounted for in albedo calculation.
 SSss_YYYY_NARPOut.txt file produced.
-Not recommended in this release"
+|NotRecmd|"

@@ -20,6 +20,6 @@ No.,Use,Column name,Description
 19,`O`,Wuh,External water use [|m^3|]
 20,`O`,xsmd,Observed soil moisture [|m^3| |m^-3|] or [kg |kg^-1|]
 21,`O`,lai,Observed leaf area index [|m^-2| |m^-2|]
-22,`O`,kdiff,Diffuse radiation [W |m^-2|] Recommended if `SOLWEIGUse` = 1
-23,`O`,kdir,Direct radiation [W |m^-2|] Recommended if `SOLWEIGUse` = 1
-24,`O`,wdir,Wind direction [°] Currently not implemented
+22,`O`,kdiff,Diffuse radiation [W |m^-2|] |Recmd| if `SOLWEIGUse` = 1
+23,`O`,kdir,Direct radiation [W |m^-2|] |Recmd| if `SOLWEIGUse` = 1
+24,`O`,wdir,Wind direction [°] |NotAvail|
