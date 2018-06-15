@@ -52,7 +52,7 @@ SUEWS: Surface Urban Energy and Water Balance Scheme
 
   The scientific details and application cases of SUEWS can be found in related papers under `Recent_publications`.
 
-
+.. _cite_suews:
 - **How to cite SUEWS?**
 
   Please cite `this version <new_latest>` as follows:
@@ -64,6 +64,7 @@ SUEWS: Surface Urban Energy and Water Balance Scheme
 
 - **How to support SUEWS?**
 
+  #. `Cite SUEWS <cite_suews>` appropriately in your work.
   #. Contribute to the `development <Development_Suggestions_Support>`.
   #. Report issues via the `GitHub page`_.
   #. Provide `suggestions and feedbacks <Development_Suggestions_Support>`.
