@@ -198,7 +198,7 @@ latex_documents = [
      author,
      'manual'),
 ]
-
+latex_logo = 'assets/img/SUEWS_LOGO.png'
 
 # -- Options for manual page output ------------------------------------------
 
