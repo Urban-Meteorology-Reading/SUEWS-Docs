@@ -1110,7 +1110,7 @@ Input Options
 .. option:: Fraction1of8
 
 	:Description:
-		Fraction of water that can flow to the grid specified in previous column [-]
+		Fraction of water that can flow to `GridConnection1of8` [-]
 
 	:Configuration:
 		.. csv-table::
@@ -1123,7 +1123,7 @@ Input Options
 .. option:: Fraction2of8
 
 	:Description:
-		Fraction of water that can flow to the grid specified in previous column [-]
+		Fraction of water that can flow to `GridConnection2of8` [-]
 
 	:Configuration:
 		.. csv-table::
@@ -1136,7 +1136,7 @@ Input Options
 .. option:: Fraction3of8
 
 	:Description:
-		Fraction of water that can flow to the grid specified in previous column [-]
+		Fraction of water that can flow to `GridConnection3of8` [-]
 
 	:Configuration:
 		.. csv-table::
@@ -1149,7 +1149,7 @@ Input Options
 .. option:: Fraction4of8
 
 	:Description:
-		Fraction of water that can flow to the grid specified in previous column [-]
+		Fraction of water that can flow to `GridConnection4of8` [-]
 
 	:Configuration:
 		.. csv-table::
@@ -1162,7 +1162,7 @@ Input Options
 .. option:: Fraction5of8
 
 	:Description:
-		Fraction of water that can flow to the grid specified in previous column [-]
+		Fraction of water that can flow to `GridConnection5of8` [-]
 
 	:Configuration:
 		.. csv-table::
@@ -1175,7 +1175,7 @@ Input Options
 .. option:: Fraction6of8
 
 	:Description:
-		Fraction of water that can flow to the grid specified in previous column [-]
+		Fraction of water that can flow to `GridConnection6of8` [-]
 
 	:Configuration:
 		.. csv-table::
@@ -1188,7 +1188,7 @@ Input Options
 .. option:: Fraction7of8
 
 	:Description:
-		Fraction of water that can flow to the grid specified in previous column [-]
+		Fraction of water that can flow to `GridConnection7of8` [-]
 
 	:Configuration:
 		.. csv-table::
@@ -1201,7 +1201,7 @@ Input Options
 .. option:: Fraction8of8
 
 	:Description:
-		Fraction of water that can flow to the grid specified in previous column [-]
+		Fraction of water that can flow to `GridConnection8of8` [-]
 
 	:Configuration:
 		.. csv-table::
@@ -1565,6 +1565,7 @@ Input Options
 .. option:: GridConnection1of8
 
 	:Description:
+		Number of the 1st grid where water can flow to
 		The next 8 pairs of columns specify the water flow between grids. The first column of each pair specifies the grid that the water flows to (from the current grid, column 1); the second column of each pair specifies the fraction of water that flow to that grid. The fraction (i.e. amount) of water transferred may be estimated based on elevation, the length of connecting surface between grids, presence of walls, etc. Water cannot flow from the current grid to the same grid, so the grid number here must be different to the grid number in column 1. Water can flow to a maximum of 8 other grids. If there is no water flow between grids, or a single grid is run, set to 0. See section on Grid Connections
 
 	:Configuration:
@@ -1578,7 +1579,7 @@ Input Options
 .. option:: GridConnection2of8
 
 	:Description:
-		Number of the grid where water can flow to
+		Number of the 2nd grid where water can flow to
 
 	:Configuration:
 		.. csv-table::
@@ -1591,7 +1592,7 @@ Input Options
 .. option:: GridConnection3of8
 
 	:Description:
-		Number of the grid where water can flow to
+		Number of the 3rd grid where water can flow to
 
 	:Configuration:
 		.. csv-table::
@@ -1604,7 +1605,7 @@ Input Options
 .. option:: GridConnection4of8
 
 	:Description:
-		Number of the grid where water can flow to
+		Number of the 4th grid where water can flow to
 
 	:Configuration:
 		.. csv-table::
@@ -1617,7 +1618,7 @@ Input Options
 .. option:: GridConnection5of8
 
 	:Description:
-		Number of the grid where water can flow to
+		Number of the 5th grid where water can flow to
 
 	:Configuration:
 		.. csv-table::
@@ -1630,7 +1631,7 @@ Input Options
 .. option:: GridConnection6of8
 
 	:Description:
-		Number of the grid where water can flow to
+		Number of the 6th grid where water can flow to
 
 	:Configuration:
 		.. csv-table::
@@ -1643,7 +1644,7 @@ Input Options
 .. option:: GridConnection7of8
 
 	:Description:
-		Number of the grid where water can flow to
+		Number of the 7th grid where water can flow to
 
 	:Configuration:
 		.. csv-table::
@@ -1656,7 +1657,7 @@ Input Options
 .. option:: GridConnection8of8
 
 	:Description:
-		Number of the grid where water can flow to
+		Number of the 8th grid where water can flow to
 
 	:Configuration:
 		.. csv-table::
