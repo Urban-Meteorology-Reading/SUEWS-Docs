@@ -3,6 +3,10 @@
 SUEWS: Surface Urban Energy and Water Balance Scheme
 ----------------------------------------------------
 
+.. image:: http://readthedocs.org/projects/suews-docs/badge/?version=latest
+    :target: https://suews-docs.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Status
+
 .. note::
 
   This documentation is being migrated from our previous wiki site to this new system.
