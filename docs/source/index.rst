@@ -28,7 +28,7 @@ SUEWS: Surface Urban Energy and Water Balance Scheme
   .. epigraph::
 
     For notable changes in this version, see :ref:`new_latest`.
-    If such changes have impacts on your exisiting simulation, please read parts related to your simulation files under influence and make necessary changes to adapt them for the new version.
+    If such changes have impacts on your existing simulation, please read parts related to your simulation files under influence and make necessary changes to adapt them for the new version.
 
     .. tip::
 
