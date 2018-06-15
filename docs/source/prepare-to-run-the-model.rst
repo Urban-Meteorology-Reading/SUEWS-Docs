@@ -277,6 +277,8 @@ reasonable ranges of values are suggested for some parameters, along
 with important considerations for how to select appropriate values for
 your site.
 
+.. _data_entry:
+
 Data Entry
 ^^^^^^^^^^
 
