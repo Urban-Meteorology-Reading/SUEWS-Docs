@@ -10,7 +10,7 @@ SUEWS: Surface Urban Energy and Water Balance Scheme
 .. note::
 
   This documentation is being migrated from our previous wiki site to this new system.
-  Also, some statement here may NOT be up to date as the model/software is under rapid development.
+  Also, some statements here may NOT be up to date as the model/software is under rapid development.
   Please report issues on the `GitHub page`_.
 
 - **How to get SUEWS?**
@@ -28,13 +28,13 @@ SUEWS: Surface Urban Energy and Water Balance Scheme
   .. epigraph::
 
     For notable changes in this version, see :ref:`new_latest`.
-    If such changes have impacts on your exisitng simulation, please read parts related to your simulation files under influence and make necessary changes to adapt them for the new version.
+    If such changes have impacts on your exisiting simulation, please read parts related to your simulation files under influence and make necessary changes to adapt them for the new version.
 
     .. tip::
 
-        A helper python script, `SUEWS table converter <input_converter>`, is provided to help facilitate the conversions of input files between different versions.
+        A helper python script, `SUEWS table converter <input_converter>`, is provided to help facilitate the conversion of input files between different SUEWS versions.
 
-    Besides, the manuals for previous versions can be accessed in respective sections under `version_history`.
+    Additionally, the manuals for previous versions can be accessed in respective sections under `version_history`.
 
 
   - **For new users:**
