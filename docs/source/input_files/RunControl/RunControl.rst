@@ -22,7 +22,7 @@ A sample file of **RunControl.nml** looks like
 The parameters and their setting instructions are provided through the links below:
 
 
-* :ref:`Model_run_options`
+* :ref:`scheme_options`
 
       .. hlist::
         + :option:`CBLuse`
@@ -90,7 +90,7 @@ The parameters and their setting instructions are provided through the links bel
    :maxdepth: 1
    :hidden:
 
-   Model_run_options
+   scheme_options
    Time_related_options
    File_related_options
    Options_related_to_disaggregation_of_input_data

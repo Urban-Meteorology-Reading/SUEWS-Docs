@@ -142,7 +142,7 @@ html_static_path = ['_static']
 #
 # html_sidebars = {}
 numfig = True
-
+html_logo = 'assets/img/SUEWS_LOGO.png'
 
 # -- Options for HTMLHelp output ---------------------------------------------
 
