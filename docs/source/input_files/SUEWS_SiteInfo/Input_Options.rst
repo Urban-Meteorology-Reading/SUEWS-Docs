@@ -52,7 +52,7 @@ Input Options
 .. option:: FcEF_v_kgkm
 
 	:Description:
-		CO2 emission factor [kg k|m^−1|]
+		CO2 emission factor [kg |km^−1|]
 
 	:Configuration:
 		.. csv-table::
