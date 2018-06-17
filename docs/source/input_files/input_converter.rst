@@ -3,7 +3,7 @@
 SUEWS input converter
 ********************************
 
-SUEWS input converter is a python script to convert input files between different versions based pre-defined rules.
+SUEWS input converter is a python script to convert input files between different versions based on pre-defined rules.
 
 How to use
 ----------------
