@@ -6,14 +6,14 @@ Acknowledgements
 -  Current contributors:
 
    .. list-table::
-     :widths: auto
+     :widths: 30 35 35
      :header-rows: 1
 
      * - Name
        - Affiliation
        - Contributions
      * - Prof C.S.B. Grimmond
-       - University of Reading; previously Indiana University, King’s College London, UK
+       - University of Reading; previously, Indiana University, US and King’s College London, UK
        - Team Leader
      * - Dr Leena Järvi
        - University of Helsinki, Finland
@@ -22,23 +22,23 @@ Acknowledgements
        - Göteborg University, Sweden
        - UMEP-related work
      * - Dr Ting Sun
-       - University of Reading
-       - AnOHM; Interface design; WRF-SUEWS coupling; SuPy development (python wrapper of SUEWS)
+       - University of Reading, UK
+       - AnOHM; Documentation system; WRF-SUEWS coupling; SuPy (python wrapper of SUEWS)
      * - Dr Jie Peng
-       - SIMS
+       - SIMS, China
        - CBL module
      * - Dr Zhenkun Li
-       - Shanghai Climate Centre
+       - Shanghai Climate Centre, China
        - WRF-SUEWS coupling
      * - Dr Natalie Theeuwes
-       - University of Reading
+       - University of Reading, UK
        - CBL module
 
 
 -  Past Contributors:
 
    .. list-table::
-     :widths: auto
+     :widths: 30 35 35
      :header-rows: 1
 
      * - Name
@@ -51,16 +51,16 @@ Acknowledgements
        - King’s College London, UK; University of Reading, UK
        - OHM improvement; Resistance calculation; Anthropogenic heat calculation
      * - Dr Andy Gabey
-       - University of Reading
+       - University of Reading, UK
        - QF-related calculation
      * - Dr Thomas Loridan
-       - King’s College London
+       - King’s College London, UK
        - NARP
      * - Dr Brian Offerle
-       - Indiana University
+       - Indiana University, US
        - ESTM
 
--  The :download:`logo </assets/img/SUEWS_LOGO.png>` is designed by Xiangyu Ao (SIMS)
+-  The :download:`SUEWS logo </assets/img/SUEWS_LOGO.png>` is designed by Xiangyu Ao (SIMS)
 
 -  Users who have brought things to our attention to improve this manual
    and the model:
