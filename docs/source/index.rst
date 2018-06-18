@@ -91,6 +91,7 @@ SUEWS: Surface Urban Energy and Water Balance Scheme
    troubleshooting
    recent-publications
    suews_related_softwares
+   tutorials/docs/source/index
    development
    version-history
    acknowledgement
