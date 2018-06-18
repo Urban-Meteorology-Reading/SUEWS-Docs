@@ -142,7 +142,7 @@ html_static_path = ['_static']
 #
 # html_sidebars = {}
 numfig = True
-html_logo = 'assets/img/SUEWS_LOGO.png'
+# html_logo = 'assets/img/SUEWS_LOGO.png'
 
 # -- Options for HTMLHelp output ---------------------------------------------
 
@@ -198,7 +198,7 @@ latex_documents = [
      author,
      'manual'),
 ]
-latex_logo = 'assets/img/SUEWS_LOGO.png'
+# latex_logo = 'assets/img/SUEWS_LOGO.png'
 
 # -- Options for manual page output ------------------------------------------
 
