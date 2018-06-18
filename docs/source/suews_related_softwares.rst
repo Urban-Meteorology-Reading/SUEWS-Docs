@@ -167,7 +167,7 @@ Similarities and differences between LUMPS and SUEWS.
 |                    | surface area that is | with a simple model   |
 |                    | irrigated            |                       |
 +--------------------+----------------------+-----------------------+
-| Surface cover      | buildings, paved,    | buildings, paved,     |
+| Surface cover      | Buildings, paved,    | Buildings, paved,     |
 |                    | vegetation           | coniferous and        |
 |                    |                      | deciduous             |
 |                    |                      | trees/shrubs,         |
@@ -202,7 +202,7 @@ further details.
 | period:        | 3 h of solar   |                 | min-hourly-annu |
 |                | noon)          |                 | al              |
 +----------------+----------------+-----------------+-----------------+
-| Unique         | calculates     | radiation and   | radiation,      |
+| Unique         | Calculates     | Radiation and   | Radiation,      |
 | features:      | active surface | energy balances | energy and      |
 |                | – and fluxes   |                 | water balance   |
 |                |                |                 | (includes       |
