@@ -5,10 +5,10 @@ Notation
 .. glossary::
 
    *λF*
-     frontal area  index
+     Frontal area  index
 
    ΔQS
-     storage heat flux
+     Storage heat flux
 
    BLUEWS
      Boundary Layer  part of SUEWS
@@ -34,7 +34,7 @@ Notation
      Digital Terrain Model
 
    DecTr
-     deciduous trees and shrubs
+     Deciduous trees and shrubs
 
    EveTr
      Evergreen trees and shrubs
@@ -49,13 +49,13 @@ Notation
      Unmanaged land and/or bare soil
 
    Runoff
-      the water that drains freely off the impervious surface
+      The water that drains freely off the impervious surface
 
    SoilStore
-      the water stored in the underlying soil that infiltrates from the pervious surface
+      The water stored in the underlying soil that infiltrates from the pervious surface
 
    L↓
-     incoming longwave radiation
+     Incoming longwave radiation
 
    LAI
      Leaf area index
@@ -88,13 +88,13 @@ Notation
      Net all-wave radiation
 
    QE
-     latent heat flux
+     Latent heat flux
 
    QF
-     anthropogenic  heat flux
+     Anthropogenic  heat flux
 
    QH
-     sensible heat  flux
+     Sensible heat  flux
 
    SOLWEIG
      The solar and longwave environmental irradiance geometry model (Lindberg et al. 2008 [FL2008]_,   Lindberg and Grimmond 2011 [FL2011]_)
@@ -103,10 +103,10 @@ Notation
      Sky view factor
 
    *θ*
-     potential temperature
+     Potential temperature
 
    tt
-     time step of data
+     Time step of data
 
    UMEP
      `Urban Multi-scale Environmental Predictor`_

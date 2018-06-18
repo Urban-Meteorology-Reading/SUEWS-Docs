@@ -18,13 +18,13 @@ How to join your email-list?
 How to create a directory?
 --------------------------
 
-    please search the web using this phrase if you do not know how to
+    Please search the web using this phrase if you do not know how to
     create a folder or directory
 
 How to unzip a file
 -------------------
 
-    please search the web using this phrase if you do not know how to
+    Please search the web using this phrase if you do not know how to
     unzip a file
 
 
@@ -33,7 +33,7 @@ How to unzip a file
 A text editor
 -------------
 
-    is a program to edit plain text files. If you search on the web
+    A program to edit plain text files. If you search on the web
     using the phrase ‘text editor’ you will find numerous programs.
     These include for example, NotePad, EditPad, Text Pad etc
 
