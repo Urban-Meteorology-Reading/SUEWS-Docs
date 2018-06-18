@@ -83,7 +83,7 @@ Turbulent heat fluxes, Q\ :sub:`H` and Q\ :sub:`E`
 Sensible and latent heat fluxes from both LUMPS and SUEWS are provided in the `output_files`.
 Whether the turbulent heat fluxes are calculated using LUMPS or SUEWS can have a major impact on the results.
 For SUEWS, an appropriate surface conductance parameterisation is also critical [J11]_ [W16]_.
-For more details see `Differences_between_SUEWS&LUMPS_and_FRAISE` .
+For more details see `Differences_between_SUEWS_LUMPS_and_FRAISE` .
 
 Water balance
 -------------

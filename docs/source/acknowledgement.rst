@@ -82,7 +82,7 @@ Acknowledgements
      * - Dr Helen Ward
        - King’s College London, UK; University of Reading, UK
      * - Duick Young
-       - King’s College London
+       - King’s College London, UK
      * - Dr Ning Zhang
        - Nanjing University, China
 
