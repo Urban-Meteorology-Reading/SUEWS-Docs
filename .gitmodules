@@ -1,0 +1,3 @@
+[submodule "docs/source/tutorials"]
+	path = docs/source/tutorials
+	url = git@github.com:Urban-Meteorology-Reading/Tutorials.git
