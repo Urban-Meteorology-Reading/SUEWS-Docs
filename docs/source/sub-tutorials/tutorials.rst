@@ -29,8 +29,6 @@ tool. The tutorials are available are found in the table below.
 
 
 .. toctree::
-   :caption: UMEP Tutorials
-   :maxdepth: 4
    :hidden:
 
    tutorials/docs/source/Tutorials/IntroductionToSuews
