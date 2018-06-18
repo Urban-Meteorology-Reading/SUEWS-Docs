@@ -44,7 +44,7 @@ Version 2017b (released 2 August 2017)
 #. New capabilities being developed, including two new options for
    calculating storage heat flux (AnOHM, ESTM) and modelling of carbon
    dioxide fluxes. These are currently under development and **should
-   not be used** in vVersion 2017b.
+   not be used** in Version 2017b.
 #. Known issues
 
    #. BLUEWS parameters need to be checked
@@ -85,7 +85,7 @@ Version 2017a (Feb 2017)
 #. New capabilities being developed, including two new options for
    calculating storage heat flux (AnOHM, ESTM) and modelling of carbon
    dioxide fluxes. These are currently under development and **should
-   not be used** in vVersion 2017a.
+   not be used** in Version 2017a.
 
 Version 2016a (released 21 June 2016)
 --------------------------------------------------
@@ -296,4 +296,4 @@ SUEWS
 
    -  AHDIUPRF – diurnal profile used if EmissionsMethod = 1
 
-VVersion 2012a this became obsolete OHM file (SSss_YYYY.ohm)
+Version 2012a this became obsolete OHM file (SSss_YYYY.ohm)
