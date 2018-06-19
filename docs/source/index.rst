@@ -43,7 +43,7 @@ SUEWS: Surface Urban Energy and Water Balance Scheme
 
     Before starting to perform SUEWS simulations, new users are suggested to first get an overview from :ref:`introduction`, then follow the steps in `Preparing_to_run_the_model` to prepare `input files <input_files>` for SUEWS.
 
-    Besides, it is a good starting point to learn running SUEWS via `the tutorial. <http://umep-docs.readthedocs.io/en/latest/Tutorials/IntroductionToSuews.html#urban-energy-balance-suews-introduction>`_
+    Besides, it is a good starting point to learn running SUEWS via :ref:`the tutorial. <tutorials_suews>`
 
 
 - **How has SUEWS been used?**
