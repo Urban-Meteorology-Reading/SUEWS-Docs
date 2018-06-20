@@ -436,4 +436,4 @@ For issues met in using SUEWS, we recommend the following ways to get in contact
 .. _`tutorials`: http://umep-docs.readthedocs.io/en/latest/Tutorials/Tutorials.html
 .. _`UMEP`: http://umep-docs.readthedocs.io/en/latest/index.html
 .. _`LQF`: http://umep-docs.readthedocs.io/en/latest/OtherManuals/LQF_Manual.html
-.. _`LUCY`: http://micromet.reading.ac.uk/software/
+.. _`LUCY`: https://urban-meteorology-reading.github.io/LUCY
