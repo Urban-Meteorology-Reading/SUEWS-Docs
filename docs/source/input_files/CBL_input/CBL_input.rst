@@ -47,25 +47,25 @@ Definitions and example file of initial values prepared for Sacramento.
      - Day of year [DOY]
    * - 2
      - zi0
-     - initial convective  boundary layer height (m)
+     - Initial convective  boundary layer height (m)
    * - 3
      - gamt_Km
-     - vertical gradient of potential temperature (K |m^-1|) strength of the inversion
+     - Vertical gradient of potential temperature (K |m^-1|) strength of the inversion
    * - 4
      - gamq_gkgm
-     - vertical gradient of specific humidity (g kg\ :sup:`-1` m\ :sup:`-1`)
+     - Vertical gradient of specific humidity (g kg\ :sup:`-1` m\ :sup:`-1`)
    * - 5
      - Theta+_K
-     - potential temperature at the top of CBL (K)
+     - Potential temperature at the top of CBL (K)
    * - 6
      - q+_gkg
-     - specific humidity at the top of CBL (g kg\ :sup:`-1`)
+     - Specific humidity at the top of CBL (g kg\ :sup:`-1`)
    * - 7
      - Theta_K
-     - potential temperature in CBL (K)
+     - Potential temperature in CBL (K)
    * - 8
      - q_gkg
-     - specific humidiy in CBL (g kg\ :sup:`-1`)
+     - Specific humidiy in CBL (g kg\ :sup:`-1`)
 
 -  gamt_Km and gamq_gkgm written to two significant figures are required
    for the model performance in appropriate ranges [Shiho2015]_.
