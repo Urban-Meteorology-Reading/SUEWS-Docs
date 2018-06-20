@@ -286,6 +286,7 @@ Input Options
 
 	:Description:
 		TODO
+		Base Temperature for initiating growing degree days (GDD) for leaf growth. [°C]
 		See section 2.2 Järvi et al. (2011); Appendix A Järvi et al. (2014).
 
 	:Configuration:
@@ -300,6 +301,7 @@ Input Options
 
 	:Description:
 		TODO
+		Base temperature for initiating sensesance degree days (SDD) for leaf off. [°C]
 		See section 2.2 Järvi et al. (2011) [J11]_ ; Appendix A Järvi et al. (2014) [Leena2014]_ .
 
 	:Configuration:
@@ -1539,6 +1541,7 @@ Input Options
 
 	:Description:
 		TODO
+		The growing degree days (GDD) needed for full capacity of the leaf area index (LAI). [°C]
 		This should be checked carefully for your study area using modelled LAI from the DailyState output file compared to known behaviour in the study area. See section 2.2 Järvi et al. (2011) [J11]_ ; Appendix A Järvi et al. (2014) [Leena2014]_ for more details.
 
 	:Configuration:
@@ -2493,6 +2496,7 @@ Input Options
 
 	:Description:
 		TODO
+		The maximum conductance of each vegetation or surface type.
 		Example values [mm |s^-1|]
 
 	:Configuration:
@@ -2533,6 +2537,7 @@ Input Options
 
 	:Description:
 		TODO
+		The maximum observed soil moisture. [|m^3| |m^-3| or kg |kg^-1|]
 		Use only if soil moisture is observed and provided in the met forcing file and `SMDMethod` = 1 or 2. Use of observed soil moisture not currently tested
 
 	:Configuration:
@@ -2547,6 +2552,8 @@ Input Options
 
 	:Description:
 		TODO
+		The depth of soil moisture measurements. [mm]
+		
 		Use only if soil moisture is observed and provided in the met forcing file and `SMDMethod` = 1 or 2. Use of observed soil moisture not currently tested
 
 	:Configuration:
@@ -2561,6 +2568,8 @@ Input Options
 
 	:Description:
 		TODO
+		Fraction of soil without rocks. [-]
+		
 		Use only if soil moisture is observed and provided in the met forcing file and `SMDMethod` = 1 or 2. Use of observed soil moisture not currently tested
 
 	:Configuration:
@@ -3043,6 +3052,7 @@ Input Options
 
 	:Description:
 		TODO
+		The sensesence degree days (SDD) needed to initiate leaf off. [°C]
 
 
 	:Configuration:
@@ -3226,7 +3236,9 @@ Input Options
 
 	:Description:
 		TODO
-		Currently only used for the water surface Currently only used for the water surface Surface state cannot exceed this value. Set to a large value (e.g. 20000 mm = 20 m) if the water body is substantial (lake, river, etc) or a small value (e.g. 10 mm) if water bodies are very shallow (e.g. fountains). WaterDepth (column 9) must not exceed this value.
+		Upper limit to the surface state. [mm]
+		
+		Currently only used for the water surface. Set to a large value (e.g. 20000 mm = 20 m) if the water body is substantial (lake, river, etc) or a small value (e.g. 10 mm) if water bodies are very shallow (e.g. fountains). WaterDepth (column 9) must not exceed this value.
 
 	:Configuration:
 		.. csv-table::
