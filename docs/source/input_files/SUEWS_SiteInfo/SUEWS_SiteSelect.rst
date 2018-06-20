@@ -4,7 +4,7 @@ SUEWS_SiteSelect.txt
 ~~~~~~~~~~~~~~~~~~~~
 
 For each year and each grid, site specific surface cover information and
-other input parameters is provided to SUEWS by `SUEWS_SiteSelect.txt`.
+other input parameters are provided to SUEWS by `SUEWS_SiteSelect.txt`.
 The model currently requires a new row for each year of the model run.
 All rows in this file will be read by the model and run.
 
@@ -20,7 +20,7 @@ All rows in this file will be read by the model and run.
   - Surface cover fractions specified from `Fr_Paved` to `Fr_Water` should sum up to 1.
   - Surface cover fractions specified from `Fr_ESTMClass_Paved1` to `Fr_ESTMClass_Paved3` should sum up to 1.
   - Surface cover fractions specified from `Fr_ESTMClass_Bldgs1` to `Fr_ESTMClass_Bldgs5` should sum up to 1.
-  - In this file the **row order is important** for simulaitons of **multiple grids and multiple years**.
+  - In this file the **row order is important** for simulations of **multiple grids and multiple years**.
     Ensure the rows in are arranged so that all grids for a particular year appear on consecutive lines (rather than grouping all years together for a particular grid). See below for a valid example::
 
       Grid  Year ...
@@ -39,7 +39,7 @@ All rows in this file will be read by the model and run.
 Day Light Savings (DLS)
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-The dates for DLS normally vary each year and country as they are often
+The dates for DLS normally vary for each year and country as they are often
 associated with a specific set of Sunday mornings at the beginning of
 summer and autumn. Note it is important to remember leap years. You can
 check http://www.timeanddate.com/time/dst/ for your city.
@@ -49,8 +49,8 @@ check http://www.timeanddate.com/time/dst/ for your city.
     If DLS does not occur give a start and end day immediately after it.
     Make certain the dummy dates are correct for the hemisphere
 
-     - for northern hemisphere, use: 180 181
-     - for southern hemisphere, use:  365 1
+     - For northern hemisphere, use: 180 181
+     - For southern hemisphere, use:  365 1
 
 Example when running  multiple years (in this case 2008 and 2009 in Canada):
     .. list-table::
@@ -74,7 +74,7 @@ Grid Connections (water flow between grids)
 
 .. caution::
     - |NotAvail|
-    - columns betwee `GridConnection1of8` and `GridConnection8of8` in `SUEWS_SiteSelect.txt` can be set to zero.
+    - columns between `GridConnection1of8` and `GridConnection8of8` in `SUEWS_SiteSelect.txt` can be set to zero.
 
 This section gives an example of water flow between grids, calculated
 based on the relative elevation of the grids and length of the
