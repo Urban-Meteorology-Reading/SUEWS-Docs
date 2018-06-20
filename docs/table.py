@@ -208,6 +208,7 @@ def dofile(infile, replace, create):
     return
 
 
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(prog="table",
                                      description='''Convert RST grid table
