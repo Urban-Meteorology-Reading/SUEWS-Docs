@@ -254,10 +254,9 @@ You can either model |QF| within SUEWS or provide it as an input.
 -  To model it population density is needed as an input for LUMPS and
    SUEWS to calculate |QF|.
 -  If you have no information about the population of the site we
-   recommend that you use the LUCY model [lucy]_  [lucy2]_ to estimate the
+   recommend that you use the `LUCY`_ model [lucy]_  [lucy2]_ to estimate the
    anthropogenic heat flux which can then be provided as input SUEWS
-   along with the meteorological forcing data. The LUCY model can be
-   downloaded from `here <http://micromet.reading.ac.uk/>`__.
+   along with the meteorological forcing data.
 
 Alternatively, you can use the updated version of LUCY called
 `LQF`_, which is included in
@@ -437,3 +436,4 @@ For issues met in using SUEWS, we recommend the following ways to get in contact
 .. _`tutorials`: http://umep-docs.readthedocs.io/en/latest/Tutorials/Tutorials.html
 .. _`UMEP`: http://umep-docs.readthedocs.io/en/latest/index.html
 .. _`LQF`: http://umep-docs.readthedocs.io/en/latest/OtherManuals/LQF_Manual.html
+.. _`LUCY`: http://micromet.reading.ac.uk/software/
