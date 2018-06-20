@@ -5,7 +5,7 @@ SUEWS_Soil.txt
 
 SUEWS_Soil.txt specifies the characteristics of the sub-surface soil
 below each of the non-water surface types (Paved, Bldgs, EveTr, DecTr,
-Grass, BSoil). The model does not have a soi store below the water
+Grass, BSoil). The model does not have a soil store below the water
 surfaces. Note that these sub-surface soil stores are different to the
 bare soil/unmamnaged surface cover type. Each of the non-water surface
 types need to link to soil characteristics specified here. If the soil
@@ -19,7 +19,7 @@ forcing file (`SMDMethod` = 1 or 2 in
 or modelled by SUEWS (`SMDMethod` = 0 in `RunControl.nml`).
 
 .. caution::
-  the option to use observational data is not operational in the current release!
+  The option to use observational data is not operational in the current release!
 
 
 
