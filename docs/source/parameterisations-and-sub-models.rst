@@ -109,13 +109,13 @@ evaporation-interception scheme of Grimmond and Oke (1991) [G91]_.
 Snowmelt
 --------
 
-The snowmelt model within SUEWS is described in Järvi et al.(2014) [Leena2014]_.
-Due to changes in the new model version (since v2016a)
-when compared to the older versions, the snow calculation has slightly
-changed. The main difference is that previously all surface state could
-freeze in 1-h time step but now the amount of freezing surface state is
+The snowmelt model within SUEWS is described in Järvi et al. (2014) [Leena2014]_.
+Changes in the new model version (since v2016a) have meant that the
+snow calculation has changed slightly compared to previous versions.
+The main difference is that previously all surface state could
+freeze in 1-h time step, but now the amount of freezing surface state is
 calculated similar way as melt water can freeze within the snow pack.
-Also the snowmelt-related coefficients have slightly changed (see
+The snowmelt-related coefficients have also slightly changed (see
 `SUEWS_Snow.txt`).
 
 Convective boundary layer
