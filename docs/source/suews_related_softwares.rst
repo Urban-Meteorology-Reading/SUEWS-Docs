@@ -11,15 +11,12 @@ SUEWS and UMEP
 
 SUEWS can be run as a standalone model but also can be used within
 `UMEP <http://umep-docs.readthedocs.io/en/latest/UMEP_Manual>`_. There are numerous
-tools included within UMEP to help a user get started. The `SUEWS
-simple <http://umep-docs.readthedocs.io/en/latest/UMEP_Manual#Urban_Energy_Balance:_Urban_Energy_Balance_.28SUEWS.2C_simple.29>`_
+tools included within UMEP to help a user get started. The `SUEWS (Simple)`_
 within UMEP is a fast way to start using SUEWS.
 
 The version of SUEWS within UMEP is the complete model. Thus all options
 that are listed in this manual are available to the user. In the UMEP
-`SUEWS
-simple <http://umep-docs.readthedocs.io/en/latest/UMEP_Manual#Urban_Energy_Balance:_Urban_Energy_Balance_.28SUEWS.2C_simple.29>`__
-runs all options are set to values to allow intial exploration of the
+`SUEWS (Simple)`_ runs all options are set to values to allow intial exploration of the
 model behaviour.
 
 
