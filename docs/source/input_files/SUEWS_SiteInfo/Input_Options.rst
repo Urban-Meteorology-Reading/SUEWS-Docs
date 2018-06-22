@@ -196,6 +196,18 @@ Input Options
 
 	:Description:
 		The mean apparent ecosystem quantum. Represents the initial slope of the light-response curve.
+		[umol CO2 umol |photons^-1|]
+		
+		Example Values:
+		
+		If emissions method = 11, 12, 13, 14, 15 or 16.
+		0.044 Ruimy et al (1995), 0.0593 Schmid et al. (2000), 0.0205 Flanagan et al. (2002).
+		
+		If emissions method = 21, 22, 23, 24, 25, or 26.
+		0.031 Bellucco et al. (2017)
+		
+		If emissions method = 31, 32, 33, 34, 35, 36.
+		0.005 Bellucco et al. (2017)
 
 	:Configuration:
 		.. csv-table::
@@ -287,6 +299,7 @@ Input Options
 	:Description:
 		TODO
 		Base Temperature for initiating growing degree days (GDD) for leaf growth. [°C]
+		
 		See section 2.2 Järvi et al. (2011); Appendix A Järvi et al. (2014).
 
 	:Configuration:
@@ -302,6 +315,7 @@ Input Options
 	:Description:
 		TODO
 		Base temperature for initiating sensesance degree days (SDD) for leaf off. [°C]
+		
 		See section 2.2 Järvi et al. (2011) [J11]_ ; Appendix A Järvi et al. (2014) [Leena2014]_ .
 
 	:Configuration:
@@ -329,7 +343,16 @@ Input Options
 
 	:Description:
 		TODO
-		The light-saturated gross photosynthesis of the canopy.
+		The light-saturated gross photosynthesis of the canopy. [umol |m^-2||s^-1|]
+		
+		If emissions method = 11, 12, 13, 14, 15, 16.
+		43.35 Ruimy et al. (1995), 35 Schmid et al. (2000), 16.3 Flanagan et al. (2002)
+		
+		If emissions method =  21, 22, 23, 24, 25, 26.
+		17.793 Bellucco et al. (2017)
+		
+		If emissions method = 31, 32, 33, 34, 35, 36.
+		8.474 Bellucco et al. (2017)
 
 	:Configuration:
 		.. csv-table::
@@ -344,6 +367,12 @@ Input Options
 	:Description:
 		TODO
 		The convexity of the curve at light saturation.
+		
+		If emissions method = 21, 22, 23, 24, 25, 26.
+		0.723 Bellucco et al. (2017)
+		
+		If emissions method = 31, 32, 33, 34, 35, 36.
+		0.96 Bellucco et al. (2017)
 
 	:Configuration:
 		.. csv-table::
@@ -358,6 +387,7 @@ Input Options
 	:Description:
 		TODO
 		Part of the `alpha` coeﬃcient related to the fraction of vegetation.
+		Example value: 0.016 Bellucco et al. (2017)
 
 	:Configuration:
 		.. csv-table::
@@ -372,6 +402,7 @@ Input Options
 	:Description:
 		TODO
 		Part of the `beta` coeﬃcient related to the fraction of vegetation.
+		Example values: 33.454 Bellucco et al. (2017)
 
 	:Configuration:
 		.. csv-table::
@@ -386,6 +417,7 @@ Input Options
 	:Description:
 		TODO
 		Respiration coeﬃcient a.
+		Example values: 1.08 Schmid et al. (2000), 3.229 Jarvi et al. (2012)
 
 	:Configuration:
 		.. csv-table::
@@ -400,6 +432,7 @@ Input Options
 	:Description:
 		TODO
 		Respiration coeﬃcient b - related to air temperature dependency.
+		Example values: 0.0064 Schmid et al. (2000), 0.0329 Jarvi et al. (2012).
 
 	:Configuration:
 		.. csv-table::
@@ -413,7 +446,8 @@ Input Options
 
 	:Description:
 		TODO
-		Minimum soil respiration rate (for cold-temperature limit)
+		Minimum soil respiration rate (for cold-temperature limit) [umol |m^-2||s^-1|].
+		Example values: 0.6 estimate from Hyytiala forest site.
 
 	:Configuration:
 		.. csv-table::
@@ -969,8 +1003,10 @@ Input Options
 .. option:: EnEF_v_Jkm
 
 	:Description:
-		TODO unit
-		Emission factor for heat.
+		TODO - Should be anthropogenic heat.txt
+		
+		Emission factor for heat [J |km^-1|].
+		Example values: 3.97e6 Sailor and Lu (2004)
 
 	:Configuration:
 		.. csv-table::
@@ -2470,7 +2506,9 @@ Input Options
 
 	:Description:
 		TODO
-		Maximum value for human heat emission.
+		Maximum value for human heat emission. [W |m^-2|]
+		
+		Example values: 175 Sailor and Lu (2004)
 
 	:Configuration:
 		.. csv-table::
@@ -2482,7 +2520,9 @@ Input Options
 
 	:Description:
 		TODO
-		Minimum value for human heat emission.
+		Minimum value for human heat emission. [W |m^-2|]
+		
+		Example values: 75 Sailor and Lu (2004)
 
 	:Configuration:
 		.. csv-table::
