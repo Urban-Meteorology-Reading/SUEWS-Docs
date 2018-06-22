@@ -196,18 +196,16 @@ Input Options
 
 	:Description:
 		The mean apparent ecosystem quantum. Represents the initial slope of the light-response curve.
-		[umol CO2 umol |photons^-1|]
+		[umol CO2 umol photon|s^-1|]
 		
-		Example Values:
+		If EmissionsMethod = 11, 12, 13, 14, 15 or 16.
+		Example values: 0.044 Ruimy et al (1995) [R95]_, 0.0593 Schmid et al. (2000) [S200]_, 0.0205 Flanagan et al. (2002) [FWC2002]_.
 		
-		If emissions method = 11, 12, 13, 14, 15 or 16.
-		0.044 Ruimy et al (1995), 0.0593 Schmid et al. (2000), 0.0205 Flanagan et al. (2002).
+		If EmissionsMethod = 21, 22, 23, 24, 25, or 26.
+		Example value: 0.031 Bellucco et al. (2017) [B2017]_
 		
-		If emissions method = 21, 22, 23, 24, 25, or 26.
-		0.031 Bellucco et al. (2017)
-		
-		If emissions method = 31, 32, 33, 34, 35, 36.
-		0.005 Bellucco et al. (2017)
+		If EmissionsMethod = 31, 32, 33, 34, 35, 36.
+		Example value: 0.005 Bellucco et al. (2017) [B2017]_
 
 	:Configuration:
 		.. csv-table::
@@ -343,16 +341,17 @@ Input Options
 
 	:Description:
 		TODO
-		The light-saturated gross photosynthesis of the canopy. [umol |m^-2||s^-1|]
+		The light-saturated gross photosynthesis of the canopy. [umol |m^-2| |s^-1| ]
 		
-		If emissions method = 11, 12, 13, 14, 15, 16.
-		43.35 Ruimy et al. (1995), 35 Schmid et al. (2000), 16.3 Flanagan et al. (2002)
+		If EmissionsMethod = 11, 12, 13, 14, 15, 16.
+		Example values: 43.35 Ruimy et al. (1995) [R95]_, 35 Schmid et al. (2000) [S2000]_, 16.3 Flanagan et al. (2002) 
+		[FWC2002]_
 		
-		If emissions method =  21, 22, 23, 24, 25, 26.
-		17.793 Bellucco et al. (2017)
+		If EmissionsMethod =  21, 22, 23, 24, 25, 26.
+		Example value: 17.793 Bellucco et al. (2017) [B2017]_
 		
-		If emissions method = 31, 32, 33, 34, 35, 36.
-		8.474 Bellucco et al. (2017)
+		If EmissionsMethod = 31, 32, 33, 34, 35, 36.
+		Example value: 8.474 Bellucco et al. (2017) [B2017}_
 
 	:Configuration:
 		.. csv-table::
@@ -368,11 +367,11 @@ Input Options
 		TODO
 		The convexity of the curve at light saturation.
 		
-		If emissions method = 21, 22, 23, 24, 25, 26.
-		0.723 Bellucco et al. (2017)
+		If EmissionsMethod = 21, 22, 23, 24, 25, 26.
+		Example value: 0.723 Bellucco et al. (2017) [B2017]_
 		
-		If emissions method = 31, 32, 33, 34, 35, 36.
-		0.96 Bellucco et al. (2017)
+		If EmissionsMethod = 31, 32, 33, 34, 35, 36.
+		Example value: 0.96 Bellucco et al. (2017) [B2017]_
 
 	:Configuration:
 		.. csv-table::
@@ -387,7 +386,7 @@ Input Options
 	:Description:
 		TODO
 		Part of the `alpha` coeﬃcient related to the fraction of vegetation.
-		Example value: 0.016 Bellucco et al. (2017)
+		Example value: 0.016 Bellucco et al. (2017) [B2017]_
 
 	:Configuration:
 		.. csv-table::
@@ -402,7 +401,7 @@ Input Options
 	:Description:
 		TODO
 		Part of the `beta` coeﬃcient related to the fraction of vegetation.
-		Example values: 33.454 Bellucco et al. (2017)
+		Example values: 33.454 Bellucco et al. (2017) [B2017]_
 
 	:Configuration:
 		.. csv-table::
@@ -417,7 +416,7 @@ Input Options
 	:Description:
 		TODO
 		Respiration coeﬃcient a.
-		Example values: 1.08 Schmid et al. (2000), 3.229 Jarvi et al. (2012)
+		Example values: 1.08 Schmid et al. (2000) [S2000]_, 3.229 Järvi et al. (2012) [J12]_
 
 	:Configuration:
 		.. csv-table::
@@ -432,7 +431,7 @@ Input Options
 	:Description:
 		TODO
 		Respiration coeﬃcient b - related to air temperature dependency.
-		Example values: 0.0064 Schmid et al. (2000), 0.0329 Jarvi et al. (2012).
+		Example values: 0.0064 Schmid et al. (2000) [S2000]_, 0.0329 Järvi et al. (2012) [J12]_.
 
 	:Configuration:
 		.. csv-table::
@@ -446,8 +445,8 @@ Input Options
 
 	:Description:
 		TODO
-		Minimum soil respiration rate (for cold-temperature limit) [umol |m^-2||s^-1|].
-		Example values: 0.6 estimate from Hyytiala forest site.
+		Minimum soil respiration rate (for cold-temperature limit) [umol |m^-2| |s^-1|].
+		Example values: 0.6 estimate from Hyytiälä forest site.
 
 	:Configuration:
 		.. csv-table::
@@ -1005,8 +1004,8 @@ Input Options
 	:Description:
 		TODO - Should be anthropogenic heat.txt
 		
-		Emission factor for heat [J |km^-1|].
-		Example values: 3.97e6 Sailor and Lu (2004)
+		Emission factor for heat [J k|m^-1|].
+		Example values: 3.97e6 Sailor and Lu (2004) [SL04]_
 
 	:Configuration:
 		.. csv-table::
@@ -2508,7 +2507,7 @@ Input Options
 		TODO
 		Maximum value for human heat emission. [W |m^-2|]
 		
-		Example values: 175 Sailor and Lu (2004)
+		Example values: 175 Sailor and Lu (2004) [SL04]_
 
 	:Configuration:
 		.. csv-table::
@@ -2522,7 +2521,7 @@ Input Options
 		TODO
 		Minimum value for human heat emission. [W |m^-2|]
 		
-		Example values: 75 Sailor and Lu (2004)
+		Example values: 75 Sailor and Lu (2004) [SL04]_
 
 	:Configuration:
 		.. csv-table::
@@ -2536,8 +2535,7 @@ Input Options
 
 	:Description:
 		TODO
-		The maximum conductance of each vegetation or surface type.
-		Example values [mm |s^-1|]
+		The maximum conductance of each vegetation or surface type. [mm |s^-1|]
 
 	:Configuration:
 		.. csv-table::
