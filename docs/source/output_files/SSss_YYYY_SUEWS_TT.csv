@@ -60,7 +60,7 @@
 59,"zdm","0,1","Zero-plane displacement height [m]"
 60,"ustar","0,1,2","Friction velocity [m |s^-1|]"
 61,"Lob","0,1,2","Obukhov length [m]"
-62,"ra","0,1","Aerodynamic resistance [s |m^-1|]"
+62,"RA","0,1","Aerodynamic resistance [s |m^-1|]"
 63,"rs","0,1","Surface resistance [s |m^-1|]"
 64,"Fc","0,1,2","CO2 flux [umol |m^-2| |s^-1|] Do not use in v2017b! "
 65,"FcPhoto","0,1","CO2 flux from photosynthesis [umol |m^-2| |s^-1|] Do not use in v2017b! "
