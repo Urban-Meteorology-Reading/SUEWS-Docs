@@ -291,14 +291,19 @@ References
 
 .. [SL04]
    Sailor DJ, Lu L (2004) A top-down methodology for developing diurnal and seasonal
-   anthropogenic heating profiles for urban areas. Atmospheric Environment. 38, 2737-2648
+   anthropogenic heating profiles for urban areas. Atmospheric Environment. 38, 2737-2648.
    
 .. [B2017]
    Bellucco V, Marras S, Grimmond CSB, Jarvi L, Sirca C, Spano D (2017) Modelling
    the biogenic CO2 exchange in urban and non-urban ecosystems through the assessment
-   of light-response curve parameters. Agricultural and Forest Meteorology. 236, 113-122
+   of light-response curve parameters. Agricultural and Forest Meteorology. 236, 113-122.
    
 .. [FWC2002]
    Flanagan LB, Wever LA, Carlson PJ (2002) Seasonal and interannual variation in carbon
    dioxide exchange and carbon balance in a northern temperate grassland. Global Change
-   Biology. 8, 599-615
+   Biology. 8, 599-615.
+
+.. [J12]
+   Järvi L, Nordbo A, Junninen H, Riikonen A, Moilanen J, Nikinmaa E, Vesala T (2012)
+   Seasonal and annual variation of carbon dioxide surface fluxes in Helsinki, Finland, in 2006-2010.
+   Atmos. Chem. Phys. 12, 8475-8489.
