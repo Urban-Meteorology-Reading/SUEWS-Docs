@@ -285,20 +285,20 @@ References
    and energy fluxes over a mixed hardwood forest in the mid-westerm United States. 
    Agricultural and Forest Meteorology. 103, 357-374.
    
-.. [Ru1995]
+.. [R95]
    Ruimy A, Jarvis PG, Baldocchi DD, Saugier B (1995) CO2 Fluxes over Plant Canopies
    and Solar Radiation: A Review. Advances in Ecological Research, 26.
 
-.. [Sa2004]
+.. [SL04]
    Sailor DJ, Lu L (2004) A top-down methodology for developing diurnal and seasonal
    anthropogenic heating profiles for urban areas. Atmospheric Environment. 38, 2737-2648
    
-.. [Bell2017]
+.. [B2017]
    Bellucco V, Marras S, Grimmond CSB, Jarvi L, Sirca C, Spano D (2017) Modelling
    the biogenic CO2 exchange in urban and non-urban ecosystems through the assessment
    of light-response curve parameters. Agricultural and Forest Meteorology. 236, 113-122
    
-.. [Fl2002]
+.. [FWC2002]
    Flanagan LB, Wever LA, Carlson PJ (2002) Seasonal and interannual variation in carbon
    dioxide exchange and carbon balance in a northern temperate grassland. Global Change
    Biology. 8, 599-615
