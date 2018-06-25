@@ -196,6 +196,16 @@ Input Options
 
 	:Description:
 		The mean apparent ecosystem quantum. Represents the initial slope of the light-response curve.
+		[umol CO2 umol photons^-1]
+		
+		If EmissionsMethod = 11, 12, 13, 14, 15 or 16.
+		Example values: 0.044 Ruimy et al (1995) [R95]_, 0.0593 Schmid et al. (2000) [S200]_, 0.0205 Flanagan et al. (2002) [FWC2002]_.
+		
+		If EmissionsMethod = 21, 22, 23, 24, 25, or 26.
+		Example value: 0.031 Bellucco et al. (2017) [B2017]_
+		
+		If EmissionsMethod = 31, 32, 33, 34, 35, 36.
+		Example value: 0.005 Bellucco et al. (2017) [B2017]_
 
 	:Configuration:
 		.. csv-table::
@@ -285,8 +295,9 @@ Input Options
 .. option:: BaseT
 
 	:Description:
-		TODO
+		
 		Base Temperature for initiating growing degree days (GDD) for leaf growth. [°C]
+		
 		See section 2.2 Järvi et al. (2011); Appendix A Järvi et al. (2014).
 
 	:Configuration:
@@ -300,8 +311,9 @@ Input Options
 .. option:: BaseTe
 
 	:Description:
-		TODO
+		
 		Base temperature for initiating sensesance degree days (SDD) for leaf off. [°C]
+		
 		See section 2.2 Järvi et al. (2011) [J11]_ ; Appendix A Järvi et al. (2014) [Leena2014]_ .
 
 	:Configuration:
@@ -328,8 +340,18 @@ Input Options
 .. option:: beta
 
 	:Description:
-		TODO
-		The light-saturated gross photosynthesis of the canopy.
+		
+		The light-saturated gross photosynthesis of the canopy. [umol |m^-2| |s^-1| ]
+		
+		If EmissionsMethod = 11, 12, 13, 14, 15, 16.
+		Example values: 43.35 Ruimy et al. (1995) [R95]_, 35 Schmid et al. (2000) [S2000]_, 16.3 Flanagan et al. (2002) 
+		[FWC2002]_
+		
+		If EmissionsMethod =  21, 22, 23, 24, 25, 26.
+		Example value: 17.793 Bellucco et al. (2017) [B2017]_
+		
+		If EmissionsMethod = 31, 32, 33, 34, 35, 36.
+		Example value: 8.474 Bellucco et al. (2017) [B2017]_
 
 	:Configuration:
 		.. csv-table::
@@ -342,8 +364,14 @@ Input Options
 .. option:: theta
 
 	:Description:
-		TODO
+		
 		The convexity of the curve at light saturation.
+		
+		If EmissionsMethod = 21, 22, 23, 24, 25, 26.
+		Example value: 0.723 Bellucco et al. (2017) [B2017]_
+		
+		If EmissionsMethod = 31, 32, 33, 34, 35, 36.
+		Example value: 0.96 Bellucco et al. (2017) [B2017]_
 
 	:Configuration:
 		.. csv-table::
@@ -356,8 +384,9 @@ Input Options
 .. option:: alpha_enh
 
 	:Description:
-		TODO
-		Part of the `alpha` coeﬃcient related to the fraction of vegetation.
+		
+		Part of the `alpha` coeﬃcient related to the fraction of vegetation. 
+		Example value: 0.016 Bellucco et al. (2017) [B2017]_
 
 	:Configuration:
 		.. csv-table::
@@ -370,8 +399,9 @@ Input Options
 .. option:: beta_enh
 
 	:Description:
-		TODO
-		Part of the `beta` coeﬃcient related to the fraction of vegetation.
+		
+		Part of the `beta` coeﬃcient related to the fraction of vegetation. 
+		Example values: 33.454 Bellucco et al. (2017) [B2017]_
 
 	:Configuration:
 		.. csv-table::
@@ -384,8 +414,9 @@ Input Options
 .. option:: resp_a
 
 	:Description:
-		TODO
-		Respiration coeﬃcient a.
+		
+		Respiration coeﬃcient a. 
+		Example values: 1.08 Schmid et al. (2000) [S2000]_, 3.229 Järvi et al. (2012) [J12]_
 
 	:Configuration:
 		.. csv-table::
@@ -398,8 +429,9 @@ Input Options
 .. option:: resp_b
 
 	:Description:
-		TODO
-		Respiration coeﬃcient b - related to air temperature dependency.
+		
+		Respiration coeﬃcient b - related to air temperature dependency. 
+		Example values: 0.0064 Schmid et al. (2000) [S2000]_, 0.0329 Järvi et al. (2012) [J12]_.
 
 	:Configuration:
 		.. csv-table::
@@ -412,8 +444,9 @@ Input Options
 .. option:: min_respi
 
 	:Description:
-		TODO
-		Minimum soil respiration rate (for cold-temperature limit)
+		
+		Minimum soil respiration rate (for cold-temperature limit) [umol |m^-2| |s^-1|]. 
+		Example values: 0.6 estimate from Hyytiälä forest site.
 
 	:Configuration:
 		.. csv-table::
@@ -969,8 +1002,10 @@ Input Options
 .. option:: EnEF_v_Jkm
 
 	:Description:
-		TODO unit
-		Emission factor for heat.
+		TODO - Should be anthropogenic heat.txt in the table below
+		
+		Emission factor for heat [J k|m^-1|]. 
+		Example values: 3.97e6 Sailor and Lu (2004) [SL04]_
 
 	:Configuration:
 		.. csv-table::
@@ -1540,8 +1575,8 @@ Input Options
 .. option:: GDDFull
 
 	:Description:
-		TODO
-		The growing degree days (GDD) needed for full capacity of the leaf area index (LAI). [°C]
+		
+		The growing degree days (GDD) needed for full capacity of the leaf area index (LAI) [°C].
 		This should be checked carefully for your study area using modelled LAI from the DailyState output file compared to known behaviour in the study area. See section 2.2 Järvi et al. (2011) [J11]_ ; Appendix A Järvi et al. (2014) [Leena2014]_ for more details.
 
 	:Configuration:
@@ -2469,8 +2504,10 @@ Input Options
 .. option:: MaxQFMetab
 
 	:Description:
-		TODO
-		Maximum value for human heat emission.
+		
+		Maximum value for human heat emission. [W |m^-2|]
+		
+		Example values: 175 Sailor and Lu (2004) [SL04]_
 
 	:Configuration:
 		.. csv-table::
@@ -2481,8 +2518,10 @@ Input Options
 .. option:: MinQFMetab
 
 	:Description:
-		TODO
-		Minimum value for human heat emission.
+		
+		Minimum value for human heat emission. [W |m^-2|]
+		
+		Example values: 75 Sailor and Lu (2004) [SL04]_
 
 	:Configuration:
 		.. csv-table::
@@ -2495,9 +2534,8 @@ Input Options
 .. option:: MaxConductance
 
 	:Description:
-		TODO
-		The maximum conductance of each vegetation or surface type.
-		Example values [mm |s^-1|]
+		
+		The maximum conductance of each vegetation or surface type. [mm |s^-1|]
 
 	:Configuration:
 		.. csv-table::
@@ -2536,7 +2574,7 @@ Input Options
 .. option:: OBS_SMCap
 
 	:Description:
-		TODO
+		
 		The maximum observed soil moisture. [|m^3| |m^-3| or kg |kg^-1|]
 		Use only if soil moisture is observed and provided in the met forcing file and `SMDMethod` = 1 or 2. Use of observed soil moisture not currently tested
 
@@ -2551,7 +2589,7 @@ Input Options
 .. option:: OBS_SMDepth
 
 	:Description:
-		TODO
+		
 		The depth of soil moisture measurements. [mm]
 		
 		Use only if soil moisture is observed and provided in the met forcing file and `SMDMethod` = 1 or 2. Use of observed soil moisture not currently tested
@@ -2567,7 +2605,7 @@ Input Options
 .. option:: OBS_SoilNotRocks
 
 	:Description:
-		TODO
+		
 		Fraction of soil without rocks. [-]
 		
 		Use only if soil moisture is observed and provided in the met forcing file and `SMDMethod` = 1 or 2. Use of observed soil moisture not currently tested
@@ -3051,7 +3089,7 @@ Input Options
 .. option:: SDDFull
 
 	:Description:
-		TODO
+		
 		The sensesence degree days (SDD) needed to initiate leaf off. [°C]
 
 
@@ -3235,7 +3273,7 @@ Input Options
 .. option:: StateLimit
 
 	:Description:
-		TODO
+		
 		Upper limit to the surface state. [mm]
 		
 		Currently only used for the water surface. Set to a large value (e.g. 20000 mm = 20 m) if the water body is substantial (lake, river, etc) or a small value (e.g. 10 mm) if water bodies are very shallow (e.g. fountains). WaterDepth (column 9) must not exceed this value.
