@@ -110,7 +110,7 @@ Acknowledgements
 
 -  Funding to support development:
 
-    .. list-table::
+   .. list-table::
       :widths: auto
       :header-rows: 1
 
