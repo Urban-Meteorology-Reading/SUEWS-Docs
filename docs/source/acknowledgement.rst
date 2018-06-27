@@ -60,7 +60,6 @@ Acknowledgements
        - Indiana University, US
        - ESTM
 
--  The :download:`SUEWS logo </assets/img/SUEWS_LOGO.png>` is designed by Xiangyu Ao (SIMS)
 
 -  Users who have brought things to our attention to improve this manual
    and the model:
