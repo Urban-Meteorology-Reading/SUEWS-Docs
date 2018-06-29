@@ -13,11 +13,11 @@ Version 2018a (released June 2018)
 
   #. Many under-the-hood improvements
   #. New documentation system
-  #. Improved the anthropogenic heat and CO2 emmission module.
+  #. Improved the anthropogenic heat and CO2 emission module.
 
 - Changes
 
-  #. These columns are moved from `SUEWS_SiteSelect.txt` to `SUEWS_AnthropogenicHeat.txt`: `EnergyUseProfWD`, `EnergyUseProfWE`, `ActivityProfWD`, `ActivityProfWE`.
+  #. Model run - changes in selections moved from `SUEWS_SiteSelect.txt` to `SUEWS_AnthropogenicHeat.txt`: `EnergyUseProfWD`, `EnergyUseProfWE`, `ActivityProfWD`, `ActivityProfWE`.
   #. `BiogenCO2Code` is added to `SUEWS_Veg.txt` for looking up biogenic characteristics in the new `SUEWS_BiogenCO2.txt` file.
   #. :code:`TraifficRate` and :code:`BuildEnergyUse` in `SUEWS_SiteSelect.txt` are expanded to allow weekday and weekend values: `TrafficRate_WD`, `TrafficRate_WE`, `QF0_BEU_WD`, `QF0_BEU_WE`.
   #. :code:`AnthropCO2Method` is removed from `RunControl.nml`.
