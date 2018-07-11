@@ -9,9 +9,7 @@ SUEWS: Surface Urban Energy and Water Balance Scheme
 
 .. note::
 
-  This documentation is being migrated from our previous wiki site to this new system.
-  Also, some statements here may NOT be up to date as the model/software is under rapid development.
-  Please report issues on the `GitHub page`_.
+  Please report issues with the manual on the `GitHub page`_.
 
 - **How to get SUEWS?**
 
@@ -27,8 +25,8 @@ SUEWS: Surface Urban Energy and Water Balance Scheme
 
   .. epigraph::
 
-    For notable changes in this version, see :ref:`new_latest`.
-    If such changes have impacts on your existing simulation, please read parts related to your simulation files under influence and make necessary changes to adapt them for the new version.
+    Overview of changes in this version, see :ref:`new_latest`.
+    If these changes impacts your existing simulations, please see appropriate parts of the manual. It may be necessary to adapt some of your input files for for the current version.
 
     .. tip::
 
@@ -41,22 +39,22 @@ SUEWS: Surface Urban Energy and Water Balance Scheme
 
   .. epigraph::
 
-    Before starting to perform SUEWS simulations, new users are suggested to first get an overview from :ref:`introduction`, then follow the steps in `Preparing_to_run_the_model` to prepare `input files <input_files>` for SUEWS.
+    Before starting to perform SUEWS simulations, it is suggested new users first get an overview from :ref:`introduction`, then follow the steps in `Preparing_to_run_the_model` to prepare `input files <input_files>` for SUEWS.
 
-    Besides, it is a good starting point to learn running SUEWS via :ref:`the tutorial. <tutorials_suews>`
+    Note theres is also a tutorial for running SUEWS via :ref:`the tutorial. <tutorials_suews>`
 
 
 - **How has SUEWS been used?**
 
 .. epigraph::
 
-  The scientific details and application cases of SUEWS can be found in related papers under `Recent_publications`.
+  The scientific details and application examples for SUEWS can be found in related papers under `Recent_publications`.
 
 .. _cite_suews:
 
 - **How to cite SUEWS?**
 
-  Please cite `this version <new_latest>` as follows:
+  Please cite `this manual <new_latest>` as follows:
 
   .. epigraph::
 
@@ -68,7 +66,7 @@ SUEWS: Surface Urban Energy and Water Balance Scheme
   #. `Cite SUEWS <cite_suews>` appropriately in your work.
   #. Contribute to the `development <Development_Suggestions_Support>`.
   #. Report issues via the `GitHub page`_.
-  #. Provide `suggestions and feedbacks <Development_Suggestions_Support>`.
+  #. Provide `suggestions and feedback <Development_Suggestions_Support>`.
 
 
 .. _our GitHub page: https://urban-meteorology-reading.github.io/SUEWS
