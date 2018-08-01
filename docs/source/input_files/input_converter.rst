@@ -22,7 +22,7 @@ Downloads
 
 - SUEWS input converter in python
 
-  :download:`converter.py </path/to/file>`
+  :download:`SUEWS_TableConverter.py <SUEWS_TableConverter.py>`
 
 
 - Rules for conversions between different SUEWS versions
