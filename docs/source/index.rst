@@ -91,9 +91,7 @@ SUEWS: Surface Urban Energy and Water Balance Scheme
    suews_related_softwares
    sub-tutorials/tutorials
    development
-   version-history
+   version-history/version-history
    acknowledgement
    notation
    references
-
-
