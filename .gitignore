@@ -1,3 +1,4 @@
 # ignore build folder
 docs/build/
+docs/build.log
 docs/source/_build/
