@@ -1,3 +1,5 @@
+.. _met_input:
+
 Meteorological Input File
 -------------------------
 

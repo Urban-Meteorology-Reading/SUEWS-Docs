@@ -9,9 +9,9 @@ File related options
 		Required
 
 	:Description:
-		Two-letter site identification code (e.g. He, Sc, Kc).
+		Alphabetical site identification code (e.g. He, Sc, Kc).
 	:Configuration:
-		to fill
+		This must be consistent with names of `meterological input file <met_input>` and  `initial condition files <Initial_Conditions>`
 
 
 .. option:: FileInputPath
@@ -22,7 +22,7 @@ File related options
 	:Description:
 		Input directory.
 	:Configuration:
-		to fill
+		This can be set either as `an absolute path <path_setting>`_ or `a relative path <path_setting>`_ where the program is initiated.
 
 
 .. option:: FileOutputPath
@@ -33,7 +33,7 @@ File related options
 	:Description:
 		Output directory.
 	:Configuration:
-		to fill
+		This can be set either as `an absolute path <path_setting>`_ or `a relative path <path_setting>`_ where the program is initiated.
 
 
 .. option:: MultipleMetFiles
@@ -125,3 +125,5 @@ File related options
 			:file: csv-table/SuppressWarnings.csv
 			:header-rows: 1
 			:widths: auto
+
+.. _path_setting: https://en.wikipedia.org/wiki/Path_(computing)#Absolute_and_relative_paths
