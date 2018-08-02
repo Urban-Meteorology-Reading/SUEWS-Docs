@@ -8,9 +8,9 @@ Above Ground State
 	:Requirement:
 		Optional
 	:Description:
-		If unknown, model assumes dry surfaces (acceptable as rainfall or irrigation will update these states quickly).
+		Initial wetness condition on `Paved`
 	:Configuration:
-		to fill
+		If unknown, model assumes dry surfaces (acceptable as rainfall or irrigation will update these states quickly).
 
 
 .. option:: BldgsState
@@ -18,9 +18,9 @@ Above Ground State
 	:Requirement:
 		Optional
 	:Description:
-		If unknown, model assumes dry surfaces (acceptable as rainfall or irrigation will update these states quickly).
+		Initial wetness condition on `Bldgs`
 	:Configuration:
-		to fill
+		If unknown, model assumes dry surfaces (acceptable as rainfall or irrigation will update these states quickly).
 
 
 .. option:: EveTrState
@@ -28,9 +28,9 @@ Above Ground State
 	:Requirement:
 		Optional
 	:Description:
-		If unknown, model assumes dry surfaces (acceptable as rainfall or irrigation will update these states quickly).
+		Initial wetness condition on `EveTr`
 	:Configuration:
-		to fill
+		If unknown, model assumes dry surfaces (acceptable as rainfall or irrigation will update these states quickly).
 
 
 .. option:: DecTrState
@@ -38,9 +38,9 @@ Above Ground State
 	:Requirement:
 		Optional
 	:Description:
-		If unknown, model assumes dry surfaces (acceptable as rainfall or irrigation will update these states quickly).
+		Initial wetness condition on `DecTr`
 	:Configuration:
-		to fill
+		If unknown, model assumes dry surfaces (acceptable as rainfall or irrigation will update these states quickly).
 
 
 .. option:: GrassState
@@ -48,9 +48,9 @@ Above Ground State
 	:Requirement:
 		Optional
 	:Description:
-		If unknown, model assumes dry surfaces (acceptable as rainfall or irrigation will update these states quickly).
+		Initial wetness condition on `Grass`
 	:Configuration:
-		to fill
+		If unknown, model assumes dry surfaces (acceptable as rainfall or irrigation will update these states quickly).
 
 
 .. option:: BSoilState
@@ -58,9 +58,9 @@ Above Ground State
 	:Requirement:
 		Optional
 	:Description:
-		If unknown, model assumes dry surfaces (acceptable as rainfall or irrigation will update these states quickly).
+		Initial wetness condition on `BSoil`
 	:Configuration:
-		to fill
+		If unknown, model assumes dry surfaces (acceptable as rainfall or irrigation will update these states quickly).
 
 
 .. option:: WaterState
@@ -68,6 +68,6 @@ Above Ground State
 	:Requirement:
 		Optional
 	:Description:
-		For a large water body (e.g. river, sea, lake) set WaterState to a large value, e.g. 20000 mm; for small water bodies (e.g. ponds, fountains) set WaterState to smaller value, e.g. 1000 mm. This value must not exceed StateLimit specified in SUEWS_Water.txt . If unknown, model uses value of WaterDepth specified in SUEWS_Water.txt .
+		Initial wetness condition on `Water`
 	:Configuration:
-		to fill
+		For a large water body (e.g. river, sea, lake) set WaterState to a large value, e.g. 20000 mm; for small water bodies (e.g. ponds, fountains) set WaterState to smaller value, e.g. 1000 mm. This value must not exceed StateLimit specified in SUEWS_Water.txt . If unknown, model uses value of WaterDepth specified in SUEWS_Water.txt .
