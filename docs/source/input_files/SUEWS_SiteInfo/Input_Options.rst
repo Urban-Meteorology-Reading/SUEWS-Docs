@@ -895,7 +895,7 @@ Input Options
 .. option:: DrainageCoef1
 
 	:Description:
-		Coefficient D0 [mm |h^-1|] used in `DrainageEq`
+		Coefficient D0 [mm |h^-1|] used in :option:`DrainageEq`
 
 	:Configuration:
 		.. csv-table::
@@ -908,7 +908,7 @@ Input Options
 .. option:: DrainageCoef2
 
 	:Description:
-		Coefficient b [-] used in `DrainageEq`
+		Coefficient b [-] used in :option:`DrainageEq`
 
 	:Configuration:
 		.. csv-table::
@@ -4208,7 +4208,7 @@ Input Options
 .. option:: WaterUseProfManuWD
 
 	:Description:
-		Code for water use profile (manual irrigation, weekdays) linking to `Code` of `SUEWS_Profiles.txt`. Value of integer is arbitrary but must match code specified in `Code` of `SUEWS_Profiles.txt`.
+		Code for water use profile (manual irrigation, weekdays) linking to `Code` of `SUEWS_Profiles.txt`.
 
 	:Configuration:
 		.. csv-table::
@@ -4221,7 +4221,7 @@ Input Options
 .. option:: WaterUseProfManuWE
 
 	:Description:
-		Code for water use profile (manual irrigation, weekends) linking to `Code` of `SUEWS_Profiles.txt`. Value of integer is arbitrary but must match code specified in `Code` of `SUEWS_Profiles.txt`.
+		Code for water use profile (manual irrigation, weekends) linking to `Code` of `SUEWS_Profiles.txt`.
 
 	:Configuration:
 		.. csv-table::
@@ -4260,7 +4260,7 @@ Input Options
 .. option:: WithinGridBldgsCode
 
 	:Description:
-		Code that links to the fraction of water that flows from `Bldgs` surfaces to surfaces in columns 2-10 of `SUEWS_WithinGridWaterDist.txt`. Value of integer is arbitrary but must match code specified in `Code` of `SUEWS_WithinGridWaterDist.txt`.
+		Code that links to the fraction of water that flows from `Bldgs` surfaces to surfaces in columns 2-10 of `SUEWS_WithinGridWaterDist.txt`
 
 	:Configuration:
 		.. csv-table::
@@ -4273,7 +4273,7 @@ Input Options
 .. option:: WithinGridBSoilCode
 
 	:Description:
-		Code that links to the fraction of water that flows from `BSoil` surfaces to surfaces in columns 2-10 of `SUEWS_WithinGridWaterDist.txt`. Value of integer is arbitrary but must match code specified in `Code` of `SUEWS_WithinGridWaterDist.txt`.
+		Code that links to the fraction of water that flows from `BSoil` surfaces to surfaces in columns 2-10 of `SUEWS_WithinGridWaterDist.txt`.
 
 	:Configuration:
 		.. csv-table::
@@ -4286,7 +4286,7 @@ Input Options
 .. option:: WithinGridDecTrCode
 
 	:Description:
-		Code that links to the fraction of water that flows from `DecTr` surfaces to surfaces in columns 2-10 of `SUEWS_WithinGridWaterDist.txt`. Value of integer is arbitrary but must match code specified in `Code` of `SUEWS_WithinGridWaterDist.txt`.
+		Code that links to the fraction of water that flows from `DecTr` surfaces to surfaces in columns 2-10 of `SUEWS_WithinGridWaterDist.txt`.
 
 	:Configuration:
 		.. csv-table::
@@ -4299,7 +4299,7 @@ Input Options
 .. option:: WithinGridEveTrCode
 
 	:Description:
-		Code that links to the fraction of water that flows from `EveTr` surfaces to surfaces in columns 2-10 of `SUEWS_WithinGridWaterDist.txt`. Value of integer is arbitrary but must match code specified in `Code` of `SUEWS_WithinGridWaterDist.txt`.
+		Code that links to the fraction of water that flows from `EveTr` surfaces to surfaces in columns 2-10 of `SUEWS_WithinGridWaterDist.txt`.
 
 	:Configuration:
 		.. csv-table::
@@ -4312,7 +4312,7 @@ Input Options
 .. option:: WithinGridGrassCode
 
 	:Description:
-		Code that links to the fraction of water that flows from `Grass` surfaces to surfaces in columns 2-10 of `SUEWS_WithinGridWaterDist.txt`. Value of integer is arbitrary but must match code specified in `Code` of `SUEWS_WithinGridWaterDist.txt`.
+		Code that links to the fraction of water that flows from `Grass` surfaces to surfaces in columns 2-10 of `SUEWS_WithinGridWaterDist.txt`.
 
 	:Configuration:
 		.. csv-table::
@@ -4325,7 +4325,7 @@ Input Options
 .. option:: WithinGridPavedCode
 
 	:Description:
-		Code that links to the fraction of water that flows from `Paved` surfaces to surfaces in columns 2-10 of `SUEWS_WithinGridWaterDist.txt` . Value of integer is arbitrary but must match code specified in `Code` of `SUEWS_WithinGridWaterDist.txt`.
+		Code that links to the fraction of water that flows from `Paved` surfaces to surfaces in columns 2-10 of `SUEWS_WithinGridWaterDist.txt`.
 
 	:Configuration:
 		.. csv-table::
@@ -4338,7 +4338,7 @@ Input Options
 .. option:: WithinGridWaterCode
 
 	:Description:
-		Code that links to the fraction of water that flows from Water surfaces to surfaces in columns 2-10 of `SUEWS_WithinGridWaterDist.txt`. Value of integer is arbitrary but must match code specified in `Code` of `SUEWS_WithinGridWaterDist.txt`.
+		Code that links to the fraction of water that flows from Water surfaces to surfaces in columns 2-10 of `SUEWS_WithinGridWaterDist.txt`. 
 
 	:Configuration:
 		.. csv-table::
