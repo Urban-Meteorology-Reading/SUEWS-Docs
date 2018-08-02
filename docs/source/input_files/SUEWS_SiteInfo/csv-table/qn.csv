@@ -1,2 +1,2 @@
 "Referencing Table","Requirement","Comment"
-"`SSss_YYYY_data_tt.txt`","`O`","Required if NetRadiationMethod = 1."
+"`SSss_YYYY_data_tt.txt`","`O`","Required if `NetRadiationMethod` = 1."

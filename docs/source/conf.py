@@ -108,6 +108,7 @@ rst_prolog = """
 .. |Recmd| replace:: **Recommended in this version.**
 .. |NotRecmd| replace:: **Not recommended in this version.**
 .. |NotAvail| replace:: **Not available in this version.**
+.. |NotUsed| replace:: **Not used in this version.**
 """
 # -- Options for HTML output -------------------------------------------------
 # The theme to use for HTML and HTML Help pages.  See the documentation for

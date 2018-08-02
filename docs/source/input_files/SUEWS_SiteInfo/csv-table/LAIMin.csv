@@ -1,2 +1,6 @@
 "Referencing Table","Requirement","Comment"
-"`SUEWS_Veg.txt`","`MD`","leaf-off wintertime value Example values [|m^-2| |m^-2|] 4. EveTr Järvi et al. (2011) [J11]_  1. DecTr Järvi et al. (2011) [J11]_  1.6 Grass Grimmond and Oke (1991) [3] and references therein"
+"`SUEWS_Veg.txt`","`MD`","leaf-off wintertime value
+Example values:
+- 4. EveTr Järvi et al. (2011) [J11]_
+- 1. DecTr Järvi et al. (2011) [J11]_
+- 1.6 Grass Grimmond and Oke (1991) [G91]_ "

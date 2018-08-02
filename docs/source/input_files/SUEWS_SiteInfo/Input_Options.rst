@@ -198,14 +198,6 @@ Input Options
 		The mean apparent ecosystem quantum. Represents the initial slope of the light-response curve.
 		[umol CO2 umol photons^-1]
 
-		If EmissionsMethod = 11, 12, 13, 14, 15 or 16.
-		Example values: 0.044 Ruimy et al (1995) [R95]_, 0.0593 Schmid et al. (2000) [S200]_, 0.0205 Flanagan et al. (2002) [FWC2002]_.
-
-		If EmissionsMethod = 21, 22, 23, 24, 25, or 26.
-		Example value: 0.031 Bellucco et al. (2017) [B2017]_
-
-		If EmissionsMethod = 31, 32, 33, 34, 35, 36.
-		Example value: 0.005 Bellucco et al. (2017) [B2017]_
 
 	:Configuration:
 		.. csv-table::
@@ -269,7 +261,7 @@ Input Options
 .. option:: AnthropogenicCode
 
 	:Description:
-		Code for modelling anthropogenic heat flux linking to `Code` of `SUEWS_AnthropogenicHeat.txt`, which contains the model coefficients for estimation of the anthropogenic heat flux (used if EmissionsMethod = 1, 2 in `RunControl.nml`).
+		Code for modelling anthropogenic heat flux linking to `Code` of `SUEWS_AnthropogenicHeat.txt`, which contains the model coefficients for estimation of the anthropogenic heat flux (used if `EmissionsMethod` = 1, 2 in `RunControl.nml`).
 
 	:Configuration:
 		.. csv-table::
@@ -298,8 +290,6 @@ Input Options
 
 		Base Temperature for initiating growing degree days (GDD) for leaf growth. [°C]
 
-		See section 2.2 Järvi et al. (2011); Appendix A Järvi et al. (2014).
-
 	:Configuration:
 		.. csv-table::
 			:class: longtable
@@ -313,8 +303,6 @@ Input Options
 	:Description:
 
 		Base temperature for initiating sensesance degree days (SDD) for leaf off. [°C]
-
-		See section 2.2 Järvi et al. (2011) [J11]_ ; Appendix A Järvi et al. (2014) [Leena2014]_ .
 
 	:Configuration:
 		.. csv-table::
@@ -343,15 +331,6 @@ Input Options
 
 		The light-saturated gross photosynthesis of the canopy. [umol |m^-2| |s^-1| ]
 
-		If EmissionsMethod = 11, 12, 13, 14, 15, 16.
-		Example values: 43.35 Ruimy et al. (1995) [R95]_, 35 Schmid et al. (2000) [S2000]_, 16.3 Flanagan et al. (2002)
-		[FWC2002]_
-
-		If EmissionsMethod =  21, 22, 23, 24, 25, 26.
-		Example value: 17.793 Bellucco et al. (2017) [B2017]_
-
-		If EmissionsMethod = 31, 32, 33, 34, 35, 36.
-		Example value: 8.474 Bellucco et al. (2017) [B2017]_
 
 	:Configuration:
 		.. csv-table::
@@ -367,12 +346,6 @@ Input Options
 
 		The convexity of the curve at light saturation.
 
-		If EmissionsMethod = 21, 22, 23, 24, 25, 26.
-		Example value: 0.723 Bellucco et al. (2017) [B2017]_
-
-		If EmissionsMethod = 31, 32, 33, 34, 35, 36.
-		Example value: 0.96 Bellucco et al. (2017) [B2017]_
-
 	:Configuration:
 		.. csv-table::
 			:class: longtable
@@ -386,7 +359,6 @@ Input Options
 	:Description:
 
 		Part of the `alpha` coeﬃcient related to the fraction of vegetation.
-		Example value: 0.016 Bellucco et al. (2017) [B2017]_
 
 	:Configuration:
 		.. csv-table::
@@ -401,7 +373,6 @@ Input Options
 	:Description:
 
 		Part of the `beta` coeﬃcient related to the fraction of vegetation.
-		Example values: 33.454 Bellucco et al. (2017) [B2017]_
 
 	:Configuration:
 		.. csv-table::
@@ -416,7 +387,6 @@ Input Options
 	:Description:
 
 		Respiration coeﬃcient a.
-		Example values: 1.08 Schmid et al. (2000) [S2000]_, 3.229 Järvi et al. (2012) [J12]_
 
 	:Configuration:
 		.. csv-table::
@@ -431,7 +401,6 @@ Input Options
 	:Description:
 
 		Respiration coeﬃcient b - related to air temperature dependency.
-		Example values: 0.0064 Schmid et al. (2000) [S2000]_, 0.0329 Järvi et al. (2012) [J12]_.
 
 	:Configuration:
 		.. csv-table::
@@ -446,7 +415,6 @@ Input Options
 	:Description:
 
 		Minimum soil respiration rate (for cold-temperature limit) [umol |m^-2| |s^-1|].
-		Example values: 0.6 estimate from Hyytiälä forest site.
 
 	:Configuration:
 		.. csv-table::
@@ -1003,7 +971,6 @@ Input Options
 
 	:Description:
 		Emission factor for heat [J k|m^-1|].
-		Example values: 3.97e6 Sailor and Lu (2004) [SL04]_
 
 	:Configuration:
 		.. csv-table::
@@ -1392,7 +1359,7 @@ Input Options
 .. option:: Fr_EveTr
 
 	:Description:
-		Surface cover fraction of evergreen trees and shrubs [-]
+		Surface cover fraction of `EveTr`: evergreen trees and shrubs [-]
 
 	:Configuration:
 		.. csv-table::
@@ -1575,7 +1542,6 @@ Input Options
 	:Description:
 
 		The growing degree days (GDD) needed for full capacity of the leaf area index (LAI) [°C].
-		This should be checked carefully for your study area using modelled LAI from the DailyState output file compared to known behaviour in the study area. See section 2.2 Järvi et al. (2011) [J11]_ ; Appendix A Järvi et al. (2014) [Leena2014]_ for more details.
 
 	:Configuration:
 		.. csv-table::
@@ -2574,7 +2540,6 @@ Input Options
 	:Description:
 
 		The maximum observed soil moisture. [|m^3| |m^-3| or kg |kg^-1|]
-		Use only if soil moisture is observed and provided in the met forcing file and `SMDMethod` = 1 or 2. Use of observed soil moisture not currently tested
 
 	:Configuration:
 		.. csv-table::
@@ -2590,7 +2555,6 @@ Input Options
 
 		The depth of soil moisture measurements. [mm]
 
-		Use only if soil moisture is observed and provided in the met forcing file and `SMDMethod` = 1 or 2. Use of observed soil moisture not currently tested
 
 	:Configuration:
 		.. csv-table::
@@ -2605,8 +2569,6 @@ Input Options
 	:Description:
 
 		Fraction of soil without rocks. [-]
-
-		Use only if soil moisture is observed and provided in the met forcing file and `SMDMethod` = 1 or 2. Use of observed soil moisture not currently tested
 
 	:Configuration:
 		.. csv-table::
@@ -3287,7 +3249,7 @@ Input Options
 .. option:: StorageMax
 
 	:Description:
-		Maximum water storage capacity for upper surfaces (i.e. canopy) Min and max values are to account for seasonal variation (e.g. leaf-on/leaf-off differences for vegetated surfaces). Not currently used for non-vegetated surfaces - set the same as StorageMin.
+		Maximum water storage capacity for upper surfaces (i.e. canopy)
 
 	:Configuration:
 		.. csv-table::
@@ -3300,7 +3262,8 @@ Input Options
 .. option:: StorageMin
 
 	:Description:
-		Minimum water storage capacity for upper surfaces (i.e. canopy). Min/max values are to account for seasonal variationMinimum water storage capacity for upper surfaces (i.e. canopy). Min/max values are to account for seasonal variation
+		Minimum water storage capacity for upper surfaces (i.e. canopy).
+
 	:Configuration:
 		.. csv-table::
 			:class: longtable
@@ -3754,7 +3717,7 @@ Input Options
 .. option:: ToEveTr
 
 	:Description:
-		Fraction of water going to ``EveTr``
+		Fraction of water going to `EveTr`
 
 	:Configuration:
 		.. csv-table::
@@ -3767,7 +3730,7 @@ Input Options
 .. option:: ToGrass
 
 	:Description:
-		Fraction of water going to ``Grass``
+		Fraction of water going to `Grass`
 
 	:Configuration:
 		.. csv-table::
@@ -3780,7 +3743,7 @@ Input Options
 .. option:: ToPaved
 
 	:Description:
-		Fraction of water going to ``Paved``
+		Fraction of water going to `Paved`
 
 	:Configuration:
 		.. csv-table::
@@ -4440,7 +4403,7 @@ Input Options
 .. option:: z0
 
 	:Description:
-		Roughness length for momentum [m] Value supplied here is used if `RoughLenMomMethod` = 1 in `RunControl.nml` ; otherwise set to '-999' and a value will be calculated by the model (`RoughLenMomMethod` = 2, 3).
+		Roughness length for momentum [m]
 
 	:Configuration:
 		.. csv-table::
@@ -4453,7 +4416,7 @@ Input Options
 .. option:: zd
 
 	:Description:
-		Zero-plane displacement [m] Value supplied here is used if `RoughLenMomMethod` = 1 in `RunControl.nml` ; otherwise set to '-999' and a value will be calculated by the model (`RoughLenMomMethod` = 2, 3).
+		Zero-plane displacement [m]
 
 	:Configuration:
 		.. csv-table::
