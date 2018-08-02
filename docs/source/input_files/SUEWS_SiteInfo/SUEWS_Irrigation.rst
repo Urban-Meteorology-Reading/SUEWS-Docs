@@ -22,7 +22,12 @@ except Code should be set to :code:`-999`.
   :header-rows: 1
   :widths: 5 25 5 65
 
+.. only:: html
 
-An example `SUEWS_Irrigation.txt` can be found below:
+    An example `SUEWS_Irrigation.txt` can be found below:
 
-.. literalinclude:: sample-table/SUEWS_Irrigation.txt
+    .. literalinclude:: sample-table/SUEWS_Irrigation.txt
+
+. only:: pdf-latex
+
+    An example `SUEWS_Irrigation.txt` can be found online.

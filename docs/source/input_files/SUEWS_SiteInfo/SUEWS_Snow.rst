@@ -20,7 +20,12 @@ For a detailed description of the variables, see Järvi et al.
   :header-rows: 1
   :widths: 5 25 5 65
 
+.. only:: html
 
-An example `SUEWS_Snow.txt` can be found below:
+    An example `SUEWS_Snow.txt` can be found below:
 
-.. literalinclude:: sample-table/SUEWS_Snow.txt
+    .. literalinclude:: sample-table/SUEWS_Snow.txt
+
+.. only:: pdf-latex
+
+    An example `SUEWS_Snow.txt` can be found online.

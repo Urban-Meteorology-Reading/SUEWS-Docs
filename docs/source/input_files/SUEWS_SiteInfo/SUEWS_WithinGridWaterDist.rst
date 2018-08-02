@@ -43,7 +43,12 @@ In the table below, for example,
   :header-rows: 1
 
 
+.. only:: html
 
-An example `SUEWS_WithinGridWaterDist.txt` can be found below:
+    An example `SUEWS_WithinGridWaterDist.txt` can be found below:
 
-.. literalinclude:: sample-table/SUEWS_WithinGridWaterDist.txt
+    .. literalinclude:: sample-table/SUEWS_WithinGridWaterDist.txt
+
+.. only:: pdf-latex
+
+    An example `SUEWS_WithinGridWaterDist.txt` can be found online.

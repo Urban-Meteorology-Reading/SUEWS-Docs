@@ -28,6 +28,12 @@ or modelled by SUEWS (`SMDMethod` = 0 in `RunControl.nml`).
   :header-rows: 1
   :widths: 5 25 5 65
 
-An example `SUEWS_Soil.txt` can be found below:
+.. only:: html
 
-.. literalinclude:: sample-table/SUEWS_Soil.txt
+    An example `SUEWS_Soil.txt` can be found below:
+
+    .. literalinclude:: sample-table/SUEWS_Soil.txt
+
+.. only:: pdf-latex
+
+    An example `SUEWS_Soil.txt` can be found online.

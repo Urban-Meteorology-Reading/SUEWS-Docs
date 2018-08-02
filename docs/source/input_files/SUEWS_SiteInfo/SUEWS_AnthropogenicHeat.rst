@@ -20,7 +20,12 @@ case all columns here except Code and BaseTHDD should be set to ’-999’.
   :header-rows: 1
   :widths: 5 25 5 65
 
+.. only:: html
 
-An example `SUEWS_AnthropogenicHeat.txt` can be found below:
+    An example `SUEWS_AnthropogenicHeat.txt` can be found below:
 
-.. literalinclude:: sample-table/SUEWS_AnthropogenicHeat.txt
+    .. literalinclude:: sample-table/SUEWS_AnthropogenicHeat.txt
+
+.. only:: pdf-latex
+
+    An example `SUEWS_AnthropogenicHeat.txt` can be found online.

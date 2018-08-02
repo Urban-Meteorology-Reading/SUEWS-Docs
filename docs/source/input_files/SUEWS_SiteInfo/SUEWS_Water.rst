@@ -15,7 +15,12 @@ specified in `SUEWS_SiteSelect.txt` (`Code_Water`).
   :header-rows: 1
   :widths: 5 25 5 65
 
+.. only:: html
 
-An example `SUEWS_Water.txt` can be found below:
+    An example `SUEWS_Water.txt` can be found below:
 
-.. literalinclude:: sample-table/SUEWS_Water.txt
+    .. literalinclude:: sample-table/SUEWS_Water.txt
+
+.. only:: pdf-latex
+
+    An example `SUEWS_Water.txt` can be found online.

@@ -32,7 +32,12 @@ and surface characteristics.
   :header-rows: 1
   :widths: 5 25 5 65
 
+.. only:: html
 
-An example `SUEWS_OHMCoefficients.txt` can be found below:
+    An example `SUEWS_OHMCoefficients.txt` can be found below:
 
-.. literalinclude:: sample-table/SUEWS_OHMCoefficients.txt
+    .. literalinclude:: sample-table/SUEWS_OHMCoefficients.txt
+
+.. only:: pdf-latex
+
+    An example `SUEWS_OHMCoefficients.txt` can be found online.

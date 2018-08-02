@@ -31,7 +31,12 @@ Profiles are specified for the following
   :header-rows: 1
   :widths: 5 25 5 65
 
+.. only:: html
 
-An example `SUEWS_Profiles.txt` can be found below:
+    An example `SUEWS_Profiles.txt` can be found below:
 
-.. literalinclude:: sample-table/SUEWS_Profiles.txt
+    .. literalinclude:: sample-table/SUEWS_Profiles.txt
+
+.. only:: pdf-latex
+
+    An example `SUEWS_Profiles.txt` can be found online.

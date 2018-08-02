@@ -17,7 +17,12 @@ see: `Typical Values <typical_values>`.
   :header-rows: 1
   :widths: 5 25 5 65
 
+.. only:: html
 
-An example `SUEWS_NonVeg.txt` can be found below:
+    An example `SUEWS_NonVeg.txt` can be found below:
 
-.. literalinclude:: sample-table/SUEWS_NonVeg.txt
+    .. literalinclude:: sample-table/SUEWS_NonVeg.txt
+
+.. only:: pdf-latex
+
+    An example `SUEWS_NonVeg.txt` can be found online.

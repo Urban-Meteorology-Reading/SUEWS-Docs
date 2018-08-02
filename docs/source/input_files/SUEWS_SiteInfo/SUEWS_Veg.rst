@@ -19,7 +19,12 @@ surface type. For suggestions on how to complete this table, see:
   :widths: 5 25 5 65
 
 
+.. only:: html
 
-An example `SUEWS_Veg.txt` can be found below:
+    An example `SUEWS_Veg.txt` can be found below:
 
-.. literalinclude:: sample-table/SUEWS_Veg.txt
+    .. literalinclude:: sample-table/SUEWS_Veg.txt
+
+.. only:: pdf-latex
+
+    An example `SUEWS_Veg.txt` can be found online.

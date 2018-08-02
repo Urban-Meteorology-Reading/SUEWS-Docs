@@ -114,7 +114,12 @@ more elevated.
    Example values for the grid connections part of `SUEWS_SiteSelect.txt` for the grids.
 
 
+.. only:: html
 
-An example `SUEWS_SiteSelect.txt` can be found below:
+    An example `SUEWS_SiteSelect.txt` can be found below:
 
-.. literalinclude:: sample-table/SUEWS_SiteSelect.txt
+    .. literalinclude:: sample-table/SUEWS_SiteSelect.txt
+
+.. only:: pdf-latex
+
+    An example `SUEWS_SiteSelect.txt` can be found online.
