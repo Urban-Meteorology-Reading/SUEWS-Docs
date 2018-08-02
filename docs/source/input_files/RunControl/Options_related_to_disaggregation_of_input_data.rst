@@ -22,7 +22,7 @@ Options related to disaggregation of input data
 	:Requirement:
 		Optional
 	:Description:
-		Can be used to switch off zenith checking in Kdown disaggregation. Note that the zenith calculation requires location information obtained from SUEWS_SiteSelect.txt. If a single met file is used for all grids, the zenith is calculated for the first grid and the disaggregated data is then applied for all grids.
+		Can be used to switch off zenith checking in Kdown disaggregation. Note that the zenith calculation requires location information obtained from `SUEWS_SiteSelect.txt`. If a single met file is used for all grids, the zenith is calculated for the first grid and the disaggregated data is then applied for all grids.
 	:Configuration:
 		.. csv-table::
 			:file: csv-table/KdownZen.csv
