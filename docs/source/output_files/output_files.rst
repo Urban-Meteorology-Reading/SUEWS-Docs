@@ -44,7 +44,7 @@ Warning messages: warnings.txt
    :code:`tail`/:code:`head` to view the ending/starting part without opening
    the whole file on Unix-like systems (Linux/mac OS), which may slow
    down your system.
--  To prevent warnings.txt from being written, set **SuppressWarnings**
+-  To prevent warnings.txt from being written, set :option:`SuppressWarnings`
    to 1 in `RunControl.nml`.
 -  Warning messages are usually written with a grid number, timestamp
    and error count. If the problem occurs in the initial stages (i.e.
@@ -64,7 +64,7 @@ SSss_YYYY_SUEWS_TT.txt
 ~~~~~~~~~~~~~~~~~~~~~~
 
 SUEWS produces the main output file (SSss_YYYY_SUEWS_tt.txt) with time
-resolution (TT min) set by **ResolutionFilesOut** in `RunControl.nml`.
+resolution (TT min) set by :option:`ResolutionFilesOut` in `RunControl.nml`.
 
 Before these main data files are written out, SUEWS provides a summary
 of the column names, units and variables included in the file
@@ -83,7 +83,7 @@ to :option:`WriteOutOption` set in :ref:`RunControl.nml`.
 SSss_YYYY_nn_TT.nc
 ~~~~~~~~~~~~~~~~~~~
 
-SUEWS can also produce the main output file in netCDF format by setting ncMode=1 (set in `RunControl`).
+SUEWS can also produce the main output file in netCDF format by setting :option:`ncMode` = 1 (set in `RunControl.nml`).
 
 As the date and time information is incorporated in the netCDF output as
 separate dimension, the first five variables in the normal text output
@@ -118,7 +118,7 @@ grid, see `Initial_Conditions`
 SSss_YYYY_snow_TT.txt
 ~~~~~~~~~~~~~~~~~~~~~
 
-SUEWS produces a separate output file for snow (when snowUse = 1 in
+SUEWS produces a separate output file for snow (when :option:`snowUse` = 1 in
 RunControl.nml) with details for each surface type.
 
 File format of SSss_YYYY_snow_60.txt
