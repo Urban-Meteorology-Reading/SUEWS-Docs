@@ -124,8 +124,7 @@ approach for the sensible and latent heat fluxes and the water balance
 (“water bucket”). The calculation of evaporation/latent heat in SUEWS is
 more biophysically based. Due to its simplicity, LUMPS requires less
 parameters in order to run. SUEWS gives turbulent heat fluxes calculated
-with both models as an output. **The model can run LUMPS alone without
-running SUEWS (Table 4.1 – SuewsStatus).**
+with both models as an output. 
 
 Similarities and differences between LUMPS and SUEWS.
 
@@ -196,7 +195,7 @@ further details.
 +----------------+----------------+-----------------+-----------------+
 | Unique         | Calculates     | Radiation and   | Radiation,      |
 | features:      | active surface | energy balances | energy and      |
-|                | – and fluxes   |                 | water balance   |
+|                |  and fluxes    |                 | water balance   |
 |                |                |                 | (includes       |
 |                |                |                 | LUMPS)          |
 +----------------+----------------+-----------------+-----------------+
