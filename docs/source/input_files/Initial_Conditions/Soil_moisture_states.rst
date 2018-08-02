@@ -8,9 +8,9 @@ Soil moisture states
 	:Requirement:
 		Required
 	:Description:
-		For maximum values, see the used soil code in SUEWS_Soil.txt
+		Initial water stored in soil beneath `Paved` surface [mm]
 	:Configuration:
-		to fill
+		For maximum values, see the used soil code in `SUEWS_Soil.txt`
 
 
 .. option:: SoilstoreBldgsState
@@ -18,9 +18,9 @@ Soil moisture states
 	:Requirement:
 		Required
 	:Description:
-		For maximum values, see the used soil code in SUEWS_Soil.txt
+		Initial water stored in soil beneath `Bldgs` surface [mm]
 	:Configuration:
-		to fill
+		For maximum values, see the used soil code in `SUEWS_Soil.txt`
 
 
 .. option:: SoilstoreEveTrState
@@ -28,9 +28,9 @@ Soil moisture states
 	:Requirement:
 		Required
 	:Description:
-		For maximum values, see the used soil code in SUEWS_Soil.txt
+		Initial water stored in soil beneath `EveTr` surface [mm]
 	:Configuration:
-		to fill
+		For maximum values, see the used soil code in `SUEWS_Soil.txt`
 
 
 .. option:: SoilstoreDecTrState
@@ -38,9 +38,9 @@ Soil moisture states
 	:Requirement:
 		Required
 	:Description:
-		For maximum values, see the used soil code in SUEWS_Soil.txt
+		Initial water stored in soil beneath `DecTr` surface [mm]
 	:Configuration:
-		to fill
+		For maximum values, see the used soil code in `SUEWS_Soil.txt`
 
 
 .. option:: SoilstoreGrassState
@@ -48,9 +48,9 @@ Soil moisture states
 	:Requirement:
 		Required
 	:Description:
-		For maximum values, see the used soil code in SUEWS_Soil.txt
+		Initial water stored in soil beneath `Grass` surface [mm]
 	:Configuration:
-		to fill
+		For maximum values, see the used soil code in `SUEWS_Soil.txt`
 
 
 .. option:: SoilstoreBSoilState
@@ -58,6 +58,6 @@ Soil moisture states
 	:Requirement:
 		Required
 	:Description:
-		For maximum values, see the used soil code in SUEWS_Soil.txt
+		Initial water stored in soil beneath `BSoil` surface [mm]
 	:Configuration:
-		to fill
+		For maximum values, see the used soil code in `SUEWS_Soil.txt`

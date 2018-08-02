@@ -18,6 +18,15 @@ Notation
 
           Relation between BLUEWS and SUEWS
 
+   CDD
+     Cooling degree days
+
+   GDD
+     Growing degree days
+
+   HDD
+     Heating degree days
+
    Bldgs
      Building  surface
 

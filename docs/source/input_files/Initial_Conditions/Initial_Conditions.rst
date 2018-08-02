@@ -50,7 +50,7 @@ The parameters and their setting instructions are provided through the links bel
 * :ref:`Vegetation_parameters`
 
   .. hlist::
-    + :option:`LeavesOutIntially`
+    + :option:`LeavesOutInitially`
     + :option:`GDD_1_0`
     + :option:`GDD_2_0`
     + :option:`LAIinitialEveTr`
