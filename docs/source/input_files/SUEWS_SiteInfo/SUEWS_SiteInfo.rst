@@ -1,6 +1,6 @@
 
-SUEWS SiteInfo
--------------------
+SUEWS Site Information
+-----------------------
 
 The following text files provide SUEWS with information about the study
 area.

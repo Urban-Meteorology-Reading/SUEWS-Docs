@@ -94,7 +94,7 @@ Scheme options
 	:Requirement:
 		Required
 	:Description:
-		Determines whether the storage heat flux calculation uses Q* or (Q*+QF).
+		Determines whether the storage heat flux calculation uses |Qstar| or (|Qstar|+QF).
 	:Configuration:
 		.. csv-table::
 			:file: csv-table/OHMIncQF.csv
