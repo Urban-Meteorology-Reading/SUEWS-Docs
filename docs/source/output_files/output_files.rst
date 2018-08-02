@@ -119,7 +119,7 @@ SSss_YYYY_snow_TT.txt
 ~~~~~~~~~~~~~~~~~~~~~
 
 SUEWS produces a separate output file for snow (when :option:`snowUse` = 1 in
-RunControl.nml) with details for each surface type.
+`RunControl.nml`) with details for each surface type.
 
 File format of SSss_YYYY_snow_60.txt
 
@@ -145,7 +145,7 @@ SOLWEIGpoiOut.txt
 ~~~~~~~~~~~~~~~~~
 
 Calculated variables from POI, point of interest (row, col) stated in
-SOLWEIGinput.nml.
+`SOLWEIGinput.nml`.
 
 SOLWEIG model output file format: SOLWEIGpoiOUT.txt
 
