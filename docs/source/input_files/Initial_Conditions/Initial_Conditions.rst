@@ -82,7 +82,7 @@ The parameters and their setting instructions are provided through the links bel
 * :ref:`Snow_related_parameters`
 
   .. hlist::
-    + :option:`SnowIntially`
+    + :option:`SnowInitially`
     + :option:`SnowWaterPavedState`
     + :option:`SnowWaterBldgsState`
     + :option:`SnowWaterEveTrState`

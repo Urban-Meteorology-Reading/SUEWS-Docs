@@ -3,14 +3,14 @@
 Snow related parameters
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-.. option:: SnowIntially
+.. option:: SnowInitially
 
 	:Requirement:
 		Optional
 	:Description:
-		If the model run starts when there is no snow on the ground, set SnowIntially = 0 and the snow-related parameters will be set accordingly. If the model run starts when there is snow on the ground, the following snow-related parameters must be set appropriately. The value of SnowInitially overrides any values provided for the individual snow-related parameters. To prevent SnowInitially from setting the initial conditions, either omit it from the namelist or set to -999. If values are provided individually, they should be consistent the information provided in SUEWS_Snow.txt .
+		Flag for initial snow status [0 or 1]
 	:Configuration:
-		to fill
+		If the model run starts when there is no snow on the ground, set `SnowInitially` = 0 and the snow-related parameters will be set accordingly. If the model run starts when there is snow on the ground, the following snow-related parameters must be set appropriately. The value of `SnowInitially` overrides any values provided for the individual snow-related parameters. To prevent `SnowInitially` from setting the initial conditions, either omit it from the namelist or set to -999. If values are provided individually, they should be consistent the information provided in `SUEWS_Snow.txt` .
 
 
 .. option:: SnowWaterPavedState
@@ -18,9 +18,9 @@ Snow related parameters
 	:Requirement:
 		Optional
 	:Description:
-		Initial amount of liquid water in the snow on paved surfaces.
+		Initial amount of liquid water in the snow on paved surfaces `Paved`
 	:Configuration:
-		to fill
+		The recommended values can be found from `SUEWS_Snow.txt`
 
 
 .. option:: SnowWaterBldgsState
@@ -28,9 +28,9 @@ Snow related parameters
 	:Requirement:
 		Optional
 	:Description:
-		Initial amount of liquid water in the snow on buildings
+		Initial amount of liquid water in the snow on buildings `Bldgs`
 	:Configuration:
-		to fill
+		The recommended values can be found from `SUEWS_Snow.txt`
 
 
 .. option:: SnowWaterEveTrState
@@ -38,9 +38,9 @@ Snow related parameters
 	:Requirement:
 		Optional
 	:Description:
-		Initial amount of liquid water in the snow on evergreen trees
+		Initial amount of liquid water in the snow on evergreen trees `EveTr`
 	:Configuration:
-		to fill
+		The recommended values can be found from `SUEWS_Snow.txt`
 
 
 .. option:: SnowWaterDecTrState
@@ -48,9 +48,9 @@ Snow related parameters
 	:Requirement:
 		Optional
 	:Description:
-		Initial amount of liquid water in the snow on deciduous trees
+		Initial amount of liquid water in the snow on deciduous trees `DecTr`
 	:Configuration:
-		to fill
+		The recommended values can be found from `SUEWS_Snow.txt`
 
 
 .. option:: SnowWaterGrassState
@@ -58,9 +58,9 @@ Snow related parameters
 	:Requirement:
 		Optional
 	:Description:
-		Initial amount of liquid water in the snow on grass surfaces
+		Initial amount of liquid water in the snow on grass surfaces `Grass`
 	:Configuration:
-		to fill
+		The recommended values can be found from `SUEWS_Snow.txt`
 
 
 .. option:: SnowWaterBSoilState
@@ -68,9 +68,9 @@ Snow related parameters
 	:Requirement:
 		Optional
 	:Description:
-		Initial amount of liquid water in the snow on bare soil surfaces
+		Initial amount of liquid water in the snow on bare soil surfaces `BSoil`
 	:Configuration:
-		to fill
+		The recommended values can be found from `SUEWS_Snow.txt`
 
 
 .. option:: SnowWaterWaterState
@@ -78,9 +78,9 @@ Snow related parameters
 	:Requirement:
 		Optional
 	:Description:
-		Initial amount of liquid water in the snow in water
+		Initial amount of liquid water in the snow in water `Water`
 	:Configuration:
-		to fill
+		The recommended values can be found from `SUEWS_Snow.txt`
 
 
 .. option:: SnowPackPaved
@@ -88,9 +88,9 @@ Snow related parameters
 	:Requirement:
 		Optional
 	:Description:
-		Initial snow water equivalent if the snow on paved surfaces
+		Initial snow water equivalent if the snow on paved surfaces `Paved`
 	:Configuration:
-		to fill
+		The recommended values can be found from `SUEWS_Snow.txt`
 
 
 .. option:: SnowPackBldgs
@@ -98,9 +98,9 @@ Snow related parameters
 	:Requirement:
 		Optional
 	:Description:
-		Initial snow water equivalent if the snow on buildings
+		Initial snow water equivalent if the snow on buildings `Bldgs`
 	:Configuration:
-		to fill
+		The recommended values can be found from `SUEWS_Snow.txt`
 
 
 .. option:: SnowPackEveTr
@@ -108,9 +108,9 @@ Snow related parameters
 	:Requirement:
 		Optional
 	:Description:
-		Initial snow water equivalent if the snow on evergreen trees
+		Initial snow water equivalent if the snow on evergreen trees `EveTr`
 	:Configuration:
-		to fill
+		The recommended values can be found from `SUEWS_Snow.txt`
 
 
 .. option:: SnowPackDecTr
@@ -118,9 +118,9 @@ Snow related parameters
 	:Requirement:
 		Optional
 	:Description:
-		Initial snow water equivalent if the snow on deciduous trees
+		Initial snow water equivalent if the snow on deciduous trees `DecTr`
 	:Configuration:
-		to fill
+		The recommended values can be found from `SUEWS_Snow.txt`
 
 
 .. option:: SnowPackGrass
@@ -128,9 +128,9 @@ Snow related parameters
 	:Requirement:
 		Optional
 	:Description:
-		Initial snow water equivalent if the snow on grass surfaces
+		Initial snow water equivalent if the snow on grass surfaces `Grass`
 	:Configuration:
-		to fill
+		The recommended values can be found from `SUEWS_Snow.txt`
 
 
 .. option:: SnowPackBSoil
@@ -138,9 +138,9 @@ Snow related parameters
 	:Requirement:
 		Optional
 	:Description:
-		Initial snow water equivalent if the snow on bare soil surfaces
+		Initial snow water equivalent if the snow on bare soil surfaces `BSoil`
 	:Configuration:
-		to fill
+		The recommended values can be found from `SUEWS_Snow.txt`
 
 
 .. option:: SnowPackWater
@@ -148,9 +148,9 @@ Snow related parameters
 	:Requirement:
 		Optional
 	:Description:
-		Initial snow water equivalent if the snow on water
+		Initial snow water equivalent if the snow on water `Water`
 	:Configuration:
-		to fill
+		The recommended values can be found from `SUEWS_Snow.txt`
 
 
 .. option:: SnowFracPaved
@@ -158,9 +158,9 @@ Snow related parameters
 	:Requirement:
 		Optional
 	:Description:
-		Initial plan area fraction of snow on paved surfaces
+		Initial plan area fraction of snow on paved surfaces `Paved`
 	:Configuration:
-		to fill
+		The recommended values can be found from `SUEWS_Snow.txt`
 
 
 .. option:: SnowFracBldgs
@@ -168,9 +168,9 @@ Snow related parameters
 	:Requirement:
 		Optional
 	:Description:
-		Initial plan area fraction of snow on buildings
+		Initial plan area fraction of snow on buildings `Bldgs`
 	:Configuration:
-		to fill
+		The recommended values can be found from `SUEWS_Snow.txt`
 
 
 .. option:: SnowFracEveTr
@@ -178,9 +178,9 @@ Snow related parameters
 	:Requirement:
 		Optional
 	:Description:
-		Initial plan area fraction of snow on evergreen trees
+		Initial plan area fraction of snow on evergreen trees `EveTr`
 	:Configuration:
-		to fill
+		The recommended values can be found from `SUEWS_Snow.txt`
 
 
 .. option:: SnowFracDecTr
@@ -188,9 +188,9 @@ Snow related parameters
 	:Requirement:
 		Optional
 	:Description:
-		Initial plan area fraction of snow on deciduous trees
+		Initial plan area fraction of snow on deciduous trees `DecTr`
 	:Configuration:
-		to fill
+		The recommended values can be found from `SUEWS_Snow.txt`
 
 
 .. option:: SnowFracGras
@@ -198,9 +198,9 @@ Snow related parameters
 	:Requirement:
 		Optional
 	:Description:
-		Initial plan area fraction of snow on grass surfaces
+		Initial plan area fraction of snow on grass surfaces `Grass`
 	:Configuration:
-		to fill
+		The recommended values can be found from `SUEWS_Snow.txt`
 
 
 .. option:: SnowFracBSoil
@@ -208,9 +208,9 @@ Snow related parameters
 	:Requirement:
 		Optional
 	:Description:
-		Initial plan area fraction of snow on bare soil surfaces
+		Initial plan area fraction of snow on bare soil surfaces `BSoil`
 	:Configuration:
-		to fill
+		The recommended values can be found from `SUEWS_Snow.txt`
 
 
 .. option:: SnowFracWater
@@ -218,9 +218,9 @@ Snow related parameters
 	:Requirement:
 		Optional
 	:Description:
-		Initial plan area fraction of snow on water
+		Initial plan area fraction of snow on water `Water`
 	:Configuration:
-		to fill
+		The recommended values can be found from `SUEWS_Snow.txt`
 
 
 .. option:: SnowDensPaved
@@ -228,9 +228,9 @@ Snow related parameters
 	:Requirement:
 		Optional
 	:Description:
-		Initial snow density on paved surfaces
+		Initial snow density on paved surfaces `Paved`
 	:Configuration:
-		to fill
+		The recommended values can be found from `SUEWS_Snow.txt`
 
 
 .. option:: SnowDensBldgs
@@ -238,9 +238,9 @@ Snow related parameters
 	:Requirement:
 		Optional
 	:Description:
-		Initial snow density on buildings
+		Initial snow density on buildings `Bldgs`
 	:Configuration:
-		to fill
+		The recommended values can be found from `SUEWS_Snow.txt`
 
 
 .. option:: SnowDensEveTr
@@ -248,9 +248,9 @@ Snow related parameters
 	:Requirement:
 		Optional
 	:Description:
-		Initial snow density on evergreen trees
+		Initial snow density on evergreen trees `EveTr`
 	:Configuration:
-		to fill
+		The recommended values can be found from `SUEWS_Snow.txt`
 
 
 .. option:: SnowDensDecTr
@@ -258,9 +258,9 @@ Snow related parameters
 	:Requirement:
 		Optional
 	:Description:
-		Initial snow density on deciduous trees
+		Initial snow density on deciduous trees `DecTr`
 	:Configuration:
-		to fill
+		The recommended values can be found from `SUEWS_Snow.txt`
 
 
 .. option:: SnowDensGrass
@@ -268,9 +268,9 @@ Snow related parameters
 	:Requirement:
 		Optional
 	:Description:
-		Initial snow density on grass surfaces
+		Initial snow density on grass surfaces `Grass`
 	:Configuration:
-		to fill
+		The recommended values can be found from `SUEWS_Snow.txt`
 
 
 .. option:: SnowDensBSoil
@@ -278,9 +278,9 @@ Snow related parameters
 	:Requirement:
 		Optional
 	:Description:
-		Initial snow density on bare soil surfaces
+		Initial snow density on bare soil surfaces `BSoil`
 	:Configuration:
-		to fill
+		The recommended values can be found from `SUEWS_Snow.txt`
 
 
 .. option:: SnowDensWater
@@ -288,6 +288,6 @@ Snow related parameters
 	:Requirement:
 		Optional
 	:Description:
-		Initial snow density on water
+		Initial snow density on `Water`
 	:Configuration:
-		to fill
+		The recommended values can be found from `SUEWS_Snow.txt`
