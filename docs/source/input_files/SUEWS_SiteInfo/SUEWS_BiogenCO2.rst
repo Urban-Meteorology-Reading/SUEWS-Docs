@@ -3,6 +3,11 @@
 SUEWS_BiogenCO2.txt
 ~~~~~~~~~~~~~~~~~~~
 
+.. caution::
+
+	The BiogenCO2 part is under development and not ready for use.
+
+
 `SUEWS_BiogenCO2.txt` provides the parameters needed to model
 the Biogenic CO2 characteristics of vegetation surfaces.
 
