@@ -37,6 +37,6 @@ Profiles are specified for the following
 
     .. literalinclude:: sample-table/SUEWS_Profiles.txt
 
-.. only:: pdf-latex
+.. only:: latex
 
     An example `SUEWS_Profiles.txt` can be found online.

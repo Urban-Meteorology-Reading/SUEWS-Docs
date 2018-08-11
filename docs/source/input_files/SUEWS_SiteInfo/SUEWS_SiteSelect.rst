@@ -120,6 +120,6 @@ more elevated.
 
     .. literalinclude:: sample-table/SUEWS_SiteSelect.txt
 
-.. only:: pdf-latex
+.. only:: latex
 
     An example `SUEWS_SiteSelect.txt` can be found online.

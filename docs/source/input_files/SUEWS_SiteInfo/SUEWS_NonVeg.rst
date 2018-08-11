@@ -23,6 +23,6 @@ see: `Typical Values <typical_values>`.
 
     .. literalinclude:: sample-table/SUEWS_NonVeg.txt
 
-.. only:: pdf-latex
+.. only:: latex
 
     An example `SUEWS_NonVeg.txt` can be found online.

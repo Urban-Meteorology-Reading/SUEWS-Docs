@@ -22,6 +22,6 @@ the Biogenic CO2 characteristics of vegetation surfaces.
 
     .. literalinclude:: sample-table/SUEWS_BiogenCO2.txt
 
-.. only:: pdf-latex
+.. only:: latex
 
     An example `SUEWS_BiogenCO2.txt` can be found online

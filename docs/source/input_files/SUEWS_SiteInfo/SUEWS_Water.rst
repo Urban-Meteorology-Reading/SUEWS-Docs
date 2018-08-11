@@ -21,6 +21,6 @@ specified in `SUEWS_SiteSelect.txt` (`Code_Water`).
 
     .. literalinclude:: sample-table/SUEWS_Water.txt
 
-.. only:: pdf-latex
+.. only:: latex
 
     An example `SUEWS_Water.txt` can be found online.

@@ -24,6 +24,6 @@ different units).
 
     .. literalinclude:: sample-table/SUEWS_Conductance.txt
 
-.. only:: pdf-latex
+.. only:: latex
 
     An example `SUEWS_Conductance.txt` can be found online

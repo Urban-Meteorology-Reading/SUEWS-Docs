@@ -26,6 +26,6 @@ case all columns here except Code and BaseTHDD should be set to ’-999’.
 
     .. literalinclude:: sample-table/SUEWS_AnthropogenicHeat.txt
 
-.. only:: pdf-latex
+.. only:: latex
 
     An example `SUEWS_AnthropogenicHeat.txt` can be found online.

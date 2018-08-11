@@ -25,6 +25,6 @@ surface type. For suggestions on how to complete this table, see:
 
     .. literalinclude:: sample-table/SUEWS_Veg.txt
 
-.. only:: pdf-latex
+.. only:: latex
 
     An example `SUEWS_Veg.txt` can be found online.

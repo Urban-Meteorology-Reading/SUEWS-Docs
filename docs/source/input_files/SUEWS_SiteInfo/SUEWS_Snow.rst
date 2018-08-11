@@ -26,6 +26,6 @@ For a detailed description of the variables, see Järvi et al.
 
     .. literalinclude:: sample-table/SUEWS_Snow.txt
 
-.. only:: pdf-latex
+.. only:: latex
 
     An example `SUEWS_Snow.txt` can be found online.

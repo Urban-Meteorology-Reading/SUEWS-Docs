@@ -34,6 +34,6 @@ or modelled by SUEWS (`SMDMethod` = 0 in `RunControl.nml`).
 
     .. literalinclude:: sample-table/SUEWS_Soil.txt
 
-.. only:: pdf-latex
+.. only:: latex
 
     An example `SUEWS_Soil.txt` can be found online.

@@ -49,6 +49,6 @@ In the table below, for example,
 
     .. literalinclude:: sample-table/SUEWS_WithinGridWaterDist.txt
 
-.. only:: pdf-latex
+.. only:: latex
 
     An example `SUEWS_WithinGridWaterDist.txt` can be found online.

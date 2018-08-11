@@ -28,6 +28,6 @@ except Code should be set to :code:`-999`.
 
     .. literalinclude:: sample-table/SUEWS_Irrigation.txt
 
-.. only:: pdf-latex
+.. only:: latex
 
     An example `SUEWS_Irrigation.txt` can be found online.

@@ -38,6 +38,6 @@ and surface characteristics.
 
     .. literalinclude:: sample-table/SUEWS_OHMCoefficients.txt
 
-.. only:: pdf-latex
+.. only:: latex
 
     An example `SUEWS_OHMCoefficients.txt` can be found online.
