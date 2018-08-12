@@ -23,4 +23,4 @@ specified in `SUEWS_SiteSelect.txt` (`Code_Water`).
 
 .. only:: latex
 
-    An example `SUEWS_Water.txt` can be found online.
+    An example `SUEWS_Water.txt` can be found in the online version.

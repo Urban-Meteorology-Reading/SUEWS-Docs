@@ -51,4 +51,4 @@ In the table below, for example,
 
 .. only:: latex
 
-    An example `SUEWS_WithinGridWaterDist.txt` can be found online.
+    An example `SUEWS_WithinGridWaterDist.txt` can be found in the online version.

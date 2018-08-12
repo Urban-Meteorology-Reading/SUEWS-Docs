@@ -28,4 +28,4 @@ case all columns here except Code and BaseTHDD should be set to ’-999’.
 
 .. only:: latex
 
-    An example `SUEWS_AnthropogenicHeat.txt` can be found online.
+    An example `SUEWS_AnthropogenicHeat.txt` can be found in the online version.

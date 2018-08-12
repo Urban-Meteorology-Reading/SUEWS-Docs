@@ -129,6 +129,4 @@ Notation
    zi
      Convective boundary layer height
 
-.. |Qstar| replace:: Q\ :sup:`*`\
-
 .. _Urban Multi-scale Environmental Predictor: http://umep-docs.readthedocs.io

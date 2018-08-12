@@ -27,4 +27,4 @@ surface type. For suggestions on how to complete this table, see:
 
 .. only:: latex
 
-    An example `SUEWS_Veg.txt` can be found online.
+    An example `SUEWS_Veg.txt` can be found in the online version.

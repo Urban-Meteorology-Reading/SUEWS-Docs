@@ -28,4 +28,4 @@ For a detailed description of the variables, see Järvi et al.
 
 .. only:: latex
 
-    An example `SUEWS_Snow.txt` can be found online.
+    An example `SUEWS_Snow.txt` can be found in the online version.

@@ -25,4 +25,4 @@ see: `Typical Values <typical_values>`.
 
 .. only:: latex
 
-    An example `SUEWS_NonVeg.txt` can be found online.
+    An example `SUEWS_NonVeg.txt` can be found in the online version.

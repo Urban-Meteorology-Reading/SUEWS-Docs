@@ -5,21 +5,22 @@
 
 Version 2018a (released 2 August 2018)
 ----------------------------------------------------
-- New
+- **New**
 
   #. Many under-the-hood improvements
   #. New documentation system
   #. Added `input_converter` for conversion of input files between versions
+  #. Added `benchmark_report` for recent releases.
 
-- Improvement
+- **Improvement**
 
   #. Improved the anthropogenic heat and CO2 emission module
   #. Improved the near surface diagnostics scheme (T2, Q2, U10)
   #. Improved skin temperature calculation (Ts)
 
-- Changes
+- **Changes**
 
-  #. `StabilityMethod`: recommended option is change from 2 to 3 as options other than 3 have been noticed with numerical issues under several scenarios, which will be fixed in the next release. 
+  #. `StabilityMethod`: recommended option is change from 2 to 3 as options other than 3 have been noticed with numerical issues under several scenarios, which will be fixed in the next release.
   #. Model run - changes in selections moved from `SUEWS_SiteSelect.txt` to `SUEWS_AnthropogenicHeat.txt`: `EnergyUseProfWD`, `EnergyUseProfWE`, `ActivityProfWD`, `ActivityProfWE`.
   #. `BiogenCO2Code` is added to `SUEWS_Veg.txt` for looking up biogenic characteristics in the new `SUEWS_BiogenCO2.txt` file.
   #. :code:`TraifficRate` and :code:`BuildEnergyUse` in `SUEWS_SiteSelect.txt` are expanded to allow weekday and weekend values: `TrafficRate_WD`, `TrafficRate_WE`, `QF0_BEU_WD`, `QF0_BEU_WE`.

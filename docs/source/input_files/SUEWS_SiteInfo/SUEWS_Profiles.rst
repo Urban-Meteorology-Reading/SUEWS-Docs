@@ -39,4 +39,4 @@ Profiles are specified for the following
 
 .. only:: latex
 
-    An example `SUEWS_Profiles.txt` can be found online.
+    An example `SUEWS_Profiles.txt` can be found in the online version.

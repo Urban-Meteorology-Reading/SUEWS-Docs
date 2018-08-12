@@ -30,4 +30,4 @@ except Code should be set to :code:`-999`.
 
 .. only:: latex
 
-    An example `SUEWS_Irrigation.txt` can be found online.
+    An example `SUEWS_Irrigation.txt` can be found in the online version.

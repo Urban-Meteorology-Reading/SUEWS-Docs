@@ -40,4 +40,4 @@ and surface characteristics.
 
 .. only:: latex
 
-    An example `SUEWS_OHMCoefficients.txt` can be found online.
+    An example `SUEWS_OHMCoefficients.txt` can be found in the online version.

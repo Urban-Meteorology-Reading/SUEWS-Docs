@@ -122,4 +122,4 @@ more elevated.
 
 .. only:: latex
 
-    An example `SUEWS_SiteSelect.txt` can be found online.
+    An example `SUEWS_SiteSelect.txt` can be found in the online version.
