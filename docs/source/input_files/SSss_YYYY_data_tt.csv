@@ -3,7 +3,7 @@ No.,Use,Column name,Description
 2,`MU`,id,Day of year [DOY]
 3,`MU`,it,Hour [H]
 4,`MU`,imin,Minute [M]
-5,`O`,qn,Net all-wave radiation [W |m^-2|] Required if `NetRadiationMethod` = 1.
+5,`O`,qn,Net all-wave radiation [W |m^-2|] Required if `NetRadiationMethod` = 0.
 6,`O`,qh,Sensible heat flux [W |m^-2|]
 7,`O`,qe,Latent heat flux [W |m^-2|]
 8,`O`,qs,Storage heat flux [W |m^-2|]
