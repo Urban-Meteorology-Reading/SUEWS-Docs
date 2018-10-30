@@ -1,6 +1,3 @@
-
-.. _new_latest:
-
 .. _new_2018a:
 
 Version 2018a (released 2 August 2018)
