@@ -7,7 +7,7 @@ Version 2018b (planned release in November 2018)
 ----------------------------------------------------
 - **New**
 
-  #. a Python package `SuPy <supy_webpage>`_ based on the physical kernel of this version
+  #. a Python package `SuPy <supy_webpage>`_ (beta) based on the physical kernel of this version 
 
 - **Improvement**
 
