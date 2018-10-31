@@ -1,6 +1,6 @@
 .. _suews_related_softwares:
 
-SUEWS-related Softwares
+SUEWS-related Software
 ================================
 
 .. _suews_umep:
