@@ -7,7 +7,7 @@
 6,"`Emissivity`","`MU`","Effective surface emissivity. View factors should be taken into account Example values [-] 0.99 Järvi et al. (2014) [Leena2014]_ "
 7,"`tau_a`","`MD`","Time constant for snow albedo aging in cold snow [-]"
 8,"`tau_f`","`MD`","Time constant for snow albedo aging in melting snow [-]"
-9,"`PrecipiLimAlb`","`MD`","Limit for hourly precipitation when the ground is fully covered with snow. Then snow albedo is reset to AlbedoMax [mm]"
+9,"`PrecipLimAlb`","`MD`","Limit for hourly precipitation when the ground is fully covered with snow. Then snow albedo is reset to AlbedoMax [mm]"
 10,"`snowDensMin`","`MD`","Fresh snow density [kg |m^-3|]"
 11,"`snowDensMax`","`MD`","Maximum snow density [kg |m^-3|]"
 12,"`tau_r`","`MD`","Time constant for snow density ageing [-]"
