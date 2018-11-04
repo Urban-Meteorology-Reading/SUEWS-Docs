@@ -6,7 +6,7 @@ ESTM-related files
 SUEWS_ESTMCoefficients.txt
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Note ESTM is under development in v2017a and should not be used!**
+**Note ESTM is under development in this release and should not be used!**
 
 The Element Surface Temperature Method (ESTM) (Offerle et al., 2005)
 calculates the net storage heat flux from surface temperatures. In the
