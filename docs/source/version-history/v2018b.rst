@@ -3,11 +3,11 @@
 
 .. _new_2018b:
 
-Version 2018b (planned release in November 2018)
+Version 2018b (planned release in December 2018)
 ----------------------------------------------------
 - **New**
 
-  #. a Python package `SuPy (beta) <supy_webpage>`_ based on the physical kernel of this version 
+  #. a Python package `SuPy (beta) <supy_webpage>`_ based on the physical kernel of this version
 
 - **Improvement**
 
@@ -16,7 +16,7 @@ Version 2018b (planned release in November 2018)
 - **Changes**
 
   None.
-  
+
 - **Fix**
-  
+
   #. Fixed a bug in picking up external water use from meteorological forcing file.
