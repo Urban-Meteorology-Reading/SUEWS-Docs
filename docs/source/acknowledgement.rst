@@ -12,28 +12,25 @@ Acknowledgements
      * - Name
        - Affiliation
        - Contributions
-     * - Prof C.S.B. Grimmond
-       - University of Reading; previously, Indiana University, US and King’s College London, UK
-       - Team Leader
-     * - Dr Leena Järvi
-       - University of Helsinki, Finland
-       - Snow-related physics; Anthropogenic emission calculation
-     * - Dr Fredrik Lindberg
-       - Göteborg University, Sweden
-       - UMEP-related work
-     * - Dr Ting Sun
+     * - Dr Ting Sun, Current Lead Developer
        - University of Reading, UK
        - AnOHM; Documentation system; WRF-SUEWS coupling; SuPy (python wrapper of SUEWS)
-     * - Dr Jie Peng
-       - SIMS, China
-       - CBL module
+     * - Prof C.S.B. Grimmond, Team Leader
+       - University of Reading; previously, Indiana University, USA and King’s College London, UK
+       - OHM, Evaporation-Interception, Resistances, NARP, irrigation, anthropogenic heat, etc
+     * - Dr Leena Järvi, Lead Developer
+       - University of Helsinki, Finland
+       - Snow-related physics; Anthropogenic emission calculation, CO2
+     * - Dr Helen Ward, Past Lead Developer
+       - University of Reading, UK
+       - OHM improvement; Resistance calculation; Anthropogenic heat calculation
+     * - Dr Fredrik Lindberg
+       - Göteborg University, Sweden
+       - UMEP-related work    
      * - Dr Zhenkun Li
        - Shanghai Climate Centre, China
        - WRF-SUEWS coupling
-     * - Dr Natalie Theeuwes
-       - University of Reading, UK
-       - CBL module
-
+   
 
 -  Past Contributors:
 
@@ -47,12 +44,6 @@ Acknowledgements
      * - Dr Shiho Onomura
        - Göteborg University, Sweden
        - BLUEWS
-     * - Dr Helen Ward
-       - University of Reading, UK
-       - OHM improvement; Resistance calculation; Anthropogenic heat calculation
-     * - Dr Andy Gabey
-       - University of Reading, UK
-       - QF-related calculation
      * - Dr Thomas Loridan
        - King’s College London, UK
        - NARP
@@ -61,29 +52,6 @@ Acknowledgements
        - ESTM, NARP
 
 
--  Users who have brought things to our attention to improve this manual
-   and the model:
-
-   .. list-table::
-     :widths: auto
-     :header-rows: 1
-
-     * - Name
-       - Affiliation
-     * - Dr Andy Coutts
-       - Monash University, Australia
-     * - Kerry Nice
-       - Monash University, Australia
-     * - Dr Shiho Onomura
-       - Göteborg University, Sweden
-     * - Dr Stefan Smith
-       - University of Reading, UK
-     * - Dr Helen Ward
-       - King’s College London, UK; University of Reading, UK
-     * - Duick Young
-       - King’s College London, UK
-     * - Dr Ning Zhang
-       - Nanjing University, China
 
 -  Libraries/code that SUEWS uses as dependency:
 
