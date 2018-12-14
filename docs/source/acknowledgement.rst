@@ -48,7 +48,7 @@ Acknowledgements
        - Göteborg University, Sweden
        - BLUEWS
      * - Dr Helen Ward
-       - King’s College London, UK; University of Reading, UK
+       - University of Reading, UK
        - OHM improvement; Resistance calculation; Anthropogenic heat calculation
      * - Dr Andy Gabey
        - University of Reading, UK
@@ -58,7 +58,7 @@ Acknowledgements
        - NARP
      * - Dr Brian Offerle
        - Indiana University, US
-       - ESTM
+       - ESTM, NARP
 
 
 -  Users who have brought things to our attention to improve this manual
