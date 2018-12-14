@@ -26,7 +26,7 @@ Acknowledgements
        - OHM improvement; Resistance calculation; Anthropogenic heat calculation
      * - Dr Fredrik Lindberg
        - Göteborg University, Sweden
-       - UMEP-related work    
+       - UMEP-related work, NARP, ESTM    
      * - Dr Zhenkun Li
        - Shanghai Climate Centre, China
        - WRF-SUEWS coupling
@@ -42,7 +42,7 @@ Acknowledgements
        - Contributions
      * - Dr Shiho Onomura
        - Göteborg University, Sweden
-       - BLUEWS
+       - BLUEWS, ESTM
      * - Dr Thomas Loridan
        - King’s College London, UK
        - NARP
@@ -100,3 +100,4 @@ Acknowledgements
         - LoHCool
       * - NERC
         - Independent Research Fellowship
+
