@@ -109,6 +109,16 @@ rst_prolog = """
 .. |NotRecmd| replace:: **Not recommended in this version.**
 .. |NotAvail| replace:: **Not available in this version.**
 .. |NotUsed| replace:: **Not used in this version.**
+
+.. _GitHub page: https://github.com/Urban-Meteorology-Reading/SUEWS-Docs/issues/new?template=issue-report.md
+
+.. only:: html
+
+    .. note::
+
+      Please report issues with the manual on the `GitHub page`_.
+
+
 """
 # -- Options for HTML output -------------------------------------------------
 # The theme to use for HTML and HTML Help pages.  See the documentation for

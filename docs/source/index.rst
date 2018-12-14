@@ -7,16 +7,13 @@ SUEWS: Surface Urban Energy and Water Balance Scheme
     :target: https://suews-docs.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
 
-.. note::
-
-  Please report issues with the manual on the `GitHub page`_.
 
 - **How to get SUEWS?**
 
 .. epigraph::
 
   The software can be downloaded via `our GitHub page`_.
-  The **latest formal** release of SUEWS is `new_2018b`.
+  The **latest formal** release of SUEWS is `new_latest`.
 
 
 - **How to use SUEWS?**
@@ -54,11 +51,19 @@ SUEWS: Surface Urban Energy and Water Balance Scheme
 
 - **How to cite SUEWS?**
 
-  Please cite `this manual <new_latest>` as follows:
+  .. tip::
 
-  .. epigraph::
+      Visit the repositories below for different citation styles.
 
-    Sun T, L Järvi, M Havu, HC Ward, S Onomura, F Lindberg, F Olofson, A Gabey, CSB Grimmond (2018). SUEWS Manual V2018a. Department of Meteorology, University of Reading, Reading, UK
+  - Software:
+
+    Sun, Ting, Järvi, Leena, Grimmond, C.S.B., Lindberg, Fredrik, Li, Zhenkun, Tang, Yihao, & Ward, Helen. (2018, December 14). SUEWS: Surface Urban Energy and Water Balance Scheme (Version 2018b.preview). Zenodo. |doi_software|
+
+
+  - Manual:
+
+    Sun, Ting, Järvi, Leena, Grimmond, C.S.B., Lindberg, Fredrik, Li, Zhenkun, Tang, Yihao, & Ward, Helen. (2018, December 14). SUEWS: Surface Urban Energy and Water Balance Scheme (Version 2018b). Zenodo. |doi_docs|
+
 
 
 - **How to support SUEWS?**
@@ -72,9 +77,12 @@ SUEWS: Surface Urban Energy and Water Balance Scheme
 .. _our GitHub page: https://urban-meteorology-reading.github.io/SUEWS
 .. _this form: `dowload form`_
 .. _dowload form: http://micromet.reading.ac.uk/software/
-.. _GitHub page: https://github.com/Urban-Meteorology-Reading/SUEWS-Docs/issues
 
+.. |doi_software| image:: https://zenodo.org/badge/DOI/10.5281/zenodo.2274255.svg
+    :target: https://doi.org/10.5281/zenodo.2274255
 
+.. |doi_docs| image:: https://zenodo.org/badge/DOI/10.5281/zenodo.2284987.svg
+    :target: https://doi.org/10.5281/zenodo.2284987
 
 .. toctree::
    :maxdepth: 2
