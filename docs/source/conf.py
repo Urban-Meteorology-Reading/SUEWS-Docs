@@ -22,8 +22,8 @@ from pathlib import Path
 # -- Project information -----------------------------------------------------
 project = u'SUEWS'
 doc_name = u'SUEWS Documentation'
-today = datetime.today()
-copyright = str(today.year) + \
+# today = datetime.today()
+copyright = '2018' + \
     ', micromet@University of Reading, led by Prof Sue Grimmond'
 author = u'micromet@University of Reading, led by Prof Sue Grimmond'
 
