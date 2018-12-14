@@ -16,21 +16,23 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 import platform
-from pathlib import Path
 from datetime import datetime
+from pathlib import Path
 
 # -- Project information -----------------------------------------------------
 project = u'SUEWS'
 doc_name = u'SUEWS Documentation'
 today = datetime.today()
-copyright = f'{today.year}, micromet@University of Reading, led by Prof Sue Grimmond'
+copyright = str(today.year) + \
+    ', micromet@University of Reading, led by Prof Sue Grimmond'
 author = u'micromet@University of Reading, led by Prof Sue Grimmond'
 
 
 # determine latest version and release
 path_source = Path('.').resolve()
-list_ver = sorted([x.stem for x in list(
-    (path_source / 'version-history').glob('v*rst')) if 'version' not in x.stem])
+list_ver = sorted(
+    [x.stem for x in list((path_source / 'version-history').glob('v*rst'))
+     if 'version' not in x.stem])
 
 
 # The short X.Y version
