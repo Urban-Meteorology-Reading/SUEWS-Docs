@@ -31,7 +31,6 @@ Acknowledgements
        - Shanghai Climate Centre, China
        - WRF-SUEWS coupling
    
-
 -  Past Contributors:
 
    .. list-table::
@@ -48,7 +47,7 @@ Acknowledgements
        - King’s College London, UK
        - NARP
      * - Dr Brian Offerle
-       - Indiana University, US
+       - Indiana University, USA
        - ESTM, NARP
 
 
@@ -90,14 +89,11 @@ Acknowledgements
         - BRIDGE (211345)
       * - EUf7
         - emBRACE
-      * - UK Met Office
-        -
+      * - Newton/Met Office CSSP-China
       * - NERC
         - ClearfLo
       * - NERC/Belmont
         - TRUC
-      * - Newton/Met Office
-        - CSSP-China
       * - H2020
         - UrbanFluxes
       * - EPSRC
