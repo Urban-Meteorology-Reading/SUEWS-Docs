@@ -16,7 +16,7 @@ SUEWS: Surface Urban Energy and Water Balance Scheme
 .. epigraph::
 
   The software can be downloaded via `our GitHub page`_.
-  The **latest formal** release of SUEWS is `new_2018a`.
+  The **latest formal** release of SUEWS is `new_2018b`.
 
 
 - **How to use SUEWS?**
