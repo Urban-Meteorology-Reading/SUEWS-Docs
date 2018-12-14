@@ -14,26 +14,26 @@ Acknowledgements
        - Contributions
      * - Dr Ting Sun, Current Lead Developer
        - University of Reading, UK
-       - AnOHM; Documentation system; WRF-SUEWS coupling; SuPy (python wrapper of SUEWS) 
+       - AnOHM; Documentation system; WRF-SUEWS coupling; SuPy (python wrapper of SUEWS)
      * - Dr Leena Järvi, Lead Developer
        - University of Helsinki, Finland
        - Snow-related physics; Anthropogenic emission calculation, CO2
-     *  - Prof C.S.B. Grimmond, Team Leader
+     * - Prof C.S.B. Grimmond, Team Leader
        - University of Reading; previously, Indiana University, USA, King’s College London, UK, University of British Columbia, Canada
        - OHM, Evaporation-Interception, Resistances, NARP, irrigation, anthropogenic heat, etc
      * - Dr Fredrik Lindberg
        - Göteborg University, Sweden
-       - UMEP-related work, NARP, ESTM          
+       - UMEP-related work, NARP, ESTM
      * - Dr Zhenkun Li
        - Shanghai Climate Centre, China
        - WRF-SUEWS coupling
      * - Yihao Tang
        - University of Reading
        - Stability, air temperature
-    *  - Dr Helen Ward, Past Lead Developer
+     * - Dr Helen Ward, Past Lead Developer
        - University of Reading, UK
        - OHM improvement; Resistance calculation; Anthropogenic heat calculation
-   
+
 -  Past Contributors:
 
    .. list-table::
@@ -91,7 +91,8 @@ Acknowledgements
         - BRIDGE (211345)
       * - EUf7
         - emBRACE
-      * - Newton/Met Office CSSP-China
+      * - Newton/Met Office
+        - CSSP-China
       * - NERC
         - ClearfLo
       * - NERC/Belmont
@@ -102,5 +103,3 @@ Acknowledgements
         - LoHCool
       * - NERC
         - Independent Research Fellowship
-
-
