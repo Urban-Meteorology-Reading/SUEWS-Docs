@@ -3,11 +3,15 @@
 netCDF related options
 ~~~~~~~~~~~~~~~~~~~~~~
 
-.. note::
+.. warning::
 
    |NotAvail|
 
 .. option:: ncMode
+		.. note::
+
+		   |NotAvail|
+
 
 	:Requirement:
 		Optional
@@ -21,6 +25,9 @@ netCDF related options
 
 
 .. option:: nRow
+		.. note::
+
+		   |NotAvail|
 
 	:Requirement:
 		Optional
@@ -32,6 +39,9 @@ netCDF related options
 
 
 .. option:: nCol
+		.. note::
+
+		   |NotAvail|
 
 	:Requirement:
 		Optional
