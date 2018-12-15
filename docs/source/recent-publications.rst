@@ -43,7 +43,7 @@ Recent publications
 :citation:
 		Demuzere M, S Harshan, L Järvi, M Roth, CSB Grimmond, V Masson, KW Oleson, E Velasco H Wouters 2017: Impact of urban canopy models and external parameters on the modelled urban energy balance QJRMS, 143, Issue 704, Part A, 1581–1596
 
-- `Ward et al.(2016) <http://www.sciencedirect.com/science/article/pii/S2212095516300256>`__
+- `Ward et al. (2016) <http://www.sciencedirect.com/science/article/pii/S2212095516300256>`__
 
 :topic:
 	Evaluation of SUEWS model
