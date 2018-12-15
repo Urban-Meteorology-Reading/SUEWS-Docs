@@ -23,7 +23,7 @@ SUEWS: Surface Urban Energy and Water Balance Scheme
   .. epigraph::
 
     Overview of changes in this version, see :ref:`new_latest`.
-    If these changes impacts your existing simulations, please see appropriate parts of the manual. It may be necessary to adapt some of your input files for for the current version.
+    If these changes impact your existing simulations, please see appropriate parts of the manual. It may be necessary to adapt some of your input files for for the current version.
 
     .. tip::
 
@@ -36,16 +36,16 @@ SUEWS: Surface Urban Energy and Water Balance Scheme
 
   .. epigraph::
 
-    Before starting to perform SUEWS simulations, it is suggested new users first get an overview from :ref:`introduction`, then follow the steps in `Preparing_to_run_the_model` to prepare `input files <input_files>` for SUEWS.
+    Before performing SUEWS simulations, new users should read the overview :ref:`introduction`, then follow the steps in `Preparing_to_run_the_model` to prepare `input files <input_files>` for SUEWS.
 
-    Note theres is also a tutorial for running SUEWS via :ref:`the tutorial. <tutorials_suews>`
+    Note there are tutorials learning about running SUEWS available :ref:`the tutorial. <tutorials_suews>`
 
 
 - **How has SUEWS been used?**
 
 .. epigraph::
 
-  The scientific details and application examples for SUEWS can be found in related papers under `Recent_publications`.
+  The scientific details and application examples of SUEWS can be found in `Recent_publications`.
 
 .. _cite_suews:
 
@@ -57,12 +57,12 @@ SUEWS: Surface Urban Energy and Water Balance Scheme
 
   - Software:
 
-    Sun, Ting, Järvi, Leena, Grimmond, C.S.B., Lindberg, Fredrik, Li, Zhenkun, Tang, Yihao, & Ward, Helen. (2018, December 14). SUEWS: Surface Urban Energy and Water Balance Scheme (Version 2018b). Zenodo. |doi_software|
+    Sun Ting, Järvi Leena, Grimmond Sue, Lindberg Fredrik, Li Zhenkun, Tang Yihao, Ward Helen: (2018, December 14). SUEWS: Surface Urban Energy and Water Balance Scheme (Version 2018b). Zenodo. |doi_software|
 
 
   - Manual:
 
-    Sun, Ting, Järvi, Leena, Grimmond, C.S.B., Lindberg, Fredrik, Li, Zhenkun, Tang, Yihao, & Ward, Helen. (2018, December 14). SUEWS Documentation (Version 2018b). Zenodo. |doi_docs|
+       Sun Ting, Järvi Leena, Grimmond Sue, Lindberg Fredrik, Li Zhenkun, Tang Yihao, Ward Helen: (2018, December 14). SUEWS Documentation (Version 2018b). Zenodo. |doi_docs|
 
 
 
