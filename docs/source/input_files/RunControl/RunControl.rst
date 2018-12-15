@@ -74,7 +74,7 @@ The parameters and their setting instructions are provided through the links bel
         + :option:`MultRainAmongNUpperI`
         + :option:`DisaggMethodESTM`
 
-* :ref:`netCDF_related_options`
+* :ref:`netCDF_related_options` (|NotAvail|)
 
       .. hlist::
         + :option:`ncMode`
