@@ -98,7 +98,7 @@ evaporation-interception scheme of Grimmond and Oke (1991) [G91]_.
    if data are available.
 -  Drainage equations and coefficients to use must be specified in the
    input files.
--  Soil moisture can be calculated by the model (|NotAvail|).
+-  Soil moisture can be calculated by the model.
 -  Runoff is permitted:
 
    -  between surface types within each model grid
