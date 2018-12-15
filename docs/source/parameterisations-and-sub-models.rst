@@ -109,13 +109,11 @@ evaporation-interception scheme of Grimmond and Oke (1991) [G91]_.
 Snowmelt
 --------
 
-The snowmelt model within SUEWS is described in Järvi et al. (2014) [Leena2014]_.
-Changes in the new model version (since v2016a) have meant that the
-snow calculation has changed slightly compared to previous versions.
-The main difference is that previously all surface state could
-freeze in 1-h time step, but now the amount of freezing surface state is
-calculated similar way as melt water can freeze within the snow pack.
-The snowmelt-related coefficients have also slightly changed (see
+The snowmelt model is described in Järvi et al. (2014) [Leena2014]_.
+Changes since v2016a:
+1) previously all surface states could freeze in 1-h time step, now the freezing surface state is
+calculated similarly as melt water and can freeze within the snow pack.
+2) Snowmelt-related coefficients have also slightly changed (see
 `SUEWS_Snow.txt`).
 
 Convective boundary layer
@@ -123,7 +121,7 @@ Convective boundary layer
 
 A convective boundary layer (CBL) slab model (Cleugh and Grimmond
 2001 [CG2001]_) calculates the CBL height, temperature and humidity during
-daytime (Onomura et al. 2015 [Shiho2015]_).
+daytime (Onomura et al. 2015 [Shiho2015]_). 
 
 Thermal comfort
 ---------------
