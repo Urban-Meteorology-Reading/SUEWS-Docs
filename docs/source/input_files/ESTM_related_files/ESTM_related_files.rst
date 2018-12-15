@@ -46,9 +46,6 @@ each of the elements (roofs, wall, ground, internal mass).
    `SUEWS_NonVeg.txt` should be set to zero.
 
 
-
-**Note ESTM is under development in v2017a and should not be used!**
-
 The following input files are required if ESTM is used to calculate the
 storage heat flux.
 
