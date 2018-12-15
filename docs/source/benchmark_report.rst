@@ -5,6 +5,19 @@ Benchmark Report
 
 Since :ref:`v2018a <new_2018a>`, SUEWS is benchmarked against observations collected at LUMO with emphases on surface energy balance components.
 
+.. note::
+    Please note **ONLY** the variables below are used for benchmark:
+     - Kdown
+     - Kup
+     - Ldown
+     - Lup
+     - QE
+     - QF
+     - QH
+     - QN
+     - QS
+
+
 .. only:: html
 
     Performance Score
