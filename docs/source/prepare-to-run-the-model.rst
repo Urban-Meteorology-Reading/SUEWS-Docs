@@ -118,27 +118,23 @@ runs.
 Run the model for example data
 ------------------------------
 
-Before running the model for your own data it is good to make certain
-that you can run the test data and get the same results as in the
-example files provided. It is recommended that you make a copy of the
-example output files and put them somewhere else so you can compare the
+Before running the model with your own data, check that you get the same results as the test run
+example files provided. Copy the example output files elsewhere so you can compare the
 results. When you run the program it will write over the supplied files.
 
 To run the model you can use **Command Prompt** (in the directory where
 the programme is located type the model name) or just double click the
 executable file.
 
-Please see `Troubleshooting` if you have problems
-running the model.
+Please see `Troubleshooting` if you have problems running the model.
 
 Preparation of data
 -------------------
 
-This section describes the information required to run SUEWS for your
-site. The input data can be summarised as follows:
+The information required to run SUEWS for your site consists of:
 
-#. Continuous *meteorological forcing data* for the entire period to be modelled. Note you can not have gaps in the meteorological data. If you need help with preparing the data you may want to use some of the tools in `UMEP`_.
-#. Knowledge of the *surface and soil conditions immediately before the start of the run* (if these initial conditions are not known, it is usually possible to determine suitable values by running the model and using the output at the end of the run to infer the conditions at the start of the run).
+#. Continuous *meteorological forcing data* for the entire period to be modelled without gaps. If you need help preparing the data you can use some of the `UMEP`_ tools.
+#. Knowledge of the *surface and soil conditions immediately prior to the first model timestep*. If these initial conditions are unknown, model spinup can help; i.e. run the model and use the output at the end of the run to infer the conditions at the start of the main run).
 #. The *location of the site* (latitude, longitude, altitude).
 #. Information about the *characteristics of the surface*, including
    land cover, heights of buildings and trees, radiative characteristics
