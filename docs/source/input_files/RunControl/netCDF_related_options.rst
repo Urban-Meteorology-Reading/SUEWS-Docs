@@ -3,6 +3,10 @@
 netCDF related options
 ~~~~~~~~~~~~~~~~~~~~~~
 
+.. note::
+
+   |NotAvail|
+
 .. option:: ncMode
 
 	:Requirement:
