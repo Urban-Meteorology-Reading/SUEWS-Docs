@@ -55,7 +55,7 @@ def load_df_opt_desc(file_options):
 
 # generate dataframe for a specific SUEWS table `csv_suews`
 def gen_df_suews(df_csv, df_opt_desc, csv_suews):
-    print(f'\t{csv_suews}.csv')
+    print('\t', csv_suews + '.csv')
     df_csv_suews = df_csv.loc[csv_suews].dropna(axis=1).copy()
     df_csv_suews.loc[:, 'No.'] = df_csv_suews.loc[:, 'No.'].astype(int)
     for ind, row in df_csv_suews.iterrows():
