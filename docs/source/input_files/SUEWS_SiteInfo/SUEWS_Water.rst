@@ -7,7 +7,8 @@ SUEWS_Water.txt
 cover type by linking codes in column 1 of `SUEWS_Water.txt` to the codes
 specified in `SUEWS_SiteSelect.txt` (`Code_Water`).
 
-
+.. DON'T manually modify the csv file below
+.. as it is always automatically regenrated by each build
 
 .. csv-table::
   :class: longtable

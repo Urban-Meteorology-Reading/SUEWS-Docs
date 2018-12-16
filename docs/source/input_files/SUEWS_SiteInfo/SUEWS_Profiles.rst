@@ -25,6 +25,8 @@ Profiles are specified for the following
 
 .. note:: Human activity is not used in v2018a
 
+.. DON'T manually modify the csv file below
+.. as it is always automatically regenrated by each build
 
 .. csv-table::
   :file: csv-table/SUEWS_Profiles.csv

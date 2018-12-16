@@ -15,6 +15,9 @@ anthropogenic heat flux can be provided in the met forcing file (and set
 `EmissionsMethod` = 0 in `RunControl.nml`), in which
 case all columns here except Code and BaseTHDD should be set to ’-999’.
 
+.. DON'T manually modify the csv file below
+.. as it is always automatically regenrated by each build
+
 .. csv-table::
   :file: csv-table/SUEWS_AnthropogenicHeat.csv
   :header-rows: 1

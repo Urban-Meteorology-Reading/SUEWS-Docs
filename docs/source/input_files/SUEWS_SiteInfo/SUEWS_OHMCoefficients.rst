@@ -26,6 +26,8 @@ and surface characteristics.
 
     #. AnOHM is under development in v2018a and should NOT be used!
 
+.. DON'T manually modify the csv file below
+.. as it is always automatically regenrated by each build
 
 .. csv-table::
   :file: csv-table/SUEWS_OHMCoefficients.csv

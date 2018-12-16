@@ -22,6 +22,8 @@ or modelled by SUEWS (`SMDMethod` = 0 in `RunControl.nml`).
   The option to use observational data is not operational in the current release!
 
 
+.. DON'T manually modify the csv file below
+.. as it is always automatically regenrated by each build
 
 .. csv-table::
   :file: csv-table/SUEWS_Soil.csv
