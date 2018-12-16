@@ -11,6 +11,9 @@ SUEWS_BiogenCO2.txt
 `SUEWS_BiogenCO2.txt` provides the parameters needed to model
 the Biogenic CO2 characteristics of vegetation surfaces.
 
+.. DON'T manually modify the csv file below
+.. as it is always automatically regenrated by each build
+
 .. csv-table::
   :file: csv-table/SUEWS_BiogenCO2.csv
   :header-rows: 1

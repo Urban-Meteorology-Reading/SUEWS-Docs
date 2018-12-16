@@ -12,7 +12,7 @@ Generic Properties
    :widths: 16 16 16 16 16
    :header-rows: 1
 
-   * -
+   * - Property
      - General Type
      - Value
      - Description

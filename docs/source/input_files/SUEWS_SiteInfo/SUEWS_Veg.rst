@@ -11,7 +11,8 @@ Code_DecTr, Code_Grass). Each row should correspond to a particular
 surface type. For suggestions on how to complete this table, see:
 `Typical Values <typical_values>`.
 
-
+.. DON'T manually modify the csv file below
+.. as it is always automatically regenrated by each build
 
 .. csv-table::
   :file: csv-table/SUEWS_Veg.csv

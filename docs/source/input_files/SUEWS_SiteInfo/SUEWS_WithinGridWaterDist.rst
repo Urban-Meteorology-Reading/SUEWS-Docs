@@ -37,6 +37,8 @@ In the table below, for example,
 -  The row corresponding to water contains zeros (as it is currently not
    used).
 
+.. DON'T manually modify the csv file below
+.. as it is always automatically regenrated by each build
 
 .. csv-table::
   :file: csv-table/SUEWS_WithinGridWaterDist.csv

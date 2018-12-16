@@ -10,9 +10,9 @@ the model is not run, fill this table with ‘-999’ except for the first
 For a detailed description of the variables, see Järvi et al.
 (2014) [Leena2014]_.
 
-.. warning::
-  In the current release `SnowUse` should be set to 0.
 
+.. DON'T manually modify the csv file below
+.. as it is always automatically regenrated by each build
 
 .. csv-table::
   :class: longtable

@@ -10,6 +10,8 @@ of `SUEWS_NonVeg.txt` to the codes specified in `SUEWS_SiteSelect.txt`
 particular surface type. For suggestions on how to complete this table,
 see: `Typical Values <typical_values>`.
 
+.. DON'T manually modify the csv file below
+.. as it is always automatically regenrated by each build
 
 .. csv-table::
   :class: longtable

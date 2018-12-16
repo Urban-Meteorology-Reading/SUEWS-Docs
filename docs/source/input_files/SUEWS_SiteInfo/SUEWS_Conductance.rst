@@ -12,6 +12,8 @@ used with `gsModel` = 1. An alternative formulation ( `gsModel` =2) uses
 slightly different functional forms and different coefficients (with
 different units).
 
+.. DON'T manually modify the csv file below
+.. as it is always automatically regenrated by each build
 
 .. csv-table::
   :file: csv-table/SUEWS_Conductance.csv
