@@ -466,7 +466,7 @@ Input Options
 .. option:: Code
 
 	:Description:
-		Code linking to various look-up talbes described below.
+		Code linking to a corresponding look-up table.
 
 	:Configuration:
 		.. csv-table::
@@ -4338,7 +4338,7 @@ Input Options
 .. option:: WithinGridWaterCode
 
 	:Description:
-		Code that links to the fraction of water that flows from Water surfaces to surfaces in columns 2-10 of `SUEWS_WithinGridWaterDist.txt`. 
+		Code that links to the fraction of water that flows from Water surfaces to surfaces in columns 2-10 of `SUEWS_WithinGridWaterDist.txt`.
 
 	:Configuration:
 		.. csv-table::

@@ -16,10 +16,75 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 import platform
+import sys
 # from datetime import datetime
 from pathlib import Path
 
-# -- Project information -----------------------------------------------------
+import pandas as pd
+
+
+# -- processing code --------------------------------------------------------
+# load all csv as a whole df
+def load_df_csv(path_csv):
+    if not path_csv.exists():
+        print(str(path_csv), 'not existing!')
+        sys.exit()
+
+    # get list of all csv file names
+    list_csv = list(path_csv.glob('*csv'))
+    df_csv = pd.concat(
+        {csv.stem: pd.read_csv(csv, skipinitialspace=True, quotechar='"')
+            for csv in list_csv},
+        sort=False)
+    return df_csv
+
+
+# retrieve description from rst files
+def load_df_opt_desc(file_options):
+    ser_opts = pd.read_csv(
+        file_options,
+        sep='\n', skipinitialspace=True)
+    ser_opts = ser_opts.iloc[:, 0]
+    ind_opt = ser_opts.index[ser_opts.str.contains('.. option::')]
+    ser_opt_name = ser_opts[ind_opt].str.replace('.. option::', '').str.strip()
+    ser_opt_desc = ser_opts[ind_opt + 2].str.strip()
+    df_opt_desc = pd.DataFrame(
+        {'desc': ser_opt_desc.values}, index=ser_opt_name.rename('option'))
+    return df_opt_desc
+
+
+# generate dataframe for a specific SUEWS table `csv_suews`
+def gen_df_suews(df_csv, df_opt_desc, csv_suews):
+    print(f'\t{csv_suews}.csv')
+    df_csv_suews = df_csv.loc[csv_suews].dropna(axis=1).copy()
+    df_csv_suews.loc[:, 'No.'] = df_csv_suews.loc[:, 'No.'].astype(int)
+    for ind, row in df_csv_suews.iterrows():
+        var = row.loc['Column Name'].strip('`')
+        if var in df_opt_desc.index:
+            df_csv_suews.at[
+                ind, 'Description'] = df_opt_desc.loc[var].values[0]
+    return df_csv_suews
+
+
+# save all re-generated CSV files to `path_csv`
+def gen_csv_suews(path_csv):
+    print('re-generating summary tables ...')
+    # load all csv as a whole df
+    df_csv = load_df_csv(path_csv)
+
+    # retrieve description from rst files
+    file_options = path_csv.parent / 'Input_Options.rst'
+    df_opt_desc = load_df_opt_desc(file_options)
+
+    list_csv_suews = df_csv.index.levels[0].to_series().filter(like='SUEWS')
+    for csv_suews in list_csv_suews:
+        df_csv_suews = gen_df_suews(df_csv, df_opt_desc, csv_suews)
+        df_csv_suews.to_csv(path_csv / (csv_suews + '.csv'), index=False)
+
+    return list_csv_suews
+
+
+# -- Project information ----------------------------------------------------
 project = u'SUEWS'
 doc_name = u'SUEWS Documentation'
 # today = datetime.today()
@@ -40,7 +105,8 @@ version = list_ver[-1]
 # The full version, including alpha/beta/rc tags
 release = list_ver[-1]
 
-
+path_csv = path_source / 'input_files/SUEWS_SiteInfo/csv-table'
+gen_csv_suews(path_csv)
 # -- General configuration ---------------------------------------------------
 
 # If your documentation needs a minimal Sphinx version, state it here.
