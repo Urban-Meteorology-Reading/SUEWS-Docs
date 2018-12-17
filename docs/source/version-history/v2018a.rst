@@ -6,10 +6,14 @@ Version 2018a (released 2 August 2018)
 
   #. Many under-the-hood improvements:
 
-    * Added explicit interface intent for confusion-less coupling between SUEWS modules
-    * Restructured layout of physics schemes for better modularity
-    * Improved the alignment in output txt files
 
+     * Added explicit interface intent for confusion-less coupling between SUEWS modules
+
+     * Restructured layout of physics schemes for better modularity
+
+     * Improved the alignment in output txt files
+
+     
   #. New `readthedocs.org`-based documentation system
   #. Added `input_converter` for conversion of input files between versions
   #. Added `benchmark_report` for recent releases.
