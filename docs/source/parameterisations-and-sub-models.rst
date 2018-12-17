@@ -138,7 +138,7 @@ radiation model to estimate mean radiant temperature.
 Surface Diagnostics
 -------------------
 
-A MOST-based surface diagnostics module is implemented in 2017b for calculating the surface level diagnostics, including:
+A `MOST <https://en.wikipedia.org/wiki/Monin–Obukhov_similarity_theory>`_-based surface diagnostics module is implemented in 2017b for calculating the surface level diagnostics, including:
 
   * T2: air temperature at 2 m agl
   * Q2: air specific humidity at 2 m agl
