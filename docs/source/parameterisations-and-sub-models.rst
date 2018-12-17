@@ -121,7 +121,7 @@ Convective boundary layer
 
 A convective boundary layer (CBL) slab model (Cleugh and Grimmond
 2001 [CG2001]_) calculates the CBL height, temperature and humidity during
-daytime (Onomura et al. 2015 [Shiho2015]_). 
+daytime (Onomura et al. 2015 [Shiho2015]_).
 
 Thermal comfort
 ---------------
@@ -135,7 +135,16 @@ radiation model to estimate mean radiant temperature.
 
     Overview of scales. Source: Onomura et al. (2015) [Shiho2015]_
 
+Surface Diagnostics
+-------------------
 
+A MOST-based surface diagnostics module is implemented in 2017b for calculating the surface level diagnostics, including:
+
+  * T2: air temperature at 2 m agl
+  * Q2: air specific humidity at 2 m agl
+  * U10: wind speed at 10 m agl
+
+The details for formulation of these diagnostics can be found in equations 2.54, 2.55 and 2.56 in Brutsaert (2005) [B05]_
 
 
 .. _LQF: http://umep-docs.readthedocs.io/en/latest/OtherManuals/LQF_Manual.html
