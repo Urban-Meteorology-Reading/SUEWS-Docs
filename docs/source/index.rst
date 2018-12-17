@@ -12,7 +12,7 @@ SUEWS: Surface Urban Energy and Water Balance Scheme
     
   - **Latest release:**
      
-     The **latest formal** release of SUEWS is `new_latest` and can be downloaded via `our Zenodo repository`_.
+     The **latest formal** release of SUEWS is `new_latest` and can be downloaded via `our Zenodo repository`_ (a sample input dataset is included in the release archive). 
 
   - **Previous releases:**
 
