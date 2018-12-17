@@ -8,7 +8,9 @@ Version 2018b (released 14 December 2018)
 
 - **Improvement**
 
-  #. Improved calculation of OHM-related radiation terms
+  #. Improved calculation of OHM-related radiation terms:
+
+     The temporal difference term ``dQ*/dt`` is now calculated using the time-step-weighted ``dQ*`` of previous time step instead of a series of ``Q*`` values from previous time steps, which improves the usage of memory and allows time-step-varying simulations (needed by WRF-SUEWS coupling).
 
 - **Changes**
 
