@@ -22,5 +22,4 @@ Version 2017b (released 2 August 2017)
 
    #. BLUEWS parameters need to be checked
    #. Observed soil moisture can not be used as an input
-   #. Wind direction is not currently downscaled so non -999 values will
-      cause an error.
+   #. Wind direction is not currently downscaled so non -999 values will cause an error.

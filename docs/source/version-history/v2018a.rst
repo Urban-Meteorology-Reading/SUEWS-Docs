@@ -24,3 +24,9 @@ Version 2018a (released 2 August 2018)
   #. :code:`AnthropCO2Method` is removed from `RunControl.nml`.
   #. :code:`AnthropHeatMethod` is renamed to `EmissionsMethod`.
   #. :code:`AHMin`, :code:`AHSlope` and :code:`TCritic` are expanded to allow weekday and weekend values by adding :code:`_WD` and :code:`_WE` as suffix, of which :code:`AHSlope` and :code:`TCritic` are also expanded to allow cooling and heating settings.
+
+- **Known issues**
+
+  #. BLUEWS is disabled
+  #. Observed soil moisture can not be used as an input
+  #. Wind direction is not currently downscaled so non -999 values will cause an error.

@@ -17,3 +17,9 @@ Version 2018b (released 14 December 2018)
 - **Fix**
 
   #. Fixed a bug in picking up external water use from meteorological forcing file.
+
+- **Known issues**
+
+  #. BLUEWS is disabled
+  #. Observed soil moisture can not be used as an input
+  #. Wind direction is not currently downscaled so non -999 values will cause an error.
