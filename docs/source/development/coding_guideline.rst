@@ -62,11 +62,11 @@ If not, the correctness of added code should be justified with caution.
 
 
 
-Documenting
-***********
+Preparation of SUEWS Manual
+***************************
 
-#. The documentation of SUEWS is written in `reStructuredText (aka rst) <http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_ with a `Sphinx <http://www.sphinx-doc.org/>`_ flavour
-#. The documentation of SUEWS is hosted by `readthedocs.org <https://www.readthedocs.org>`_
+#. The SUEWS manual is written in `reStructuredText (aka rst) <http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_ with a `Sphinx <http://www.sphinx-doc.org/>`_ flavour
+#. The SUEWS manual is hosted by `readthedocs.org <https://www.readthedocs.org>`_
 #. CSV tables used in following pages are automatically generated from the *Description* field in `Input_Options` by each build, so **DON'T** manually edit them as your edits will be swiped automatically:
 
   * `SUEWS_AnthropogenicHeat.txt`
