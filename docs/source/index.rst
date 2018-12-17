@@ -9,11 +9,15 @@ SUEWS: Surface Urban Energy and Water Balance Scheme
 
 
 - **How to get SUEWS?**
+    
+  - **Latest release:**
+     
+     The **latest formal** release of SUEWS is `new_latest` and can be downloaded via `our Zenodo repository`_.
 
-.. epigraph::
+  - **Previous releases:**
 
-  The software can be downloaded via `our GitHub page`_.
-  The **latest formal** release of SUEWS is `new_latest`.
+     Previous releases can be downloaded via `our GitHub page`_.
+     
 
 
 - **How to use SUEWS?**
@@ -76,6 +80,7 @@ SUEWS: Surface Urban Energy and Water Balance Scheme
 
 
 .. _our GitHub page: https://urban-meteorology-reading.github.io/SUEWS
+.. _our Zenodo repository: https://zenodo.org/record/2274255
 .. _this form: `dowload form`_
 .. _dowload form: http://micromet.reading.ac.uk/software/
 
