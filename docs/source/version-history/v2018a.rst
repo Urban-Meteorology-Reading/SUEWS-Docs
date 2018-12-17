@@ -11,7 +11,6 @@ Version 2018a (released 2 August 2018)
 
 - **Improvement**
 
-  #. Improved the anthropogenic heat and CO2 emission module
   #. Improved the near surface diagnostics scheme (T2, Q2, U10)
   #. Improved skin temperature calculation (Ts)
 
