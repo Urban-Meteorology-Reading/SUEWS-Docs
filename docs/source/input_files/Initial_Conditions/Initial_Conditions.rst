@@ -68,7 +68,7 @@ The parameters and their setting instructions are provided through the links bel
     + :option:`DaysSinceRain`
     + :option:`Temp_C0`
 
-* :ref:`Above_Ground_State`
+* :ref:`Above_ground_state`
 
   .. hlist::
     + :option:`PavedState`
@@ -120,5 +120,5 @@ The parameters and their setting instructions are provided through the links bel
    Soil_moisture_states
    Vegetation_parameters
    Recent_meteorology
-   Above_Ground_State
+   Above_ground_state
    Snow_related_parameters

@@ -1,4 +1,4 @@
-.. _Above_Ground_State:
+.. _Above_ground_state:
 
 Above Ground State
 ~~~~~~~~~~~~~~~~~~
