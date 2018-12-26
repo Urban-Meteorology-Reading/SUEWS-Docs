@@ -1,6 +1,6 @@
 .. _Above_ground_state:
 
-Above Ground State
+Above ground state
 ~~~~~~~~~~~~~~~~~~
 
 .. option:: PavedState
