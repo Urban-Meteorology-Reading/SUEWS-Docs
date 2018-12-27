@@ -193,7 +193,7 @@ Snow related parameters
 		The recommended values can be found from `SUEWS_Snow.txt`
 
 
-.. option:: SnowFracGras
+.. option:: SnowFracGrass
 
 	:Requirement:
 		Optional

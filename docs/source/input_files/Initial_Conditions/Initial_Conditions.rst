@@ -101,7 +101,7 @@ The parameters and their setting instructions are provided through the links bel
     + :option:`SnowFracBldgs`
     + :option:`SnowFracEveTr`
     + :option:`SnowFracDecTr`
-    + :option:`SnowFracGras`
+    + :option:`SnowFracGrass`
     + :option:`SnowFracBSoil`
     + :option:`SnowFracWater`
     + :option:`SnowDensPaved`
