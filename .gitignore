@@ -3,3 +3,4 @@ docs/build/
 docs/build.log
 docs/source/_build/
 docs/source/themes/sphinx_rtd_theme
+.vscode/settings.json

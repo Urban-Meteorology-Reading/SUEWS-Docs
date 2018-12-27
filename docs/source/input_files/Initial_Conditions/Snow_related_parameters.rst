@@ -291,3 +291,13 @@ Snow related parameters
 		Initial snow density on `Water`
 	:Configuration:
 		The recommended values can be found from `SUEWS_Snow.txt`
+
+
+.. option:: SnowAlb0
+
+	:Requirement:
+		Optional
+	:Description:
+		Initial snow albedo
+	:Configuration:
+		The recommended values can be found from `SUEWS_Snow.txt`

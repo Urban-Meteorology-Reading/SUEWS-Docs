@@ -111,6 +111,7 @@ The parameters and their setting instructions are provided through the links bel
     + :option:`SnowDensGrass`
     + :option:`SnowDensBSoil`
     + :option:`SnowDensWater`
+    + :option:`SnowAlb0`
 
 
 .. toctree::
