@@ -358,7 +358,7 @@ Input Options
 
 	:Description:
 
-		Part of the `alpha` coeﬃcient related to the fraction of vegetation.
+		Part of the `alpha` coefficient related to the fraction of vegetation.
 
 	:Configuration:
 		.. csv-table::
@@ -372,7 +372,7 @@ Input Options
 
 	:Description:
 
-		Part of the `beta` coeﬃcient related to the fraction of vegetation.
+		Part of the `beta` coefficient related to the fraction of vegetation.
 
 	:Configuration:
 		.. csv-table::
@@ -386,7 +386,7 @@ Input Options
 
 	:Description:
 
-		Respiration coeﬃcient a.
+		Respiration coefficient a.
 
 	:Configuration:
 		.. csv-table::
@@ -400,7 +400,7 @@ Input Options
 
 	:Description:
 
-		Respiration coeﬃcient b - related to air temperature dependency.
+		Respiration coefficient b - related to air temperature dependency.
 
 	:Configuration:
 		.. csv-table::
