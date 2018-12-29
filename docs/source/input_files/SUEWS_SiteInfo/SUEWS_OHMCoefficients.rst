@@ -21,7 +21,7 @@ and surface characteristics.
 
 
 .. note::
-    #. AnOHM (set in `RunControl.nml` by `StorageHeatMethod` = 3) does not use the coefficients specified in `SUEWS_OHMCoefficients.txt` but instead requires three parameters to be specified for each surface type (including snow): heat capacity, thermal conductivity and bulk transfer coefficient. These are specified in `SUEWS_NonVeg.txt`,
+    #. AnOHM (set in `RunControl.nml` by `StorageHeatMethod` = 3) does not use the coefficients specified in `SUEWS_OHMCoefficients.txt` but instead requires three parameters to be specified for each surface type (including snow): heat capacity (`AnOHM_Cp`), thermal conductivity (`AnOHM_Kk`) and bulk transfer coefficient (`AnOHM_Ch`). These are specified in `SUEWS_NonVeg.txt`,
     `SUEWS_Veg.txt`, `SUEWS_Water.txt` and `SUEWS_Snow.txt`. No additional files are required for AnOHM.
 
     #. AnOHM is under development in v2018b and should NOT be used!
