@@ -1,4 +1,4 @@
-No.,Use,Column name,Description
+No.,Use,Column Name,Description
 1,`MU`,iy,Year [YYYY]
 2,`MU`,id,Day of year [DOY]
 3,`MU`,it,Hour [H]
