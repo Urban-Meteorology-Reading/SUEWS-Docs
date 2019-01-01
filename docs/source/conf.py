@@ -15,6 +15,7 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
+import os
 import platform
 import sys
 # from datetime import datetime
@@ -121,11 +122,23 @@ extensions = [
     'sphinx.ext.ifconfig',
     'sphinx.ext.viewcode',
     # 'rinoh.frontend.sphinx',
-    # 'sphinxfortran.fortran_autodoc',
-    # 'sphinxfortran.fortran_domain',
-    'sphinx.ext.githubpages'
+    'sphinx.ext.autosectionlabel',
+    'sphinxfortran.fortran_autodoc',
+    'sphinxfortran.fortran_domain',
+    'sphinx.ext.githubpages',
+    'sphinx.ext.autodoc',
+    'sphinx.ext.autosummary',
+    'sphinx.ext.intersphinx',
+    'sphinx.ext.extlinks',
 
 ]
+
+# fortran source code for `fortran_autodoc` and `fortran_domain`
+fortran_src = [
+    os.path.abspath('../fortran-src'),
+]
+
+fortran_ext = ['f90', 'F90', 'f95', 'F95']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
