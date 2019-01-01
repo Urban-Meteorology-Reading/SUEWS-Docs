@@ -1,3 +1,5 @@
+.. _physics_schemes:
+
 Parameterisations and sub-models within SUEWS
 =============================================
 
