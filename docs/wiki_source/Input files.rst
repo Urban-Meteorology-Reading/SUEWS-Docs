@@ -13091,16 +13091,16 @@ different units).
 |           |           |           |           | txt.**    |
 +-----------+-----------+-----------+-----------+-----------+-----------+
 
-SUEWS_AnthropogenicHeat.txt
+SUEWS_AnthropogenicEmission.txt
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-SUEWS_AnthropogenicHeatFlux.txt provides the parameters needed to model
+SUEWS_AnthropogenicEmission.txt provides the parameters needed to model
 the anthropogenic heat flux using either the method of Järvi et al.
 (2011) based on heating and cooling degree days (AnthropHeatMethod = 2
 in 4.1 `RunControl.nml <#RunControl.nml>`__) or the method of Loridan et
 al. (2011) based on air temperature (AnthropHeatMethod = 1 in
-`RunControl.nml <#RunControl.nml>`__). The sub-daily variation in
-anthropogenic heat flux is modelled according to the daily cycles
+`RunControl.nml <#RunControl.nml>`__), and carbon dioxide flux. The sub-daily variation in
+anthropogenic fluxes is modelled according to the daily cycles
 specified in SUEWS_Profiles.txt. Alternatively, if available, the
 anthropogenic heat flux can be provided in the met forcing file (and set
 AnthropHeatMethod = 0 in `RunControl.nml <#RunControl.nml>`__), in which
@@ -13140,8 +13140,8 @@ case all columns here except Code and BaseTHDD should be set to ’-999’.
 |           |           |           |           | (2006) [4 |
 |           |           |           |           | 26]_      |
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| 3         | MU, O     | QF_A_Week |           | Base      |
-|           |           | day       |           | value for |
+| 3         | MU, O     | QF_A_WD   |           | Base      |
+|           |           |           |           | value for |
 |           |           |           |           | QF on     |
 |           |           |           |           | weekdays  |
 |           |           |           |           | [W        |
@@ -13260,8 +13260,8 @@ case all columns here except Code and BaseTHDD should be set to ’-999’.
 |           |           |           |           | |  |      |
 |           |           |           |           | +---+---+ |
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| 4         | MU, O     | QF_B_Week |           | Parameter |
-|           |           | day       |           | related   |
+| 4         | MU, O     | QF_B_WD   |           | Parameter |
+|           |           |           |           | related   |
 |           |           |           |           | to        |
 |           |           |           |           | cooling   |
 |           |           |           |           | degree    |
@@ -13406,8 +13406,8 @@ case all columns here except Code and BaseTHDD should be set to ’-999’.
 |           |           |           |           | |  |      |
 |           |           |           |           | +---+---+ |
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| 5         | MU, O     | QF_C_Week |           | Parameter |
-|           |           | day       |           | related   |
+| 5         | MU, O     | QF_C_WD   |           | Parameter |
+|           |           |           |           | related   |
 |           |           |           |           | to        |
 |           |           |           |           | heating   |
 |           |           |           |           | degree    |
@@ -13552,8 +13552,8 @@ case all columns here except Code and BaseTHDD should be set to ’-999’.
 |           |           |           |           | |  |      |
 |           |           |           |           | +---+---+ |
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| 6         | MU, O     | QF_A_Week |           | Base      |
-|           |           | end       |           | value for |
+| 6         | MU, O     | QF_A_WE   |           | Base      |
+|           |           |           |           | value for |
 |           |           |           |           | QF on     |
 |           |           |           |           | weekends  |
 |           |           |           |           | [W        |
@@ -13681,8 +13681,8 @@ case all columns here except Code and BaseTHDD should be set to ’-999’.
 |           |           |           |           | |  |      |
 |           |           |           |           | +---+---+ |
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| 7         | MU, O     | QF_B_Week | 0-1       | Parameter |
-|           |           | end       |           | related   |
+| 7         | MU, O     | QF_B_WE   | 0-1       | Parameter |
+|           |           |           |           | related   |
 |           |           |           |           | to        |
 |           |           |           |           | cooling   |
 |           |           |           |           | degree    |
@@ -13827,8 +13827,8 @@ case all columns here except Code and BaseTHDD should be set to ’-999’.
 |           |           |           |           | |  |      |
 |           |           |           |           | +---+---+ |
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| 8         | MU, O     | QF_C_Week |           | Parameter |
-|           |           | end       |           | related   |
+| 8         | MU, O     | QF_C_WE   |           | Parameter |
+|           |           |           |           | related   |
 |           |           |           |           | to        |
 |           |           |           |           | heating   |
 |           |           |           |           | degree    |
@@ -13970,8 +13970,9 @@ case all columns here except Code and BaseTHDD should be set to ’-999’.
 |           |           |           |           | |  |      |
 |           |           |           |           | +---+---+ |
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| 9         | MU, O     | AHMin     | 15        | Minimum   |
-|           |           |           |           | QF [W     |
+| 9         | MU, O     | AHMin_WD  | 15        | Minimum   |
+|           |           |           |           | QF on     |
+|           |           |           |           | weekend [W|
 |           |           |           |           | m\ :sup:` |
 |           |           |           |           | -2`]      |
 |           |           |           |           |           |
@@ -13988,11 +13989,31 @@ case all columns here except Code and BaseTHDD should be set to ’-999’.
 |           |           |           |           | (2011) [4 |
 |           |           |           |           | 51]_      |
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| 10        | MU, O     | AHSlope   | 2.7       | Slope of  |
-|           |           |           |           | QF versus |
-|           |           |           |           | air       |
+| 10        | MU, O     | AHMin_WE  | 15        | Minimum   |
+|           |           |           |           | QF on     |
+|           |           |           |           | weekend [W|
+|           |           |           |           | m\ :sup:` |
+|           |           |           |           | -2`]      |
+|           |           |           |           |           |
+|           |           |           |           | -  Use    |
+|           |           |           |           |    with   |
+|           |           |           |           |    Anthro |
+|           |           |           |           | pHeatMeth |
+|           |           |           |           | od        |
+|           |           |           |           |    = 1    |
+|           |           |           |           |           |
+|           |           |           |           | e.g.      |
+|           |           |           |           | Loridan   |
+|           |           |           |           | et al.    |
+|           |           |           |           | (2011) [4 |
+|           |           |           |           | 51]_      |
++-----------+-----------+-----------+-----------+-----------+-----------+
+| 11        | MU, O     | AHSlope   | 2.7       | Slope of  |
+|           |           | _Heating  |           | QF versus |
+|           |           | _WD       |           | air       |
 |           |           |           |           | temperatu |
-|           |           |           |           | re        |
+|           |           |           |           | re on     |
+|           |           |           |           | weekdays|
 |           |           |           |           | [W        |
 |           |           |           |           | m\ :sup:` |
 |           |           |           |           | -2`       |
@@ -14012,10 +14033,85 @@ case all columns here except Code and BaseTHDD should be set to ’-999’.
 |           |           |           |           | (2011) [4 |
 |           |           |           |           | 52]_      |
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| 11        | MU, O     | TCritic   | 7         | Critical  |
+| 12        | MU, O     | AHSlope   | 2.7       | Slope of  |
+|           |           | _Heating  |           | QF versus |
+|           |           | _WE       |           | air       |
 |           |           |           |           | temperatu |
-|           |           |           |           | re        |
-|           |           |           |           | [°C]      |
+|           |           |           |           | re on     |
+|           |           |           |           | weekdays  |
+|           |           |           |           | [W        |
+|           |           |           |           | m\ :sup:` |
+|           |           |           |           | -2`       |
+|           |           |           |           | K\ :sup:` |
+|           |           |           |           | -1`]      |
+|           |           |           |           |           |
+|           |           |           |           | -  Use    |
+|           |           |           |           |    with   |
+|           |           |           |           |    Anthro |
+|           |           |           |           | pHeatMeth |
+|           |           |           |           | od        |
+|           |           |           |           |    = 1    |
+|           |           |           |           |           |
+|           |           |           |           | e.g.      |
+|           |           |           |           | Loridan   |
+|           |           |           |           | et al.    |
+|           |           |           |           | (2011) [4 |
+|           |           |           |           | 52]_      |
++-----------+-----------+-----------+-----------+-----------+-----------+
+| 13        | MU, O     | AHSlope   | 2.7       | Slope of  |
+|           |           | _Cooling  |           | QF versus |
+|           |           | _WE       |           | air       |
+|           |           |           |           | temperatu |
+|           |           |           |           | re on     |
+|           |           |           |           | weekdays|
+|           |           |           |           | [W        |
+|           |           |           |           | m\ :sup:` |
+|           |           |           |           | -2`       |
+|           |           |           |           | K\ :sup:` |
+|           |           |           |           | -1`]      |
+|           |           |           |           |           |
+|           |           |           |           | -  Use    |
+|           |           |           |           |    with   |
+|           |           |           |           |    Anthro |
+|           |           |           |           | pHeatMeth |
+|           |           |           |           | od        |
+|           |           |           |           |    = 1    |
+|           |           |           |           |           |
+|           |           |           |           | e.g.      |
+|           |           |           |           | Loridan   |
+|           |           |           |           | et al.    |
+|           |           |           |           | (2011) [4 |
+|           |           |           |           | 52]_      |
++-----------+-----------+-----------+-----------+-----------+-----------+
+| 14        | MU, O     | AHSlope   | 2.7       | Slope of  |
+|           |           | _Cooling  |           | QF versus |
+|           |           | _WE       |           | air       |
+|           |           |           |           | temperatu |
+|           |           |           |           | re on     |
+|           |           |           |           | weekdays|
+|           |           |           |           | [W        |
+|           |           |           |           | m\ :sup:` |
+|           |           |           |           | -2`       |
+|           |           |           |           | K\ :sup:` |
+|           |           |           |           | -1`]      |
+|           |           |           |           |           |
+|           |           |           |           | -  Use    |
+|           |           |           |           |    with   |
+|           |           |           |           |    Anthro |
+|           |           |           |           | pHeatMeth |
+|           |           |           |           | od        |
+|           |           |           |           |    = 1    |
+|           |           |           |           |           |
+|           |           |           |           | e.g.      |
+|           |           |           |           | Loridan   |
+|           |           |           |           | et al.    |
+|           |           |           |           | (2011) [4 |
+|           |           |           |           | 52]_      |
+|+-----------+-----------+-----------+-----------+-----------+-----------+
+| 15        | MU, O     | TCritic   | 7         | Critical  |
+|           |           | _Heating  |           | temperatu |
+|           |           | _WD       |           | re on work|
+|           |           |           |           | days [°C] |
 |           |           |           |           |           |
 |           |           |           |           | -  Use    |
 |           |           |           |           |    with   |
@@ -14029,6 +14125,126 @@ case all columns here except Code and BaseTHDD should be set to ’-999’.
 |           |           |           |           | et al.    |
 |           |           |           |           | (2011) [4 |
 |           |           |           |           | 53]_      |
+|+-----------+-----------+-----------+-----------+-----------+-----------+
+| 16        | MU, O     | TCritic   | 7         | Critical  |
+|           |           | _Heating  |           | temperatu |
+|           |           | _WE       |           | re on week|
+|           |           |           |           | days [°C] |
+|           |           |           |           |           |
+|           |           |           |           | -  Use    |
+|           |           |           |           |    with   |
+|           |           |           |           |    Anthro |
+|           |           |           |           | pHeatMeth |
+|           |           |           |           | od        |
+|           |           |           |           |    = 1    |
+|           |           |           |           |           |
+|           |           |           |           | e.g.      |
+|           |           |           |           | Loridan   |
+|           |           |           |           | et al.    |
+|           |           |           |           | (2011) [4 |
+|           |           |           |           | 53]_      |
+|+-----------+-----------+-----------+-----------+-----------+-----------+
+| 17        | MU, O     | TCritic   | 7         | Critical  |
+|           |           | _Coolin   |           | temperatu |
+|           |           | _WD       |           | re on work|
+|           |           |           |           | days [°C] |
+|           |           |           |           |           |
+|           |           |           |           | -  Use    |
+|           |           |           |           |    with   |
+|           |           |           |           |    Anthro |
+|           |           |           |           | pHeatMeth |
+|           |           |           |           | od        |
+|           |           |           |           |    = 1    |
+|           |           |           |           |           |
+|           |           |           |           | e.g.      |
+|           |           |           |           | Loridan   |
+|           |           |           |           | et al.    |
+|           |           |           |           | (2011) [4 |
+|           |           |           |           | 53]_      |
+|+-----------+-----------+-----------+-----------+-----------+-----------+
+| 18        | MU, O     | TCritic   | 7         | Critical  |
+|           |           | _Cooling  |           | temperatu |
+|           |           | _WE       |           | re on week|
+|           |           |           |           | days [°C] |
+|           |           |           |           |           |
+|           |           |           |           | -  Use    |
+|           |           |           |           |    with   |
+|           |           |           |           |    Anthro |
+|           |           |           |           | pHeatMeth |
+|           |           |           |           | od        |
+|           |           |           |           |    = 1    |
+|           |           |           |           |           |
+|           |           |           |           | e.g.      |
+|           |           |           |           | Loridan   |
+|           |           |           |           | et al.    |
+|           |           |           |           | (2011) [4 |
+|           |           |           |           | 53]_      |
+|+-----------+-----------+-----------+-----------+-----------+-----------+
+| 19        |           | EnergyUse | 44        | TBA       |
+|           |           | ProfWD    |           |           |
+|           |           |           |           |           |
+|+-----------+-----------+-----------+-----------+-----------+-----------+
+| 20        |           | EnergyUse | 45        | TBA       |
+|           |           | ProfWE    |           |           |
+|+-----------+-----------+-----------+-----------+-----------+-----------+
+| 21        |           | Activity  | 55663     | TBA       |
+|           |           | ProfWD    |           |           |
+|+-----------+-----------+-----------+-----------+-----------+-----------+
+| 22        |           | Activity  | 55664     | TBA       |
+|           |           | ProfWE    |           |           |
+|+-----------+-----------+-----------+-----------+-----------+-----------+
+| 23        |           | Traff     | 701       | TBA       |
+|           |           | ProfWD    |           |           |
+|+-----------+-----------+-----------+-----------+-----------+-----------+
+| 24        |           | Traff     | 702       | TBA       |
+|           |           | ProfWE    |           |           |
+|+-----------+-----------+-----------+-----------+-----------+-----------+
+| 25        |           | Pop       | 801       | TBA       |
+|           |           | ProfWD    |           |           |
+|+-----------+-----------+-----------+-----------+-----------+-----------+
+| 26        |           | Pop       | 802       | TBA       |
+|           |           | ProfWE    |           |           |
+|+-----------+-----------+-----------+-----------+-----------+-----------+
+| 27        |           | MinQF     | 75        | TBA       |
+|           |           | Metab     |           |           |
+|+-----------+-----------+-----------+-----------+-----------+-----------+
+| 28        |           | MaxQF     | 175       | TBA       |
+|           |           | Metab     |           |           |
+|+-----------+-----------+-----------+-----------+-----------+-----------+
+| 29        |           | MinFC     | 120       | TBA       |
+|           |           | Metab     |           |           |
+|+-----------+-----------+-----------+-----------+-----------+-----------+
+| 30        |           | MaxFC     | 280       | TBA       |
+|           |           | Metab     |           |           |
+|+-----------+-----------+-----------+-----------+-----------+-----------+
+| 31        |           | FrPDDwe   | 0.6814    | Fraction  |
+|           |           |           |           | of day    |
+|           |           |           |           | time pop  |
+|           |           |           |           | on week   |
+|           |           |           |           | end       |
+|+-----------+-----------+-----------+-----------+-----------+-----------+
+| 32        |           | FrFossil  | 0.05      | TBA       |
+|           |           | Fuel_Heat |           |           |
+|+-----------+-----------+-----------+-----------+-----------+-----------+
+| 33        |           | FrFossil  | 0         | TBA       |
+|           |           | Fuel_Non  |           |           |
+|           |           | Heat      |           |           |
+|+-----------+-----------+-----------+-----------+-----------+-----------+
+| 34        |           | EF_umol   | 1.159     | TBA       |
+|           |           | CO2perJ   |           |           |
+|           |           |           |           |           |
+|+-----------+-----------+-----------+-----------+-----------+-----------+
+| 35        |           | EnEF_v    | 4.11e6    | TBA       |
+|           |           | Jkm       |           |           |
+|           |           |           |           |           |
+|+-----------+-----------+-----------+-----------+-----------+-----------+
+| 36        |           | FcEF_v    | 0.285     | TBA       |
+|           |           | kgkm      |           |           |
+|           |           |           |           |           |
+|+-----------+-----------+-----------+-----------+-----------+-----------+
+| 37        |           | Traffic   | 1         | TBA       |
+|           |           | Units     |           |           |
+|           |           |           |           |           |
 +-----------+-----------+-----------+-----------+-----------+-----------+
 |  |
 +-----------+-----------+-----------+-----------+-----------+-----------+
