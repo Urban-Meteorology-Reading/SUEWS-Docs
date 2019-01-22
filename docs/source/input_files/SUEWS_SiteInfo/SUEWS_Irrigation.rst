@@ -12,8 +12,7 @@ of water use is modelled according to the daily cycles specified in
 
 Alternatively, if available, the external water use can be provided in
 the met forcing file (and set `WaterUseMethod` = 1 in
-`RunControl.nml`), in which case all columns here
-except Code should be set to :code:`-999`.
+`RunControl.nml`) by filling the `Wuh` columns with valid values.
 
 .. DON'T manually modify the csv file below
 .. as it is always automatically regenrated by each build
