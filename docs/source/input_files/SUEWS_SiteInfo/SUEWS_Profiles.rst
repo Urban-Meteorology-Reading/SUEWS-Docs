@@ -23,7 +23,6 @@ Profiles are specified for the following
 -  Snow removal (weekday and weekend)
 -  Human activity (weekday and weekend).
 
-.. note:: Human activity is not used in v2018a
 
 .. DON'T manually modify the csv file below
 .. as it is always automatically regenrated by each build
