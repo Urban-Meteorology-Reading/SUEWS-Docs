@@ -7,7 +7,7 @@ Since :ref:`v2018a <new_2018a>`, SUEWS is benchmarked against observations for a
 A site based benchmark report generation system is introduced in :ref:`v2018c <new_2018c>` to produce detailed reports for testing sites; the number of sites is expanding and more cases will be added as they are benchmarked.
 
 
-The following reports include three parts:
+Each report includes the following parts:
 
 1. **Overall performance**:
   #. Performance Score: Large scores indicate better performance. The scores are calculated according to weighted averages of statistics for selected benchmark variables.

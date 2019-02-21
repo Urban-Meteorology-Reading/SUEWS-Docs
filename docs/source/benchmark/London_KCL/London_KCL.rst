@@ -12,9 +12,11 @@ Evaluation against observations
 
 |image3|
 
-## Cross-comparison in model variables between releases
+Cross-comparison in model variables between releases
+----------------------------------------------------
 
-### Statistics tables
+Statistics tables
+~~~~~~~~~~~~~~~~~
 
 .. raw:: html
 
