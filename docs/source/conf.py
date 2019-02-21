@@ -89,7 +89,7 @@ def gen_csv_suews(path_csv):
 project = u'SUEWS'
 doc_name = u'SUEWS Documentation'
 # today = datetime.today()
-copyright = '2018' + \
+copyright = '2018 – 2019' + \
     ', micromet@University of Reading, led by Prof Sue Grimmond'
 author = u'micromet@University of Reading, led by Prof Sue Grimmond'
 
@@ -130,24 +130,25 @@ extensions = [
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
     'sphinx.ext.extlinks',
+    'recommonmark',
+    'nbsphinx',
+    'sphinx.ext.mathjax',
 
 ]
+
+# The suffix(es) of source filenames.
+# You can specify multiple suffix as a list of string:
+source_suffix = ['.rst', '.md']
+# source_suffix = '.rst'
 
 # fortran source code for `fortran_autodoc` and `fortran_domain`
 fortran_src = [
     os.path.abspath('../fortran-src'),
 ]
-
 fortran_ext = ['f90', 'F90', 'f95', 'F95']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
-
-# The suffix(es) of source filenames.
-# You can specify multiple suffix as a list of string:
-#
-# source_suffix = ['.rst', '.md']
-source_suffix = '.rst'
 
 # The master toctree document.
 master_doc = 'index'
@@ -164,7 +165,7 @@ language = None
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path .
 
-exclude_patterns = []
+exclude_patterns = ['_build', '**.ipynb_checkpoints']
 # tags.add('html')
 # if tags.has('html'):
 #     exclude_patterns = ['references.rst']
