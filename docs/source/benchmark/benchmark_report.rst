@@ -22,8 +22,7 @@ Each report includes the following parts:
 Currently, these benchmark reports are available:
 
 .. toctree::
-   :maxdepth: 2
-   :numbered:
+   :maxdepth: 1
 
    Kumpula/Kumpula
    London_KCL/London_KCL
