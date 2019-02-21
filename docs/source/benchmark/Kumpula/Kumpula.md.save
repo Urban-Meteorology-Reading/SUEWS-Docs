@@ -1,9 +1,9 @@
 
 
- # Kumpula
+# Kumpula
 
 
- ## Evaluation against observations
+## Evaluation against observations
 
 
 ![](output_4_0.png)
@@ -13,7 +13,6 @@
 ![](output_4_1.png)
 
 
-
 ![](output_4_2.png)
 
 
@@ -21,9 +20,9 @@
 ![](output_4_3.png)
 
 
- ## Cross-comparison in model variables between releases
+## Cross-comparison in model variables between releases
 
- ### Statistics tables
+### Statistics tables
 
 
 
@@ -2314,7 +2313,7 @@
 
 
 
- ### Pair plots
+### Pair plots
 
 
 ![](output_13_0.png)
