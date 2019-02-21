@@ -102,7 +102,7 @@ SUEWS: Surface Urban Energy and Water Balance Scheme
    output_files/output_files
    troubleshooting
    recent-publications
-   suews_related_softwares
+   related_softwares
    sub-tutorials/tutorials
    development/development
    benchmark/benchmark_report

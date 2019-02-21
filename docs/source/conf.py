@@ -356,3 +356,12 @@ epub_exclude_files = ['search.html']
 # https://rackerlabs.github.io/docs-rackspace/tools/rtd-tables.html
 def setup(app):
     app.add_stylesheet('theme_overrides.css')
+
+
+# Example configuration for intersphinx: refer to the Python standard library.
+intersphinx_mapping = {
+    'python': ('https://docs.python.org/3/', None),
+    'pandas': ('http://pandas.pydata.org/pandas-docs/stable/', None),
+    'numpy': ('https://docs.scipy.org/doc/numpy/', None),
+    'supy': ('https://supy.readthedocs.io/en/latest/', None),
+}

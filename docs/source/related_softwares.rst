@@ -3,6 +3,39 @@
 SUEWS-related Software
 ================================
 
+.. _supy:
+
+SuPy
+----
+
+`SuPy <https://supy.readthedocs.io/en/latest/>`_ is a Python-enhanced urban climate model with `SUEWS`_ as its computation core.
+
+The scientific rigour in SuPy results is thus gurranteed by SUEWS (see :ref:`SUEWS publications <Recent_publications>` and :ref:`Parameterisations and sub-models within SUEWS`).
+
+Meanwhile, the data analysis ability of SuPy is greatly enhanced by `the Python-based SciPy Stack <https://scipy.org>`_, notably `numpy`_ and `pandas`_.
+
+
+.. _SUEWS: https://suews-docs.readthedocs.io/en/latest/
+.. _numpy: https://www.numpy.org
+.. _pandas: http://pandas.pydata.org/
+
+
+- **How to get SuPy?**
+
+  SuPy is available on all major platforms (macOS, Windows, Linux) for Python 3.5+
+  via `PyPI <https://pypi.org/project/supy/>`_:
+
+  .. code-block:: shell
+
+    python3 -m pip install supy --upgrade
+
+- **How to use SuPy?**
+
+    * Please follow :ref:`Quickstart of SuPy` and :ref:`other tutorials <tutorial_index>`.
+
+    * Please see :ref:`SuPy API <supy:api>` for usage details of SuPy functions.
+
+
 .. _suews_umep:
 
 SUEWS and UMEP
@@ -124,7 +157,7 @@ approach for the sensible and latent heat fluxes and the water balance
 (“water bucket”). The calculation of evaporation/latent heat in SUEWS is
 more biophysically based. Due to its simplicity, LUMPS requires less
 parameters in order to run. SUEWS gives turbulent heat fluxes calculated
-with both models as an output. 
+with both models as an output.
 
 Similarities and differences between LUMPS and SUEWS.
 
