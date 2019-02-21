@@ -80,12 +80,12 @@ SUEWS: Surface Urban Energy and Water Balance Scheme
 
 
 .. _our GitHub page: https://urban-meteorology-reading.github.io/SUEWS
-.. _our Zenodo repository: https://zenodo.org/record/2274255
+.. _our Zenodo repository: https://zenodo.org/record/2274254
 .. _this form: `dowload form`_
 .. _dowload form: http://micromet.reading.ac.uk/software/
 
-.. |doi_software| image:: https://zenodo.org/badge/DOI/10.5281/zenodo.2274255.svg
-    :target: https://doi.org/10.5281/zenodo.2274255
+.. |doi_software| image:: https://zenodo.org/badge/DOI/10.5281/zenodo.2574410.svg
+    :target: https://doi.org/10.5281/zenodo.2574410
 
 .. |doi_docs| image:: https://zenodo.org/badge/DOI/10.5281/zenodo.2362945.svg
     :target: https://doi.org/10.5281/zenodo.2362945
