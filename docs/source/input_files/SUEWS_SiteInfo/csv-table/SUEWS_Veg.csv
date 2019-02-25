@@ -36,4 +36,4 @@ No.,Column Name,Use,Description
 35,`AnOHM_Cp`,`MU`,Volumetric heat capacity for this surface to use in AnOHM [J |m^-3|]
 36,`AnOHM_Kk`,`MU`,Thermal conductivity for this surface to use in AnOHM [W m |K^-1|]
 37,`AnOHM_Ch`,`MU`,Bulk transfer coefficient for this surface to use in AnOHM [-]
-37,`BiogenCO2Code`,`MU`,Code linking to the `Code` column in `SUEWS_BiogenCO2.txt`.
+38,`BiogenCO2Code`,`MU`,Code linking to the `Code` column in `SUEWS_BiogenCO2.txt`.
