@@ -2828,7 +2828,7 @@ Input Options
 .. option:: QF_A_WE
 
 	:Description:
-		ase value for QF on weekends [W |m^-2| (Cap |ha^-1| |)^-1|]
+		Base value for QF on weekends [W |m^-2| (Cap |ha^-1| |)^-1|]
 
 	:Configuration:
 		.. csv-table::
@@ -2841,7 +2841,7 @@ Input Options
 .. option:: QF_B_WD
 
 	:Description:
-		Parameter related to heating degree days on weekdays [W |m^-2| |K^-1| (Cap |ha^-1| |)^-1|]
+		Parameter related to cooling degree days on weekdays [W |m^-2| |K^-1| (Cap |ha^-1| |)^-1|]
 
 	:Configuration:
 		.. csv-table::
