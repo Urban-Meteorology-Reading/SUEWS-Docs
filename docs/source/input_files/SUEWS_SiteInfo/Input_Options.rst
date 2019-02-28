@@ -209,7 +209,7 @@ Input Options
 .. option:: Alt
 
 	:Description:
-		Used for both the radiation and water flow between grids.
+		Altitude of grids [m].
 
 	:Configuration:
 		.. csv-table::
