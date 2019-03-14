@@ -84,3 +84,4 @@
 83,"T2","0,1,2","Air temperature at 2 m agl [°C]"
 84,"Q2","0,1,2","Air specific humidity at 2 m agl [g |kg^-1|]"
 85,"U10","0,1,2","Wind speed at 10 m agl [m |s^-1|]"
+86,"RH2","0,1,2","Relative humidity at 2 m agl [%]"
