@@ -2763,7 +2763,7 @@ Input Options
 .. option:: PrecipLimSnow
 
 	:Description:
-		Limit for hourly snowfall when the ground is fully covered with snow [mm]
+		Temperature limit when precipitation falls as snow [°C]
 
 	:Configuration:
 		.. csv-table::
