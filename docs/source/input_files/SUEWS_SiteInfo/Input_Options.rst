@@ -2747,7 +2747,7 @@ Input Options
 			:widths: 44 18 38
 
 
-.. option:: PrecipiLimAlb
+.. option:: PrecipLimAlb
 
 	:Description:
 		Limit for hourly precipitation when the ground is fully covered with snow [mm]
