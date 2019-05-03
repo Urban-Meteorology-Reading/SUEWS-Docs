@@ -3113,7 +3113,7 @@ Input Options
 			:widths: 44 18 38
 
 
-.. option:: snowDensMax
+.. option:: SnowDensMax
 
 	:Description:
 		Maximum snow density [kg |m^-3|]
@@ -3126,7 +3126,7 @@ Input Options
 			:widths: 44 18 38
 
 
-.. option:: snowDensMin
+.. option:: SnowDensMin
 
 	:Description:
 		Fresh snow density [kg |m^-3|]
