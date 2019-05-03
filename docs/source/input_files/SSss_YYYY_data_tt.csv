@@ -14,7 +14,7 @@ No.,Use,Column Name,Description
 13,`MU`,pres,Barometric pressure [kPa]
 14,`MU`,rain,Rainfall [mm]
 15,`MU`,kdown,Incoming shortwave radiation [W |m^-2|] Must be > 0 W |m^-2|.
-16,`O`,snow,Snow [mm]Required if `SnowUse` = 1
+16,`O`,snow,Snow cover fraction (0 – 1) [-] Required if `SnowUse` = 1
 17,`O`,ldown,Incoming longwave radiation [W |m^-2|]
 18,`O`,fcld,Cloud fraction [tenths]
 19,`O`,Wuh,External water use [|m^3|]
